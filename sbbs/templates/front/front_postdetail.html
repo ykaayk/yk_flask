@@ -1,0 +1,130 @@
+{% extends 'front/front_base.html' %}
+
+{% block title %}{{ post.title }} - {{ post.author.username }}{% endblock %}
+
+{% block head %}
+    <link rel="stylesheet" href="{{ url_for('static',filename='common/editor/css/wangEditor.min.css') }}">
+    <link rel="stylesheet" href="{{ static('front/css/front_postdetail.css') }}">
+    <script src="{{ static('front/js/front_postdetail.js') }}"></script>
+    <style>
+
+{#        .editor{#}
+{#            resize:none;#}
+{#        }#}
+    </style>
+{% endblock %}
+
+{% block body %}
+    <span></span>
+    <div class="container_wrap">
+        <div class="left-container">
+            <div class="post-container">
+                <div class="post-container-inner">
+                    <div class="post-top">
+                        <h2>{{ post.title }}</h2>
+                        <p class="post-info">
+                            <span>发表时间：{{ post.create_time|handle_time }}</span>
+                            <span>作者：{{ post.author.username }}</span>
+                            <span>所属板块：{{ post.board.name|default('无板块') }}</span>
+                            <span class="comment-count">评论数：{{ post.comments|length }}</span>
+                            <span class="read-count">阅读数：{{ post.read_count|default(0) }}</span>
+                        </p>
+                    </div>
+                    <div class="post-content">
+                        {{ post.content|safe }}
+                    </div>
+                </div>
+                <div class="comment-btn-group">
+                    <div class="star-group">
+                        {% if front_user and front_user.id in star_user_ids %}
+                            <button class="btn btn-danger btn-xs" id="star-btn" data-post-id="{{ post.id }}" data-is-star="1">已赞</button>
+                        {% else %}
+                            <button class="btn btn-info btn-xs" id="star-btn" data-post-id="{{ post.id }}" data-is-star="0">点赞</button>
+                        {% endif %}
+                        <div style="float: left; width: 520px;">
+                            {% for star_user in star_users %}
+                                <img src="{{ star_user.head_img }}" alt="" height="40px" width="40px" style="margin: 0px auto; ;float: left;cursor:pointer;border-radius: 10%;margin: 1px 1px;">
+                            {% endfor %}
+                        </div>
+                        <a id="comment-btn" href="{{ url_for('post.add_comment', post_id=post.id) }}"
+                                {% if front_user %}
+                                data-front-user-points="{{ front_user.points }}"
+                                {% endif %}
+                           class="btn btn-primary">发表评论</a>
+                    </div>
+                </div>
+            </div>
+            <div class="comment-list-group">
+                <div class="comment-list-group-inner">
+                    <div class="comment-title">
+                        <p>评论列表</p>
+                    </div>
+                    <ul class="comment-list">
+                        {% for comment in post.comments %}
+                            <li>
+                                <div class="comment-img">
+                                    <a href="#"><img class="user-head" src="{{ comment.author.head_img }}" alt=""></a>
+                                </div>
+                                <div class="comment-content">
+                                    <p class="author-info">
+                                        <span><b>{{ comment.author.username }}</b></span>
+                                        <span>{{ comment.create_time|handle_time }}</span>
+                                    </p>
+                                    <p class="comment-txt">{{ comment.content|safe }}</p>
+                                    <div class="reply-btn">
+                                        <div class="reply-btn-box">
+                                            <span class="reply-btn" data-comment-id="{{ comment.id }}">回复</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li style="border-bottom: none;">
+                            <div class="comment-wrap" >
+                                <div class="editor-box" id="comment-box-{{ comment.id }}" data-comment-id="{{ comment.id }}" hidden="hidden">
+                                    <textarea  class="editor" id="comment-text-{{ comment.id }}" rows="3" style="display: block;"></textarea>
+                                    <span class="btn btn-info btn-xs btn-comment-double" style="display: block;" data-comment-id="{{ comment.id }}">评论</span>
+                                </div>
+                            </div>
+                            </li>
+                            <li class="reply-li" style="border-bottom: 4px solid #e6e6e6;margin-top:0px;">
+                                <ul class="reply-ul">
+                                    {% for reply in comment.replies %}
+                                        <li class="reply-every-li">
+                                            <div class="reply-li-div"><b>{{ reply.author.username }}：</b></div>
+                                            <div class="reply-li-div">{{ reply.content }}</div>
+                                            <div>{{ reply.create_time|handle_time }}</div>
+                                        </li>
+                                    {% endfor %}
+                                </ul>
+                            </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+    </div>
+    <div class="right-container">
+        <div class="author-group">
+            <div class="avatar-group">
+                <a href="#"><img src="{{ post.author.head_img }}" style="height: 100px;width: 100px;" alt="" class="avatar-img"></a>
+            </div>
+            <p class="username">{{ post.author.username }}</p>
+            <p class="txt">{{ post.author.points }}积分</p>
+            <div class="btn-box">
+                <a href="#" class="btn btn-warning">Ta的主页</a>
+            </div>
+        </div>
+    </div>
+    <div class="ad"><img src="{{ static('images/ad/ad-test.png') }}" alt=""></div>
+
+{% endblock %}
+
+
+
+
+
+
+
+
+
+
+

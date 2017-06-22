@@ -1,0 +1,39 @@
+{% extends 'front/front_base.html' %}
+
+{% block title %}
+    评论：{{ post.title }}
+{% endblock %}
+
+{% block head %}
+    <style>
+    .comment-head{
+        margin: 20px auto;
+    }
+    </style>
+    <script src="{{ static('front/js/front_addcomment.js') }}"></script>
+{% endblock %}
+
+{% block container %}
+    <form action="" method="post">
+        <div class="comment-head">评论 <a href="#">{{ post.title }}</a></div>
+        {% include 'common/common_edit.html' %}
+        <style>
+        #editor{
+            height: 400px;
+        }
+        </style>
+        <div>
+            <button class="btn btn-danger" id="submit-btn" data-post-id="{{ post.id }}">提交评论</button>
+        </div>
+    </form>
+{% endblock %}
+
+
+
+
+
+
+
+
+
+

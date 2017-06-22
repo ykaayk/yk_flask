@@ -1,0 +1,49 @@
+{% from 'common/common_macros.html' import static %}  {# 引用宏 #}
+{% include 'common/common_head.html' %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>404页面</title>
+    <script src="{{ static('front/js/front_404.js') }}"></script>
+    <style>
+        body{
+            background-image: url({{ static('images/404/bg-404.jpg') }});
+            text-align: center;
+        }
+        .top-box-pic{
+            margin:20px auto;
+        }
+        .top-box-pic img{
+
+        }
+        .space{
+            height: 50px;
+        }
+        .bottom-btn{
+            margin:40px auto;
+        }
+        .bottom-btn button  {
+            margin:auto 40px;
+        }
+    </style>
+</head>
+<body>
+    <div >
+        <div class="top-box-pic">
+            <img src="{{ static('images/404/404-0.jpg') }}" id="404-img" style="height: 210px; width: auto;" alt="">
+        </div>
+    </div>
+    <div class="space">
+
+    </div>
+    <p>您要找的页面已经飞到火星上去了！</p>
+    <div class="bottom-btn">
+        <button class="btn btn-info click-btn">点一下</button>
+        <a href="{{ url_for('post.index') }}"><button class="btn btn-danger back-homepage">返回主页</button></a>
+    </div>
+
+</body>
+</html>
+

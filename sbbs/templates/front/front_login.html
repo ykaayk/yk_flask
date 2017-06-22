@@ -1,0 +1,51 @@
+{% extends 'front/front_sign_base.html' %}
+
+{% block title %}
+    登录论坛
+{% endblock %}
+
+{% block head %}
+    <script src="{{ static('front/js/front_captcha.js') }}"></script>
+{% endblock %}
+
+{% block page_title %}
+    {{ self.title() }}
+{% endblock %}
+
+{% block sign_group %}
+    <div class="form-group">
+        <input type="text" class="form-control" name="telephone" placeholder="手机号码">
+    </div>
+    <div class="form-group">
+        <input type="password" class="form-control" name="password" placeholder="密码">
+    </div>
+    <div class="form-group">
+        <div class="input-group">
+            <input type="text" class="form-control" name="graph_captcha" placeholder="图形验证码">
+            <span class="input-group-addon captcha-addon" id="graph-captcha-btn">
+                <img src="{{ url_for('account.graph_captcha') }}" alt="" class="captcha-img">
+            </span>
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="checkbox remember-me">
+            <label>
+                <input type="checkbox">记住我
+            </label>
+        </div>
+        <div class="forgetpwd">
+            <a href="#">忘记密码？</a>
+        </div>
+    </div>
+    <div class="form-group">
+        <button class="btn btn-info btn-block">立即登录</button>
+    </div>
+    <div class="form-group">
+    <a class="btn btn-default btn-login" href="{{ url_for('account.regist') }}">注册</a>
+
+    <a class="btn btn-default btn-back" href="{{ url_for('post.index') }}">返回主页</a>
+</div>
+    {% if message %}
+            <p class="text-danger" style="text-align: center">{{ message }}</p>
+    {% endif %}
+{% endblock %}

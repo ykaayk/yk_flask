@@ -1,0 +1,133 @@
+{% extends 'cms/cms_base.html' %}
+
+{% block title %}
+    帖子管理
+{% endblock %}
+
+{% block page_title %}
+{{ self.title() }}
+{% endblock %}
+
+{% block head %}
+    <script src="{{ static('cms/js/cms_posts.js') }}"></script>
+    <script src="{{ static('common/xtparam.js') }}"></script>
+    <style>
+        .sort-group{
+            float:left
+        }
+        .board-filter-group{
+            float: right;
+        }
+        .forbid-group{
+            float: right;
+            margin-left:20px;
+        }
+        .highlight-btn{
+            width: 60px;
+        }
+        .removed-btn{
+            width: 60px;
+        }
+    </style>
+{% endblock %}
+
+{% block main_content %}
+    <div class="top-box">
+        <div class="sort-group">
+            <label for="">排序：</label>
+            <select class="top-select" id="sort-select">
+                <option value="1" {% if sort_type == 1 %}selected{% endif %}>按时间排序</option>
+                <option value="2" {% if sort_type == 2 %}selected{% endif %}>按加精排序</option>
+                <option value="3" {% if sort_type == 3 %}selected{% endif %}>按评论量排序</option>
+            </select>
+        </div>
+        <div class="forbid-group">
+            <label for="">是否显示禁用</label>
+            <select name="" id="forbid-select" class="top-select">
+                <option value="0" {% if sort_forbid == 0 %}selected{% endif %}>显示所有帖子</option>
+                <option value="1" {% if sort_forbid == 1 %}selected{% endif %}>仅显示正常帖子</option>
+                <option value="2" {% if sort_forbid == 2 %}selected{% endif %}>仅显示禁用帖子</option>
+            </select>
+        </div>
+        <div class="board-filter-group">
+            <label for="">板块分组：</label>
+            <select name="" id="board-filter-select" class="top-select">
+                <option value="0" {% if sort_board == 0 %}selected{% endif %}>所有板块</option>
+                {% for board in boards %}
+                    <option value="{{ board.id }}" {% if sort_board == board.id %}selected{% endif %}>{{ board.name }}</option>
+                {% endfor %}
+            </select>
+        </div>
+    </div>
+    <table class="table table-boardered">
+        <thead>
+            <th>标题</th>
+            <th>发布时间</th>
+            <th>作者</th>
+            <th>板块</th>
+            <th>操作</th>
+        </thead>
+        <tbody>
+            {% for post in posts %}
+                <tr>
+
+                    <td>{{ post.title }}</td>
+                    <td>{{ post.create_time }}</td>
+                    <td>{{ post.author.username }}</td>
+                    <td>{{ post.board.name }}</td>
+                    <td>
+                        {% if post.highlight %}
+                            <button class="btn btn-info btn-xs highlight-btn" data-post-id="{{ post.id }}" data-is-highlight="1">取消加精</button>
+                        {% else %}
+                            <button class="btn btn-primary btn-xs highlight-btn" data-post-id="{{ post.id }}" data-is-highlight="0">加精</button>
+                        {% endif %}
+                        {% if post.is_removed %}
+                            <button class="btn btn-success btn-xs removed-btn" data-post-id="{{ post.id }}" data-removed="1">解除禁用</button>
+                        {% else %}
+                            <button class="btn btn-danger btn-xs removed-btn" data-post-id="{{ post.id }}" data-removed="0">禁用</button>
+                        {% endif %}
+                    </td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    {% if pages>1 %}
+    <nav aria-label="...">
+        <ul class="pagination">
+            {% if current_page == 1 %}
+                <li class="no-move"><a href="#" aria-label="Previous">&lt</a></li>
+            {% else %}
+                <li class=""><a href="{{ url_for('cms.posts', current_page=current_page-1, board=sort_board, sort=sort_type, forbid=sort_forbid) }}" aria-label="Previous">&lt</a></li>
+            {% endif %}
+            {#            <li class="disabled"><a href="#" aria-label="Previous"><span aria-hidden="true"><</span></a></li>#}
+            {% for page in pages %}
+                {% if current_page == page %}
+                    <li class="active no-move"><a href="#" aria-label="Previous">{{ current_page }}</a></li>
+                {% else %}
+                    <li class=""><a href="{{ url_for('cms.posts', current_page=page, board=sort_board, sort=sort_type, forbid=sort_forbid) }}">{{ page }} </a></li>
+                {% endif %}
+            {% endfor %}
+            {% if current_page == posts_page %}
+                <li class=" no-move"><a href="#" aria-label="Previous">&gt</a></li>
+            {% else %}
+                <li class=""><a href="{{ url_for('cms.posts', current_page=current_page + 1, board=sort_board, sort=sort_type, forbid=sort_forbid) }}" aria-label="Previous">&gt</a></li>
+            {% endif %}
+        </ul>
+    </nav>
+    {% endif %}
+
+
+{% endblock %}
+
+
+
+
+
+
+
+
+
+
+
+
+

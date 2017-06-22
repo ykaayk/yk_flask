@@ -1,0 +1,230 @@
+{% extends 'front/front_base.html' %}
+
+{% block title %}
+    游戏论坛
+{% endblock %}
+
+{% block head %}
+    <link rel="icon" type="image/x-icon" href="{{ static('images/ico/DOTA-SF.ico') }}">
+    <link rel="stylesheet" href="{{ url_for('static',filename='front/css/iconfont/iconfont.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static',filename='front/css/front_index.css') }}">
+    <script src="{{ static('front/js/front_index.js') }}"></script>
+    <style>
+        .page-nav nav ul a{width:50px}
+        #next-page-btn{width:100px}
+        #ellipsis-d{width:100px}
+    </style>
+{% endblock %}
+
+{% block container %}
+    <div class="lg-container">
+        <ul class="top-group">
+            <li{% if sort_type == 1 %} class = "current" {% endif %}>
+                <a href="{{ url_for('post.post_list', page=1, sort_type=1, board_id=board_id) }}">
+                    <div class="icon-group">
+                        <i class="iconfont icon-zuixin"></i>
+                    </div>
+                    <p class="block-title">最新帖子</p>
+                </a>
+            </li>
+            <li{% if sort_type == 2 %} class = "current" {% endif %}>
+                <a href="{{ url_for('post.post_list', page=1, sort_type=2, board_id=board_id) }}">
+                    <div class="icon-group">
+                        <i class="iconfont icon-jinghua"></i>
+                    </div>
+                    <p class="block-title">精华帖子</p>
+                </a>
+            </li>
+            <li{% if sort_type == 3 %} class = "current" {% endif %}>
+                <a href="{{ url_for('post.post_list', page=1, sort_type=3, board_id=board_id) }}">
+                    <div class="icon-group">
+                        <i class="iconfont icon-zhichizuiduoxianti"></i>
+                    </div>
+                    <p class="block-title">点赞最多</p>
+                </a>
+            </li>
+            <li{% if sort_type == 4 %} class = "current" {% endif %}>
+                <a href="{{ url_for('post.post_list', page=1, sort_type=4, board_id=board_id) }}">
+                    <div class="icon-group">
+                        <i class="iconfont icon-appzuixinhuifu"></i>
+                    </div>
+                    <p class="block-title">评论最多</p>
+                </a>
+            </li>
+        </ul>
+        <div class="post-list-container outer-border white-bg">
+            <div class="post-con">
+                {% for post in posts %}
+                    {% if not post.is_removed %}
+                        <ul class="post-list">
+                        <li>
+                            <div class="post-list-img">
+                                <a href="#"><img src="{{ post.author.head_img }}" alt=""></a>
+                            </div>
+                        <div class="post-list-con">
+                            <div class="title">
+                                <a class="title_name" href="{{ url_for('post.post_detail', post_id=post.id) }}" target="_blank">
+                                    {{ post.title }}
+                                    {% if post.highlight %}
+                                        <span class="label label-danger">精</span>
+                                    {% endif %}
+                                </a>
+                            </div>
+                            <div class="auth-msg">
+                                <a href="#" class="user_name">{{ post.author.username }}</a>
+                                <span class="time">{{ post.create_time|handle_time }}</span>
+                                <span class="star-count">点赞：{{ post.stars|length }}</span>
+                                <span class="comment-count">评论：{{ post.comments|length }}</span>
+                                <span class="read-count">阅读：{{ post.read_count }}</span>
+                            </div>
+                        </div>
+                        </li>
+                    </ul>
+                    {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+        <div class="page-nav">
+            {# 分页栏#}
+            <nav aria-label="...">
+                <ul class="pagination">
+                    {% if last_page >= 7 %}
+                        {% if start_page == 1 %}
+                            <li class="active"><a href="#" id="ellipsis-s">{{ start_page }} <span class="sr-only">(current)</span></a></li>
+                            <li><a href="{{ url_for('post.post_list', page=2, sort_type=sort_type, board_id=board_id) }}">2</a></li>
+                            <li><a href="{{ url_for('post.post_list', page=3, sort_type=sort_type, board_id=board_id) }}">3</a></li>
+                            <li><a href="{{ url_for('post.post_list', page=4, sort_type=sort_type, board_id=board_id) }}">4</a></li>
+                            <li><a href="{{ url_for('post.post_list', page=5, sort_type=sort_type, board_id=board_id) }}">5</a></li>
+                            <li class="active"><a href="#" id="ellipsis-a" style="background-color: #fff;border-color: #ddd;color: #337ab7;">...</a></li>
+                            <li><a href="{{ url_for('post.post_list', page=last_page, sort_type=sort_type, board_id=board_id) }}">{{ last_page }}</a></li>
+                            <li><a href="{{ url_for('post.post_list', page=start_page + 1, sort_type=sort_type, board_id=board_id) }}" aria-label="Previous" id="next-page-btn">下一页<span class="sr-only">(current)</span></a></li>
+                        {% elif start_page == 2 %}
+                            <li><a href="{{ url_for('post.post_list', page=start_page - 1, sort_type=sort_type, board_id=board_id) }}"><</a></li>
+                            <li><a href="{{ url_for('post.post_list', page=1, sort_type=sort_type, board_id=board_id) }}">1</a></li>
+                            <li class="active"><a href="#" id="ellipsis-s">{{ start_page }} <span class="sr-only">(current)</span></a></li>
+                            <li><a href="{{ url_for('post.post_list', page=3, sort_type=sort_type, board_id=board_id) }}">3</a></li>
+                            <li><a href="{{ url_for('post.post_list', page=4, sort_type=sort_type, board_id=board_id) }}">4</a></li>
+                            <li><a href="{{ url_for('post.post_list', page=5, sort_type=sort_type, board_id=board_id) }}">5</a></li>
+                            <li class="active"><a href="#" id="ellipsis-a" style="background-color: #fff;border-color: #ddd;color: #337ab7;">...</a></li>
+                            <li><a href="{{ url_for('post.post_list', page=last_page, sort_type=sort_type, board_id=board_id) }}">{{ last_page }}</a></li>
+                            <li><a href="{{ url_for('post.post_list', page=start_page + 1, sort_type=sort_type, board_id=board_id) }}" aria-label="Previous" id="next-page-btn">下一页</a></li>
+                        {% elif start_page == 3 %}
+                            <li><a href="{{ url_for('post.post_list', page=start_page - 1, sort_type=sort_type, board_id=board_id) }}"><</a></li>
+                            <li><a href="{{ url_for('post.post_list', page=1, sort_type=sort_type, board_id=board_id) }}">1</a></li>
+                            <li><a href="{{ url_for('post.post_list', page=2, sort_type=sort_type, board_id=board_id) }}">2</a></li>
+                            <li class="active"><a href="#" id="ellipsis-s">{{ start_page }} <span class="sr-only">(current)</span></a></li>
+                            <li><a href="{{ url_for('post.post_list', page=4, sort_type=sort_type, board_id=board_id) }}">4</a></li>
+                            <li><a href="{{ url_for('post.post_list', page=5, sort_type=sort_type, board_id=board_id) }}">5</a></li>
+                            <li class="active"><a href="#" id="ellipsis-a" style="background-color: #fff;border-color: #ddd;color: #337ab7;">...</a></li>
+                            <li><a href="{{ url_for('post.post_list', page=last_page, sort_type=sort_type, board_id=board_id) }}">{{ last_page }}</a></li>
+                            <li><a href="{{ url_for('post.post_list', page=start_page + 1, sort_type=sort_type, board_id=board_id) }}" aria-label="Previous" id="next-page-btn">下一页</a></li>
+                        {% elif start_page == 4 %}
+                            <li><a href="{{ url_for('post.post_list', page=start_page - 1, sort_type=sort_type, board_id=board_id) }}"><</a></li>
+                            <li><a href="{{ url_for('post.post_list', page=1, sort_type=sort_type, board_id=board_id) }}">1</a></li>
+                            <li><a href="{{ url_for('post.post_list', page=2, sort_type=sort_type, board_id=board_id) }}">2</a></li>
+                            <li><a href="{{ url_for('post.post_list', page=3, sort_type=sort_type, board_id=board_id) }}">3</a></li>
+                            <li class="active"><a href="#" id="ellipsis-s">{{ start_page }} <span class="sr-only">(current)</span></a></li>
+                            <li><a href="{{ url_for('post.post_list', page=5, sort_type=sort_type, board_id=board_id) }}">5</a></li>
+                            <li class="active"><a href="#" id="ellipsis-a" style="background-color: #fff;border-color: #ddd;color: #337ab7;">...</a></li>
+                            <li><a href="{{ url_for('post.post_list', page=last_page, sort_type=sort_type, board_id=board_id) }}">{{ last_page }}</a></li>
+                            <li><a href="{{ url_for('post.post_list', page=start_page + 1, sort_type=sort_type, board_id=board_id) }}" aria-label="Previous" id="next-page-btn">下一页</a></li>
+                        {% elif start_page>4 and start_page<last_page-3 %}
+                            <li><a href="{{ url_for('post.post_list', page=start_page - 1, sort_type=sort_type, board_id=board_id) }}"><</a></li>
+                            <li><a href="{{ url_for('post.post_list', page=1, sort_type=sort_type, board_id=board_id) }}">1 <span class="sr-only">(current)</span></a></li>
+                            <li class="active"><a href="#" id="ellipsis-a" style="background-color: #fff;border-color: #ddd;color: #337ab7;">...</a></li>
+                            <li><a href="{{ url_for('post.post_list', page=start_page - 2, sort_type=sort_type, board_id=board_id) }}">{{ start_page - 2 }}</a></li>
+                            <li><a href="{{ url_for('post.post_list', page=start_page - 1, sort_type=sort_type, board_id=board_id) }}">{{ start_page - 1 }} <span class="sr-only">(current)</span></a></li>
+                            <li class="active"><a href="#" id="ellipsis-s">{{ start_page }} <span class="sr-only">(current)</span></a></li>
+                            <li><a href="{{ url_for('post.post_list', page=start_page + 1, sort_type=sort_type, board_id=board_id) }}">{{ start_page + 1 }} <span class="sr-only">(current)</span></a></li>
+                            <li><a href="{{ url_for('post.post_list', page=start_page + 2, sort_type=sort_type, board_id=board_id) }}">{{ start_page + 2 }} <span class="sr-only">(current)</span></a></li>
+                            <li class="active"><a href="#" id="ellipsis-b" style="background-color: #fff;border-color: #ddd;color: #337ab7;">...</a></li>
+                            <li><a href="{{ url_for('post.post_list', page=last_page, sort_type=sort_type, board_id=board_id) }}">{{ last_page }}</a></li>
+                            <li><a href="{{ url_for('post.post_list', page=start_page + 1, sort_type=sort_type, board_id=board_id) }}" aria-label="Previous" id="next-page-btn">下一页</a></li>
+                        {% elif start_page == last_page-3 %}
+                            <li><a href="{{ url_for('post.post_list', page=start_page - 1, sort_type=sort_type, board_id=board_id) }}"><</a></li>
+                            <li><a href="{{ url_for('post.post_list', page=1, sort_type=sort_type, board_id=board_id) }}">1</a></li>
+                            <li class="active"><a href="#" id="ellipsis-a" style="background-color: #fff;border-color: #ddd;color: #337ab7;">...</a></li>
+                            <li><a href="{{ url_for('post.post_list', page=start_page - 1, sort_type=sort_type, board_id=board_id) }}">{{ start_page - 1 }}</a></li>
+                            <li class="active"><a href="#" id="ellipsis-s">{{ start_page }} <span class="sr-only">(current)</span></a></li>
+                            <li><a href="{{ url_for('post.post_list', page=start_page + 1, sort_type=sort_type, board_id=board_id) }}">{{ start_page + 1 }}</a></li>
+                            <li><a href="{{ url_for('post.post_list', page=start_page + 2, sort_type=sort_type, board_id=board_id) }}">{{ start_page + 2 }}</a></li>
+                            <li><a href="{{ url_for('post.post_list', page=last_page, sort_type=sort_type, board_id=board_id) }}">{{ last_page }}</a></li>
+                            <li><a href="{{ url_for('post.post_list', page=start_page + 1, sort_type=sort_type, board_id=board_id) }}" aria-label="Previous" id="next-page-btn">下一页</a></li>
+                        {% elif start_page == last_page-2 %}
+                            <li><a href="{{ url_for('post.post_list', page=start_page - 1, sort_type=sort_type, board_id=board_id) }}"><</a></li>
+                            <li><a href="{{ url_for('post.post_list', page=1, sort_type=sort_type, board_id=board_id) }}">1</a></li>
+                            <li class="active"><a href="#" id="ellipsis-a" style="background-color: #fff;border-color: #ddd;color: #337ab7;">...</a></li>
+                            <li><a href="{{ url_for('post.post_list', page=start_page - 2, sort_type=sort_type, board_id=board_id) }}">{{ start_page - 2 }}</a></li>
+                            <li><a href="{{ url_for('post.post_list', page=start_page - 1, sort_type=sort_type, board_id=board_id) }}">{{ start_page - 1 }}</a></li>
+                            <li class="active"><a href="#" id="ellipsis-s">{{ start_page }} <span class="sr-only">(current)</span></a></li>
+                            <li><a href="{{ url_for('post.post_list', page=start_page + 1, sort_type=sort_type, board_id=board_id) }}">{{ start_page + 1 }}</a></li>
+                            <li><a href="{{ url_for('post.post_list', page=last_page, sort_type=sort_type, board_id=board_id) }}">{{ last_page }}</a></li>
+                            <li><a href="{{ url_for('post.post_list', page=start_page + 1, sort_type=sort_type, board_id=board_id) }}" aria-label="Previous" id="next-page-btn">下一页</a></li>
+                        {% elif start_page == last_page-1 %}
+                            <li><a href="{{ url_for('post.post_list', page=start_page - 1, sort_type=sort_type, board_id=board_id) }}"><</a></li>
+                            <li><a href="{{ url_for('post.post_list', page=1, sort_type=sort_type, board_id=board_id) }}">1</a></li>
+                            <li class="active"><a href="#" id="ellipsis-a" style="background-color: #fff;border-color: #ddd;color: #337ab7;">...</a></li>
+                            <li><a href="{{ url_for('post.post_list', page=start_page - 3, sort_type=sort_type, board_id=board_id) }}">{{ start_page - 3 }}</a></li>
+                            <li><a href="{{ url_for('post.post_list', page=start_page - 2, sort_type=sort_type, board_id=board_id) }}">{{ start_page - 2 }}</a></li>
+                            <li><a href="{{ url_for('post.post_list', page=start_page - 1, sort_type=sort_type, board_id=board_id) }}">{{ start_page - 1 }}</a></li>
+                            <li class="active"><a href="#" id="ellipsis-s">{{ start_page }} <span class="sr-only">(current)</span></a></li>
+                            <li><a href="{{ url_for('post.post_list', page=last_page, sort_type=sort_type, board_id=board_id) }}">{{ last_page }}</a></li>
+                            <li><a href="{{ url_for('post.post_list', page=start_page + 1, sort_type=sort_type, board_id=board_id) }}" aria-label="Previous" id="next-page-btn">下一页</a></li>
+                        {% elif start_page == last_page  %}
+                            <li><a href="{{ url_for('post.post_list', page=start_page - 1, sort_type=sort_type, board_id=board_id) }}"><</a></li>
+                            <li><a href="{{ url_for('post.post_list', page=1, sort_type=sort_type, board_id=board_id) }}">1</a></li>
+                            <li class="active"><a href="#" id="ellipsis-a" style="background-color: #fff;border-color: #ddd;color: #337ab7;">...</a></li>
+                            <li><a href="{{ url_for('post.post_list', page=start_page - 4, sort_type=sort_type, board_id=board_id) }}">{{ start_page - 4 }}</a></li>
+                            <li><a href="{{ url_for('post.post_list', page=start_page - 3, sort_type=sort_type, board_id=board_id) }}">{{ start_page - 3 }}</a></li>
+                            <li><a href="{{ url_for('post.post_list', page=start_page - 2, sort_type=sort_type, board_id=board_id) }}">{{ start_page - 2 }}</a></li>
+                            <li><a href="{{ url_for('post.post_list', page=start_page - 1, sort_type=sort_type, board_id=board_id) }}">{{ start_page - 1 }}</a></li>
+                            <li class="active"><a href="#" id="ellipsis-s">{{ start_page }} <span class="sr-only">(current)</span></a></li>
+                            <li><a href="#" aria-label="Previous" id="ellipsis-d">无下页</a></li>
+                        {% endif %}
+                    {% else %}
+                        {% if posts|length == 0 %}
+                        {% else %}
+                            {% if start_page != 1 %}
+                                <li><a href="{{ url_for('post.post_list', page=start_page - 1, sort_type=sort_type, board_id=board_id) }}"><</a></li>
+                            {% endif %}
+                            {% for page in range(last_page) %}
+                                {% set page = page + 1 %}
+                                {% if page == start_page %}
+                                    <li class="active"><a href="#" id="ellipsis-s">{{ start_page }} <span class="sr-only">(current)</span></a></li>
+                                {% else %}
+                                    <li><a href="{{ url_for('post.post_list', page=page, sort_type=sort_type, board_id=board_id) }}">{{ page }}</a></li>
+                                {% endif %}
+                            {% endfor %}
+                            {% if start_page == last_page %}
+                                <li><a href="#" aria-label="Previous" id="ellipsis-d">无下页</a></li>
+                            {% else %}
+                                <li><a href="{{ url_for('post.post_list', page=start_page + 1, sort_type=sort_type, board_id=board_id) }}" aria-label="Previous" id="next-page-btn">下一页</a></li>
+                            {% endif %}
+                        {% endif %}
+                    {% endif %}
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <div class="sm-container">
+        <div class="add-post-group">
+            <a href="{{ url_for('post.add_post') }}" target="_blank" class="btn btn-warning btn-block">发表新帖子</a>
+{#            <a href="{{ url_for('post.add_post') }}" target="view_window" class="btn btn-warning btn-block">发表新帖子</a>#}
+        </div>
+        <div class="list-group">
+            <span class="list-group-item header">板块</span>
+            <a href="{{ url_for('post.post_list', page=1, sort_type=sort_type, board_id=0) }}"
+            class="list-group-item {% if board_id == 0 %} active{% endif %}" >
+            全部板块
+            <span class="badge">{{ posts_total|length }}</span>
+            </a>
+            {% for board in boards %}
+                <a href="{{ url_for('post.post_list', page=1, sort_type=sort_type, board_id=board.id) }}"
+                   class="list-group-item {% if board_id == board.id %} active{% endif %}" >
+                    {{ board.name }}
+                    <span class="badge">{{ board.posts.filter_by(is_removed=False).count() }}</span>
+                </a>
+            {% endfor %}
+        </div>
+    </div>
+{% endblock %}

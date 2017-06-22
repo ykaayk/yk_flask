@@ -1,0 +1,52 @@
+
+body{
+    background: #f3f3f3;
+    text-align: center;
+    /*新增*/
+    /*overflow-y:scroll;*/
+}
+.outer-box{
+    background: #fff;
+    width: 854px;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-top: 50px;
+    padding-bottom: 20px;
+}
+.logo-box {
+    margin: 0 auto;
+    width: 220px;
+}
+.logo-box img{
+    width: 200px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+.sign-group{
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.remember-me{
+    float: left;
+    margin-top: 0;
+}
+.forgetpwd{
+    float: right;
+}
+
+#send-captcha-btn{
+    cursor: pointer;
+}
+
+.btn-login{
+     width:47%;
+     float: left;
+     margin-right: 2%;
+ }
+.btn-back{
+    width:47%;
+    float: left;
+    margin-left: 2%;
+}

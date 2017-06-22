@@ -1,0 +1,3 @@
+# coding:utf8
+
+COMMENT_ALLOW_POINTS = 10

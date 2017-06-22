@@ -1,0 +1,21 @@
+{% from 'common/common_macros.html' import static %}
+<link rel="stylesheet" href="{{ url_for('static',filename='common/editor/css/wangEditor.min.css') }}">
+<link rel="stylesheet" href="{{ url_for('static',filename='common/common_edit.css') }}">
+<script src="https://cdn.staticfile.org/Plupload/2.1.1/moxie.js"></script>
+<script src="https://cdn.staticfile.org/Plupload/2.1.1/plupload.dev.js"></script>
+<script src="https://cdn.staticfile.org/qiniu-js-sdk/1.0.14-beta/qiniu.js"></script>
+{#<script src="{{ url_for('static',filename='front/js/front_addpost-qiniu.js') }}"></script>#}
+<script src="{{ static('common/common_editor.js') }}"></script>
+<script src="{{ url_for('static',filename='common/editor/js/wangEditor.js') }}"></script>
+
+<div class="form-group" id="editor-box">
+    <textarea id="editor"></textarea>
+</div>
+<div class="form-group">
+    <button data-loading-text="素材正在上传中...." class="btn btn-info" id="upload-btn" style="">上传图片或者视频</button>
+    <div class="progress" id="progress-box" style="display: inline;float: right;width: 85%;box-shadow: inset 0 0px 0px rgba(0,0,0,.1);;height: 33px;padding: 0px;">
+        <div class="progress-bar" style="width: 0%;padding-top: 7px; font-size: 15px;" id="progress-box" role="progressbar" aria-valuemin="0" aria-valuemax="100">
+        </div>
+    </div>
+</div>
+
