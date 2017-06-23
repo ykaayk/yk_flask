@@ -9,6 +9,7 @@
     {% include 'common/common_head.html' %}
     <script src="{{ static('common/xtparam.js') }}"></script>
     <link rel="stylesheet" href="{{ static('front/css/front_base.css') }}">
+    <link rel="icon" type="image/x-icon" href="{{ static('images/ico/DOTA-SF.ico') }}">
     <title>{% block title %}{% endblock %}</title>
     {% block head %}{% endblock %}
 </head>
@@ -34,7 +35,7 @@
                     <li class="dropdown">
                         <a class="dropdown-toggle" data-toggle="dropdown" href="#">{{ front_user.username }}<span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                            <li><a href="{{ url_for('account.personal_center') }}" class="dropdown-toggle">个人中心<img class="user-avatar" src="{{ front_user.head_img }}" alt=""></a></li>
+                            <li><a href="{{ url_for('account.personal_center', user_id=front_user.id) }}" class="dropdown-toggle">个人中心<img class="user-avatar" src="{{ front_user.head_img }}" alt=""></a></li>
                             <li><a href="{{ url_for('account.setting') }}">设置</a></li>
                             <li><a href="{{ url_for('account.logout') }}">退出登录</a></li>
                         </ul>

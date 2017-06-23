@@ -1,6 +1,6 @@
 # coding:utf8
 import memcache
-cache = memcache.Client(['192.168.201.130:11211','127.0.0.1:11211'], debug=True)
+cache = memcache.Client(['172.31.41.29:11211','127.0.0.1:11211'], debug=True)
 
 # 设置缓存的函数，默认过期时间1分钟
 def set(key=None, value=None, timeout=60):

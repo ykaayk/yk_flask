@@ -1,9 +1,11 @@
+
 # coding:utf8
 import os
 
 DB_USERNAME = 'yk'
 DB_PASSWORD = 'yk123456'
 DB_HOST = '127.0.0.1'
+# DB_HOST = 'localhost'
 DB_PORT = '3306'
 DB_NAME = 'sbbs'
 

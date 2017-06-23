@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="{{ url_for('static',filename='common/editor/css/wangEditor.min.css') }}">
     <link rel="stylesheet" href="{{ static('front/css/front_postdetail.css') }}">
     <script src="{{ static('front/js/front_postdetail.js') }}"></script>
+    <link rel="icon" type="image/x-icon" href="{{ post.author.head_img }}">
     <style>
 
 {#        .editor{#}
@@ -105,12 +106,12 @@
     <div class="right-container">
         <div class="author-group">
             <div class="avatar-group">
-                <a href="#"><img src="{{ post.author.head_img }}" style="height: 100px;width: 100px;" alt="" class="avatar-img"></a>
+                <a href="{{ url_for('account.personal_center', user_id=post.author.id) }}"><img src="{{ post.author.head_img }}" style="height: 100px;width: 100px;" alt="" class="avatar-img"></a>
             </div>
             <p class="username">{{ post.author.username }}</p>
             <p class="txt">{{ post.author.points }}积分</p>
             <div class="btn-box">
-                <a href="#" class="btn btn-warning">Ta的主页</a>
+                <a href="{{ url_for('account.personal_center', user_id=post.author.id) }}" class="btn btn-warning">Ta的主页</a>
             </div>
         </div>
     </div>

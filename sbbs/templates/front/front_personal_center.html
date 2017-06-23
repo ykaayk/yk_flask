@@ -2,7 +2,7 @@
 
 
 {% block title %}
-    {{ front_user.username }} 的个人中心
+    {{ user.username }} 的个人中心
 {% endblock %}
 
 
@@ -35,6 +35,7 @@
             height: auto;
         }
     </style>
+    <link rel="icon" type="image/x-icon" href="{{ user.head_img }}">
 {% endblock %}
 
 
@@ -44,10 +45,10 @@
             <img src="{{ user.head_img }}" width="100px"  alt="">
             {{ user.username }}
         </div>
-        <div class="box-list">2</div>
+        <div class="box-list"></div>
     </div>
     <div class="box-personal-detail">
-        <div class="box-blank">3</div>
+        <div class="box-blank"></div>
         <div class="box-detail">
             <div class="wrap">
                 <h2>个人资料</h2>
