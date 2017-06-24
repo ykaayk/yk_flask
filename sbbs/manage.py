@@ -40,6 +40,7 @@ def create_role(name, desc, permissions):
     role = CMSRole(name=name.decode('utf8'), desc=desc.decode('utf8'), permissions=permissions.decode('utf8'))
     db.session.add(role)
     db.session.commit()
+    db.session.close()
     print u'恭喜！角色添加成功！'
 
 
@@ -61,6 +62,7 @@ def create_cms_user(email, username, password, role):
     user = CMSUser(username=username, password=password, email=email)
     roleModel.users.append(user)
     db.session.commit()
+    db.session.close()
     print u'恭喜！CMS用户添加成功！'
 
 

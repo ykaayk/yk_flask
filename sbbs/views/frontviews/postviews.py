@@ -104,6 +104,7 @@ def add_post():
 
             db.session.add(post_model)
             db.session.commit()
+            db.session.close()
             return xtjson.json_result()
         else:
             return xtjson.json_params_error(message=form.get_error())
@@ -152,6 +153,7 @@ def read_time():
     if read_num == 1:
         PostModel.query.get(post_id).read_count += 1
         db.session.commit()
+        db.session.close()
     return xtjson.json_result()
 
 
@@ -180,6 +182,7 @@ def add_comment():
             comment_model.author.points += 1
             db.session.add(comment_model)
             db.session.commit()
+            db.session.close()
             return xtjson.json_result()
         else:
             return xtjson.json_params_error(message=form.get_error())
@@ -199,6 +202,7 @@ def comment_reply():
         reply_model.origin_comment = comment_model
         db.session.add(reply_model)
         db.session.commit()
+        db.session.close()
         return xtjson.json_result()
     else:
         return xtjson.json_method_error(message=u'bug!!')
@@ -219,6 +223,7 @@ def post_star():
             if is_star:
                 db.session.delete(star_model)
                 db.session.commit()
+                db.session.close()
                 return xtjson.json_result()
             else:
                 return xtjson.json_params_error(message=u'点赞bug请刷新！')
@@ -236,6 +241,7 @@ def post_star():
 
                 db.session.add(star_model)
                 db.session.commit()
+                db.session.close()
                 return xtjson.json_result()
             else:
                 return xtjson.json_params_error(message=u'点赞bug请刷新！')

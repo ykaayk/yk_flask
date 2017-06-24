@@ -49,6 +49,7 @@ class RegistView(views.MethodView):
             user = FrontUser(telephone=telephone, username=username, password=password)
             db.session.add(user)
             db.session.commit()
+            db.session.close()
             # return flask.render_template('front/front_base.html')
             return flask.redirect(flask.url_for('post.index'))
         else:
@@ -93,6 +94,7 @@ class LoginView(views.MethodView):
                 if not last or last.year < now.year or last.month < now.month or last.day < now.day:
                     user.points += 2
                 db.session.commit()
+                db.session.close()
                 # 做登录操作
                 flask.session[constants.FRONT_SESSION_ID] = user.id
                 # 是否记住用户
@@ -145,6 +147,7 @@ def setting():
             if signature:
                 front_model.signature = signature
             db.session.commit()
+            db.session.close()
             return xtjson.json_result()
         else:
             return xtjson.json_params_error(message=form.get_error())
