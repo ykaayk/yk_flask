@@ -104,7 +104,7 @@ def add_post():
 
             db.session.add(post_model)
             db.session.commit()
-            db.session.close()
+            # db.session.close()
             return xtjson.json_result()
         else:
             return xtjson.json_params_error(message=form.get_error())
@@ -141,6 +141,7 @@ def post_detail(post_id):
         'star_user_ids': star_user_ids,
         'star_users': star_users
     }
+    db.session.close()
     return flask.render_template('front/front_postdetail.html', **context)
 
 
@@ -153,7 +154,7 @@ def read_time():
     if read_num == 1:
         PostModel.query.get(post_id).read_count += 1
         db.session.commit()
-        db.session.close()
+        # db.session.close()
     return xtjson.json_result()
 
 
@@ -164,6 +165,7 @@ def add_comment():
     if flask.request.method == 'GET':
         post_id = flask.request.args.get('post_id')
         post_model = PostModel.query.get(post_id)
+        # db.session.close()
         return flask.render_template('front/front_addcoment.html', post=post_model)
     else:
         if flask.g.front_user.points < settings.COMMENT_ALLOW_POINTS:
@@ -182,7 +184,7 @@ def add_comment():
             comment_model.author.points += 1
             db.session.add(comment_model)
             db.session.commit()
-            db.session.close()
+            # db.session.close()
             return xtjson.json_result()
         else:
             return xtjson.json_params_error(message=form.get_error())
@@ -202,7 +204,7 @@ def comment_reply():
         reply_model.origin_comment = comment_model
         db.session.add(reply_model)
         db.session.commit()
-        db.session.close()
+        # db.session.close()
         return xtjson.json_result()
     else:
         return xtjson.json_method_error(message=u'bug!!')
@@ -219,11 +221,12 @@ def post_star():
 
         post_model = PostModel.query.get(post_id)
         star_model = PostStarModel.query.filter_by(author_id=flask.g.front_user.id, post_id=post_id).first()
+        # db.session.close()
         if star_model:
             if is_star:
                 db.session.delete(star_model)
                 db.session.commit()
-                db.session.close()
+                # db.session.close()
                 return xtjson.json_result()
             else:
                 return xtjson.json_params_error(message=u'点赞bug请刷新！')
@@ -241,7 +244,7 @@ def post_star():
 
                 db.session.add(star_model)
                 db.session.commit()
-                db.session.close()
+                # db.session.close()
                 return xtjson.json_result()
             else:
                 return xtjson.json_params_error(message=u'点赞bug请刷新！')

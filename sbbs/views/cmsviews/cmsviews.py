@@ -58,7 +58,7 @@ def login():
                 # 最后登录时间
                 user.last_login_time = datetime.now()
                 db.session.commit()
-                db.session.close()
+                # db.session.close()
                 return flask.redirect(flask.url_for('cms.index'))
             else:
                 # 用户不存在数据库中，则重新渲染并传入消息message
@@ -98,7 +98,7 @@ def resetpwd():
             if flask.g.cms_user.check_password(oldpwd):
                 flask.g.cms_user.password = newpwd
                 db.session.commit()
-                db.session.close()
+                # db.session.close()
                 return xtjson.json_result()
             else:
                 return xtjson.json_params_error(message=u'原始密码错误')
@@ -121,7 +121,7 @@ def resetmail():
                 return xtjson.json_params_error(message=u'新邮箱与旧邮箱一致，无需求修改！')
             flask.g.cms_user.email = email
             db.session.commit()
-            db.session.close()
+            # db.session.close()
             return xtjson.json_result()
         else:
             return xtjson.json_params_error(message=form.get_error())
@@ -244,7 +244,7 @@ def edit_cmsuser():
             role_model = CMSRole.query.get(role_id)
             user.roles.append(role_model)
         db.session.commit()
-        db.session.close()
+        # db.session.close()
         return xtjson.json_result()
 
 
@@ -262,7 +262,7 @@ def black_list():
         user = CMSUser.query.get(user_id)
         user.is_active = not is_active
         db.session.commit()
-        db.session.close()
+        # db.session.close()
         return xtjson.json_result()
     else:
         return xtjson.json_params_error(message=form.get_error())
@@ -325,7 +325,7 @@ def black_front_user():
         #     user.is_active = True
         user.is_active = not is_black
         db.session.commit()
-        db.session.close()
+        # db.session.close()
         return xtjson.json_result()
     else:
         return xtjson.json_params_error(message=form.get_error())
@@ -356,7 +356,7 @@ def add_board():
         a_board = BoardModel(name=name, author_id=author_id)
         db.session.add(a_board)
         db.session.commit()
-        db.session.close()
+        # db.session.close()
         return xtjson.json_result()
 
 
@@ -374,7 +374,7 @@ def edit_board():
         a_board = BoardModel.query.get(board_id)
         a_board.name = board_name
         db.session.commit()
-        db.session.close()
+        # db.session.close()
         return xtjson.json_result()
 
 
@@ -390,7 +390,7 @@ def del_board():
         return xtjson.json_params_error(message=u'此板块存在帖子，不能删除！')
     db.session.delete(board)
     db.session.commit()
-    db.session.close()
+    # db.session.close()
     return xtjson.json_result()
 
 
@@ -597,14 +597,14 @@ def highlight():
             highlight_model = HighLightPostModel()
             post_model.highlight = highlight_model
             db.session.commit()
-            db.session.close()
+            # db.session.close()
             return xtjson.json_result()
         else:
             if not post_model.highlight:
                 return xtjson.json_params_error(message=u'该帖子已经取消加精！')
             db.session.delete(post_model.highlight)
             db.session.commit()
-            db.session.close()
+            # db.session.close()
             return xtjson.json_result()
     else:
         return xtjson.json_params_error(message=form.get_error())
@@ -624,7 +624,7 @@ def post_remove():
     else:
         post_model.is_removed = True
     db.session.commit()
-    db.session.close()
+    # db.session.close()
     return xtjson.json_result()
 
 
