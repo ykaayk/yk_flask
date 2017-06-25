@@ -2,7 +2,8 @@
 # coding:utf8
 import os
 
-DB_USERNAME = 'yk'
+# DB_USERNAME = 'yk'
+DB_USERNAME = 'root'
 DB_PASSWORD = 'yk123456'
 DB_HOST = '127.0.0.1'
 # DB_HOST = 'localhost'

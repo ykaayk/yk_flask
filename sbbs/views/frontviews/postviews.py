@@ -141,7 +141,7 @@ def post_detail(post_id):
         'star_user_ids': star_user_ids,
         'star_users': star_users
     }
-    db.session.close()
+#    db.session.close()
     return flask.render_template('front/front_postdetail.html', **context)
 
 
