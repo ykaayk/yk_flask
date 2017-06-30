@@ -1,0 +1,1252 @@
+
+[uWSGI] getting INI configuration from sbbs_uwsgi.ini
+*** Starting uWSGI 2.0.15 (64bit) on [Tue Jun 27 07:59:11 2017] ***
+compiled with version: 5.4.0 20160609 on 22 June 2017 13:16:58
+os: Linux-4.4.0-1020-aws #29-Ubuntu SMP Wed Jun 14 15:54:52 UTC 2017
+nodename: ip-172-31-41-29
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/yk_flask/sbbs
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/yk_flask/sbbs
+your processes number limit is 3903
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/ubuntu/yk_flask/sbbs/sbbs.sock fd 3
+Python version: 2.7.12 (default, Nov 19 2016, 06:48:10)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x219eb10
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 800360 bytes (781 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x219eb10 pid: 5516 (default app)
+mountpoint  already configured. skip.
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 5516)
+spawned uWSGI worker 1 (pid: 5521, cores: 1)
+spawned uWSGI worker 2 (pid: 5522, cores: 1)
+spawned uWSGI worker 3 (pid: 5523, cores: 1)
+spawned uWSGI worker 4 (pid: 5524, cores: 1)
+spawned uWSGI worker 5 (pid: 5525, cores: 1)
+spawned uWSGI worker 6 (pid: 5526, cores: 1)
+spawned uWSGI worker 7 (pid: 5527, cores: 1)
+spawned uWSGI worker 8 (pid: 5528, cores: 1)
+spawned uWSGI worker 9 (pid: 5529, cores: 1)
+spawned uWSGI worker 10 (pid: 5530, cores: 1)
+[pid: 5523|app: 0|req: 1/1] 119.101.56.211 () {42 vars in 841 bytes} [Tue Jun 27 07:59:19 2017] GET / => generated 12401 bytes in 251 msecs (HTTP/1.1 200) 3 headers in 285 bytes (2 switches on core 0)
+[pid: 5527|app: 0|req: 1/2] 119.101.56.211 () {44 vars in 896 bytes} [Tue Jun 27 07:59:27 2017] GET /list/1/3/0 => generated 12401 bytes in 240 msecs (HTTP/1.1 200) 2 headers in 82 bytes (1 switches on core 0)
+[pid: 5521|app: 0|req: 1/3] 119.101.56.211 () {44 vars in 906 bytes} [Tue Jun 27 07:59:29 2017] GET /list/1/3/1 => generated 9780 bytes in 237 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 5527|app: 0|req: 2/4] 119.101.56.211 () {44 vars in 906 bytes} [Tue Jun 27 07:59:32 2017] GET /list/1/2/1 => generated 9780 bytes in 35 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 5521|app: 0|req: 2/5] 119.101.56.211 () {44 vars in 914 bytes} [Tue Jun 27 07:59:34 2017] GET /post_detail/5/ => generated 10958 bytes in 35 msecs (HTTP/1.1 200) 2 headers in 82 bytes (1 switches on core 0)
+[pid: 5527|app: 0|req: 3/6] 119.101.56.211 () {42 vars in 841 bytes} [Tue Jun 27 08:03:35 2017] GET / => generated 12401 bytes in 39 msecs (HTTP/1.1 200) 2 headers in 82 bytes (2 switches on core 0)
+[pid: 5521|app: 0|req: 3/7] 119.101.56.211 () {44 vars in 1005 bytes} [Tue Jun 27 08:03:47 2017] GET / => generated 12401 bytes in 39 msecs (HTTP/1.1 200) 3 headers in 285 bytes (2 switches on core 0)
+[pid: 5521|app: 0|req: 4/8] 119.101.56.211 () {46 vars in 995 bytes} [Tue Jun 27 08:03:47 2017] GET /static/common/xtajax.js => generated 0 bytes in 6 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 5527|app: 0|req: 4/9] 119.101.56.211 () {44 vars in 981 bytes} [Tue Jun 27 08:03:47 2017] GET / => generated 12401 bytes in 45 msecs (HTTP/1.1 200) 3 headers in 285 bytes (1 switches on core 0)
+[pid: 5521|app: 0|req: 5/10] 119.101.56.211 () {46 vars in 1023 bytes} [Tue Jun 27 08:03:47 2017] GET /static/cms/css/sweetalert.css => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 184 bytes (0 switches on core 0)
+[pid: 5529|app: 0|req: 1/11] 119.101.56.211 () {46 vars in 1017 bytes} [Tue Jun 27 08:03:47 2017] GET /static/cms/css/cms_base.css => generated 0 bytes in 7 msecs (HTTP/1.1 304) 4 headers in 182 bytes (0 switches on core 0)
+[pid: 5521|app: 0|req: 6/12] 119.101.56.211 () {46 vars in 1026 bytes} [Tue Jun 27 08:03:47 2017] GET /static/front/css/front_base.css => generated 0 bytes in 4 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 5526|app: 0|req: 1/13] 119.101.56.211 () {46 vars in 1038 bytes} [Tue Jun 27 08:03:47 2017] GET /static/front/css/iconfont/iconfont.css => generated 0 bytes in 9 msecs (HTTP/1.1 304) 4 headers in 181 bytes (0 switches on core 0)
+[pid: 5527|app: 0|req: 5/14] 119.101.56.211 () {46 vars in 1027 bytes} [Tue Jun 27 08:03:47 2017] GET /static/front/css/front_index.css => generated 0 bytes in 3 msecs (HTTP/1.1 304) 4 headers in 182 bytes (0 switches on core 0)
+[pid: 5521|app: 0|req: 7/15] 119.101.56.211 () {46 vars in 1012 bytes} [Tue Jun 27 08:03:48 2017] GET /static/cms/js/sweetalert.min.js => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 184 bytes (0 switches on core 0)
+[pid: 5523|app: 0|req: 2/16] 119.101.56.211 () {46 vars in 997 bytes} [Tue Jun 27 08:03:48 2017] GET /static/cms/js/xtalert.js => generated 0 bytes in 4 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 5529|app: 0|req: 2/17] 119.101.56.211 () {46 vars in 998 bytes} [Tue Jun 27 08:03:48 2017] GET /static/cms/js/cms_base.js => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 182 bytes (0 switches on core 0)
+[pid: 5528|app: 0|req: 1/18] 119.101.56.211 () {46 vars in 997 bytes} [Tue Jun 27 08:03:48 2017] GET /static/common/xtparam.js => generated 0 bytes in 7 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 5527|app: 0|req: 6/19] 119.101.56.211 () {46 vars in 1008 bytes} [Tue Jun 27 08:03:48 2017] GET /static/front/js/front_index.js => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 182 bytes (0 switches on core 0)
+[pid: 5526|app: 0|req: 2/20] 119.101.56.211 () {46 vars in 1033 bytes} [Tue Jun 27 08:03:49 2017] GET /static/images/default_img.png => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 184 bytes (0 switches on core 0)
+[pid: 5521|app: 0|req: 8/21] 119.101.56.211 () {48 vars in 1129 bytes} [Tue Jun 27 08:03:49 2017] GET /static/front/css/iconfont/iconfont.woff?t=1483088023095 => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 5529|app: 0|req: 3/22] 119.101.56.211 () {42 vars in 899 bytes} [Tue Jun 27 08:03:49 2017] GET /static/images/ico/DOTA-SF.ico => generated 2829178 bytes in 22 msecs via sendfile() (HTTP/1.1 200) 7 headers in 286 bytes (0 switches on core 0)
+[pid: 5530|app: 0|req: 1/23] 119.101.56.211 () {42 vars in 899 bytes} [Tue Jun 27 08:03:49 2017] GET /static/images/ico/DOTA-SF.ico => generated 2829178 bytes in 15 msecs via sendfile() (HTTP/1.1 200) 7 headers in 286 bytes (8 switches on core 0)
+[pid: 5527|app: 0|req: 7/24] 119.101.56.211 () {44 vars in 975 bytes} [Tue Jun 27 08:03:52 2017] GET /post_detail/4/ => generated 11790 bytes in 37 msecs (HTTP/1.1 200) 2 headers in 82 bytes (2 switches on core 0)
+[pid: 5521|app: 0|req: 9/25] 119.101.56.211 () {46 vars in 1033 bytes} [Tue Jun 27 08:03:53 2017] GET /static/front/js/front_postdetail.js => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 5530|app: 0|req: 2/26] 119.101.56.211 () {46 vars in 1051 bytes} [Tue Jun 27 08:03:53 2017] GET /static/front/css/front_postdetail.css => generated 0 bytes in 3 msecs (HTTP/1.1 304) 4 headers in 182 bytes (0 switches on core 0)
+[pid: 5523|app: 0|req: 3/27] 119.101.56.211 () {46 vars in 1065 bytes} [Tue Jun 27 08:03:53 2017] GET /static/common/editor/css/wangEditor.min.css => generated 0 bytes in 3 msecs (HTTP/1.1 304) 4 headers in 184 bytes (0 switches on core 0)
+[pid: 5529|app: 0|req: 4/28] 119.101.56.211 () {46 vars in 1045 bytes} [Tue Jun 27 08:03:53 2017] GET /static/images/ad/ad-test.png => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 184 bytes (0 switches on core 0)
+[pid: 5526|app: 0|req: 3/29] 119.101.56.211 () {52 vars in 1203 bytes} [Tue Jun 27 08:03:56 2017] POST /read_time/ => generated 36 bytes in 70 msecs (HTTP/1.1 200) 2 headers in 71 bytes (2 switches on core 0)
+[pid: 5527|app: 0|req: 8/30] 119.101.56.211 () {44 vars in 961 bytes} [Tue Jun 27 08:04:00 2017] GET / => generated 12401 bytes in 40 msecs (HTTP/1.1 200) 2 headers in 82 bytes (1 switches on core 0)
+[pid: 5521|app: 0|req: 10/31] 119.101.56.211 () {44 vars in 975 bytes} [Tue Jun 27 08:04:05 2017] GET /account/login/ => generated 2875 bytes in 11 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 5527|app: 0|req: 9/32] 119.101.56.211 () {46 vars in 1048 bytes} [Tue Jun 27 08:04:06 2017] GET /static/front/css/front_sign_base.css => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 181 bytes (0 switches on core 0)
+[pid: 5529|app: 0|req: 5/33] 119.101.56.211 () {46 vars in 1026 bytes} [Tue Jun 27 08:04:06 2017] GET /static/front/js/front_captcha.js => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 182 bytes (0 switches on core 0)
+[pid: 5523|app: 0|req: 4/34] 119.101.56.211 () {46 vars in 1038 bytes} [Tue Jun 27 08:04:06 2017] GET /static/images/DOTA-SF.jpg => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 5526|app: 0|req: 4/35] 119.101.56.211 () {42 vars in 924 bytes} [Tue Jun 27 08:04:06 2017] GET /account/graph_captcha/ => generated 3255 bytes in 18 msecs (HTTP/1.1 200) 2 headers in 66 bytes (1 switches on core 0)
+[pid: 5527|app: 0|req: 10/36] 119.101.56.211 () {42 vars in 877 bytes} [Tue Jun 27 08:04:07 2017] GET /favicon.ico => generated 1873 bytes in 5 msecs (HTTP/1.1 404) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 5521|app: 0|req: 11/37] 119.101.56.211 () {42 vars in 899 bytes} [Tue Jun 27 08:04:09 2017] GET /static/images/ico/DOTA-SF.ico => generated 2829178 bytes in 7 msecs via sendfile() (HTTP/1.1 200) 7 headers in 286 bytes (11 switches on core 0)
+[pid: 5523|app: 0|req: 5/38] 119.101.56.211 () {42 vars in 899 bytes} [Tue Jun 27 08:04:09 2017] GET /static/images/ico/DOTA-SF.ico => generated 2829178 bytes in 6 msecs via sendfile() (HTTP/1.1 200) 7 headers in 286 bytes (10 switches on core 0)
+[pid: 5525|app: 0|req: 1/39] 119.101.56.211 () {42 vars in 913 bytes} [Tue Jun 27 08:04:13 2017] GET /static/images/ico/DOTA-SF.ico => generated 2829178 bytes in 11 msecs via sendfile() (HTTP/1.1 200) 7 headers in 286 bytes (7 switches on core 0)
+[pid: 5527|app: 0|req: 11/40] 119.101.56.211 () {42 vars in 899 bytes} [Tue Jun 27 08:04:52 2017] GET /static/images/ico/DOTA-SF.ico => generated 2829178 bytes in 4 msecs via sendfile() (HTTP/1.1 200) 7 headers in 286 bytes (11 switches on core 0)
+[pid: 5527|app: 0|req: 12/41] 119.101.56.211 () {42 vars in 841 bytes} [Tue Jun 27 08:05:56 2017] GET / => generated 12401 bytes in 38 msecs (HTTP/1.1 200) 2 headers in 82 bytes (2 switches on core 0)
+[pid: 5521|app: 0|req: 12/42] 119.101.56.211 () {44 vars in 971 bytes} [Tue Jun 27 08:05:58 2017] GET /account/login/ => generated 2875 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 5529|app: 0|req: 6/43] 119.101.56.211 () {44 vars in 932 bytes} [Tue Jun 27 08:05:58 2017] GET / => generated 12401 bytes in 233 msecs (HTTP/1.1 200) 2 headers in 82 bytes (1 switches on core 0)
+[pid: 5527|app: 0|req: 13/44] 119.101.56.211 () {48 vars in 1068 bytes} [Tue Jun 27 08:05:59 2017] GET /static/cms/css/sweetalert.css => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 184 bytes (0 switches on core 0)
+[pid: 5521|app: 0|req: 13/45] 119.101.56.211 () {48 vars in 1062 bytes} [Tue Jun 27 08:05:59 2017] GET /static/cms/css/cms_base.css => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 182 bytes (0 switches on core 0)
+[pid: 5526|app: 0|req: 5/46] 119.101.56.211 () {48 vars in 1079 bytes} [Tue Jun 27 08:05:59 2017] GET /static/front/css/front_sign_base.css => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 181 bytes (0 switches on core 0)
+[pid: 5523|app: 0|req: 6/47] 119.101.56.211 () {42 vars in 899 bytes} [Tue Jun 27 08:06:00 2017] GET /static/images/ico/DOTA-SF.ico => generated 2829178 bytes in 6 msecs via sendfile() (HTTP/1.1 200) 7 headers in 286 bytes (6 switches on core 0)
+[pid: 5527|app: 0|req: 14/48] 119.101.56.211 () {44 vars in 904 bytes} [Tue Jun 27 08:06:30 2017] GET /post_detail/5/ => generated 10958 bytes in 15 msecs (HTTP/1.1 200) 2 headers in 82 bytes (2 switches on core 0)
+[pid: 5521|app: 0|req: 14/49] 119.101.56.211 () {44 vars in 904 bytes} [Tue Jun 27 08:06:36 2017] GET /account/login/ => generated 2875 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 5529|app: 0|req: 7/50] 119.101.56.211 () {42 vars in 871 bytes} [Tue Jun 27 08:06:36 2017] GET /static/front/css/front_sign_base.css => generated 729 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 7 headers in 277 bytes (0 switches on core 0)
+[pid: 5523|app: 0|req: 7/51] 119.101.56.211 () {42 vars in 848 bytes} [Tue Jun 27 08:06:36 2017] GET /static/front/js/front_captcha.js => generated 447 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 7 headers in 277 bytes (0 switches on core 0)
+[pid: 5525|app: 0|req: 2/52] 119.101.56.211 () {42 vars in 859 bytes} [Tue Jun 27 08:06:36 2017] GET /static/images/DOTA-SF.jpg => generated 79812 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 7 headers in 268 bytes (0 switches on core 0)
+MemCached: MemCache: inet:172.31.41.29:11211: connect: [Errno 111] Connection refused.  Marking dead.
+[pid: 5530|app: 0|req: 3/53] 119.101.56.211 () {42 vars in 853 bytes} [Tue Jun 27 08:06:36 2017] GET /account/graph_captcha/ => generated 3659 bytes in 22 msecs (HTTP/1.1 200) 2 headers in 66 bytes (1 switches on core 0)
+[pid: 5527|app: 0|req: 15/54] 119.101.56.211 () {42 vars in 806 bytes} [Tue Jun 27 08:06:42 2017] GET /favicon.ico => generated 1873 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 88 bytes (1 switches on core 0)
+MemCached: MemCache: inet:172.31.41.29:11211: connect: [Errno 111] Connection refused.  Marking dead.
+[pid: 5526|app: 0|req: 6/55] 119.101.56.211 () {52 vars in 1093 bytes} [Tue Jun 27 08:06:48 2017] POST /account/login/ => generated 2983 bytes in 28 msecs (HTTP/1.1 200) 2 headers in 81 bytes (2 switches on core 0)
+MemCached: MemCache: inet:172.31.41.29:11211: connect: [Errno 111] Connection refused.  Marking dead.
+[pid: 5527|app: 0|req: 16/56] 119.101.56.211 () {42 vars in 853 bytes} [Tue Jun 27 08:06:48 2017] GET /account/graph_captcha/ => generated 3190 bytes in 19 msecs (HTTP/1.1 200) 2 headers in 66 bytes (1 switches on core 0)
+MemCached: MemCache: inet:172.31.41.29:11211: connect: [Errno 111] Connection refused.  Marking dead.
+[pid: 5521|app: 0|req: 15/57] 119.101.56.211 () {52 vars in 1093 bytes} [Tue Jun 27 08:07:16 2017] POST /account/login/ => generated 2983 bytes in 9 msecs (HTTP/1.1 200) 2 headers in 81 bytes (2 switches on core 0)
+[pid: 5527|app: 0|req: 17/58] 119.101.56.211 () {42 vars in 853 bytes} [Tue Jun 27 08:07:16 2017] GET /account/graph_captcha/ => generated 2921 bytes in 8 msecs (HTTP/1.1 200) 2 headers in 66 bytes (1 switches on core 0)
+[pid: 5521|app: 0|req: 16/59] 119.101.56.211 () {48 vars in 1040 bytes} [Tue Jun 27 08:07:20 2017] GET /static/common/xtajax.js => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 5529|app: 0|req: 8/60] 119.101.56.211 () {48 vars in 1057 bytes} [Tue Jun 27 08:07:20 2017] GET /static/cms/js/sweetalert.min.js => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 184 bytes (0 switches on core 0)
+[pid: 5523|app: 0|req: 8/61] 119.101.56.211 () {48 vars in 1042 bytes} [Tue Jun 27 08:07:21 2017] GET /static/cms/js/xtalert.js => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 5530|app: 0|req: 4/62] 119.101.56.211 () {48 vars in 1043 bytes} [Tue Jun 27 08:07:21 2017] GET /static/cms/js/cms_base.js => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 182 bytes (0 switches on core 0)
+[pid: 5528|app: 0|req: 2/63] 119.101.56.211 () {48 vars in 1042 bytes} [Tue Jun 27 08:07:21 2017] GET /static/common/xtparam.js => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 5526|app: 0|req: 7/64] 119.101.56.211 () {48 vars in 1057 bytes} [Tue Jun 27 08:07:21 2017] GET /static/front/js/front_captcha.js => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 182 bytes (0 switches on core 0)
+[pid: 5524|app: 0|req: 1/65] 119.101.56.211 () {48 vars in 1069 bytes} [Tue Jun 27 08:07:22 2017] GET /static/images/DOTA-SF.jpg => generated 0 bytes in 7 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+MemCached: MemCache: inet:172.31.41.29:11211: connect: [Errno 111] Connection refused.  Marking dead.
+[pid: 5527|app: 0|req: 18/66] 119.101.56.211 () {44 vars in 955 bytes} [Tue Jun 27 08:07:22 2017] GET /account/graph_captcha/ => generated 2898 bytes in 8 msecs (HTTP/1.1 200) 2 headers in 66 bytes (1 switches on core 0)
+[pid: 5521|app: 0|req: 17/67] 119.101.56.211 () {52 vars in 1093 bytes} [Tue Jun 27 08:07:25 2017] POST /account/login/ => generated 2983 bytes in 7 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 5527|app: 0|req: 19/68] 119.101.56.211 () {42 vars in 853 bytes} [Tue Jun 27 08:07:25 2017] GET /account/graph_captcha/ => generated 2870 bytes in 8 msecs (HTTP/1.1 200) 2 headers in 66 bytes (1 switches on core 0)
+[pid: 5521|app: 0|req: 18/69] 119.101.56.211 () {42 vars in 899 bytes} [Tue Jun 27 08:07:42 2017] GET /static/images/ico/DOTA-SF.ico => generated 2829178 bytes in 4 msecs via sendfile() (HTTP/1.1 200) 7 headers in 286 bytes (11 switches on core 0)
+[pid: 5529|app: 0|req: 9/70] 119.101.56.211 () {42 vars in 899 bytes} [Tue Jun 27 08:07:42 2017] GET /static/images/ico/DOTA-SF.ico => generated 2829178 bytes in 4 msecs via sendfile() (HTTP/1.1 200) 7 headers in 286 bytes (11 switches on core 0)
+[pid: 5527|app: 0|req: 20/71] 119.101.56.211 () {44 vars in 920 bytes} [Tue Jun 27 08:09:17 2017] GET /account/regist/ => generated 3357 bytes in 12 msecs (HTTP/1.1 200) 2 headers in 81 bytes (2 switches on core 0)
+[pid: 5521|app: 0|req: 19/72] 119.101.56.211 () {42 vars in 847 bytes} [Tue Jun 27 08:09:17 2017] GET /static/front/js/front_regist.js => generated 1822 bytes in 4 msecs via sendfile() (HTTP/1.1 200) 7 headers in 279 bytes (0 switches on core 0)
+MemCached: MemCache: inet:172.31.41.29:11211: connect: [Errno 111] Connection refused.  Marking dead.
+[pid: 5523|app: 0|req: 9/73] 119.101.56.211 () {42 vars in 854 bytes} [Tue Jun 27 08:09:17 2017] GET /account/graph_captcha/ => generated 3479 bytes in 19 msecs (HTTP/1.1 200) 2 headers in 66 bytes (1 switches on core 0)
+MemCached: MemCache: inet:172.31.41.29:11211: connect: [Errno 111] Connection refused.  Marking dead.
+[pid: 5527|app: 0|req: 21/74] 119.101.56.211 () {44 vars in 907 bytes} [Tue Jun 27 08:09:24 2017] GET /account/sms_captcha/?telephone=13971770062 => generated 36 bytes in 1245 msecs (HTTP/1.1 200) 2 headers in 71 bytes (3 switches on core 0)
+MemCached: MemCache: inet:172.31.41.29:11211: connect: [Errno 111] Connection refused.  Marking dead.
+[pid: 5527|app: 0|req: 22/75] 119.101.56.211 () {52 vars in 1096 bytes} [Tue Jun 27 08:09:58 2017] POST /account/regist/ => generated 3461 bytes in 8 msecs (HTTP/1.1 200) 2 headers in 81 bytes (2 switches on core 0)
+MemCached: MemCache: inet:172.31.41.29:11211: connect: [Errno 111] Connection refused.  Marking dead.
+[pid: 5521|app: 0|req: 20/76] 119.101.56.211 () {42 vars in 854 bytes} [Tue Jun 27 08:09:58 2017] GET /account/graph_captcha/ => generated 3211 bytes in 18 msecs (HTTP/1.1 200) 2 headers in 66 bytes (1 switches on core 0)
+[pid: 5527|app: 0|req: 23/77] 119.101.56.211 () {44 vars in 920 bytes} [Tue Jun 27 08:10:01 2017] GET /account/regist/ => generated 3357 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 5527|app: 0|req: 24/78] 119.101.56.211 () {44 vars in 919 bytes} [Tue Jun 27 08:20:38 2017] GET /account/login/ => generated 2875 bytes in 7 msecs (HTTP/1.1 200) 2 headers in 81 bytes (2 switches on core 0)
+[pid: 5521|app: 0|req: 21/79] 119.101.56.211 () {42 vars in 853 bytes} [Tue Jun 27 08:20:38 2017] GET /account/graph_captcha/ => generated 3602 bytes in 8 msecs (HTTP/1.1 200) 2 headers in 66 bytes (1 switches on core 0)
+[pid: 5527|app: 0|req: 25/80] 119.101.56.211 () {52 vars in 1093 bytes} [Tue Jun 27 08:20:52 2017] POST /account/login/ => generated 2983 bytes in 8 msecs (HTTP/1.1 200) 2 headers in 81 bytes (2 switches on core 0)
+[pid: 5521|app: 0|req: 22/81] 119.101.56.211 () {42 vars in 853 bytes} [Tue Jun 27 08:20:52 2017] GET /account/graph_captcha/ => generated 2817 bytes in 8 msecs (HTTP/1.1 200) 2 headers in 66 bytes (1 switches on core 0)
+[pid: 5527|app: 0|req: 26/82] 119.101.56.211 () {44 vars in 975 bytes} [Tue Jun 27 09:01:39 2017] GET /account/login/ => generated 2875 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 81 bytes (2 switches on core 0)
+MemCached: MemCache: inet:172.31.41.29:11211: connect: [Errno 111] Connection refused.  Marking dead.
+[pid: 5521|app: 0|req: 23/83] 119.101.56.211 () {42 vars in 924 bytes} [Tue Jun 27 09:01:39 2017] GET /account/graph_captcha/ => generated 3199 bytes in 9 msecs (HTTP/1.1 200) 2 headers in 66 bytes (1 switches on core 0)
+[pid: 5527|app: 0|req: 27/84] 119.101.56.211 () {42 vars in 877 bytes} [Tue Jun 27 09:01:41 2017] GET /favicon.ico => generated 1873 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 88 bytes (1 switches on core 0)
+MemCached: MemCache: inet:172.31.41.29:11211: connect: [Errno 111] Connection refused.  Marking dead.
+[pid: 5524|app: 0|req: 2/85] 119.101.56.211 () {52 vars in 1170 bytes} [Tue Jun 27 09:01:56 2017] POST /account/login/ => generated 2983 bytes in 84 msecs (HTTP/1.1 200) 2 headers in 81 bytes (2 switches on core 0)
+[pid: 5527|app: 0|req: 28/86] 119.101.56.211 () {42 vars in 924 bytes} [Tue Jun 27 09:01:56 2017] GET /account/graph_captcha/ => generated 3167 bytes in 8 msecs (HTTP/1.1 200) 2 headers in 66 bytes (1 switches on core 0)
+[pid: 5521|app: 0|req: 24/87] 119.101.56.211 () {52 vars in 1170 bytes} [Tue Jun 27 09:02:11 2017] POST /account/login/ => generated 209 bytes in 20 msecs (HTTP/1.1 302) 4 headers in 366 bytes (2 switches on core 0)
+[pid: 5527|app: 0|req: 29/88] 119.101.56.211 () {46 vars in 1041 bytes} [Tue Jun 27 09:02:12 2017] GET / => generated 12916 bytes in 41 msecs (HTTP/1.1 200) 2 headers in 82 bytes (1 switches on core 0)
+[pid: 5521|app: 0|req: 25/89] 119.101.56.211 () {46 vars in 1033 bytes} [Tue Jun 27 09:02:12 2017] GET /static/images/ico/DOTA-SF.ico => generated 2829178 bytes in 8 msecs via sendfile() (HTTP/1.1 200) 7 headers in 286 bytes (6 switches on core 0)
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1994, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1985, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1540, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "./views/frontviews/accountviews.py", line 161, in personal_center
+    print '此用户是:',user.username
+UnicodeEncodeError: 'ascii' codec can't encode characters in position 0-3: ordinal not in range(128)
+[pid: 5529|app: 0|req: 10/90] 119.101.56.211 () {44 vars in 1105 bytes} [Tue Jun 27 09:02:19 2017] GET /account/personal_center/?user_id=44T6qymqkYNGAf2XVnqbFY => generated 0 bytes in 11 msecs (HTTP/1.1 500) 0 headers in 0 bytes (1 switches on core 0)
+[pid: 5527|app: 0|req: 30/91] 119.101.56.211 () {42 vars in 967 bytes} [Tue Jun 27 09:02:19 2017] GET /favicon.ico => generated 1873 bytes in 5 msecs (HTTP/1.1 404) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 5521|app: 0|req: 26/92] 119.101.56.211 () {44 vars in 1030 bytes} [Tue Jun 27 09:02:25 2017] GET /account/settings/ => generated 5409 bytes in 14 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 5527|app: 0|req: 31/93] 119.101.56.211 () {42 vars in 992 bytes} [Tue Jun 27 09:02:26 2017] GET /static/front/css/front_settings.css => generated 456 bytes in 4 msecs via sendfile() (HTTP/1.1 200) 7 headers in 278 bytes (0 switches on core 0)
+[pid: 5529|app: 0|req: 11/94] 119.101.56.211 () {42 vars in 985 bytes} [Tue Jun 27 09:02:27 2017] GET /static/front/js/front_settings-qiniu.js => generated 6896 bytes in 5 msecs via sendfile() (HTTP/1.1 200) 7 headers in 279 bytes (0 switches on core 0)
+[pid: 5526|app: 0|req: 8/95] 119.101.56.211 () {42 vars in 955 bytes} [Tue Jun 27 09:02:27 2017] GET /static/common/xtqiniu.js => generated 2115 bytes in 22 msecs via sendfile() (HTTP/1.1 200) 7 headers in 279 bytes (0 switches on core 0)
+[pid: 5527|app: 0|req: 32/96] 119.101.56.211 () {46 vars in 987 bytes} [Tue Jun 27 09:02:28 2017] GET /qiniu_token => generated 269 bytes in 7 msecs (HTTP/1.1 301) 3 headers in 138 bytes (1 switches on core 0)
+[pid: 5521|app: 0|req: 27/97] 119.101.56.211 () {46 vars in 989 bytes} [Tue Jun 27 09:02:28 2017] GET /qiniu_token/ => generated 146 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 72 bytes (2 switches on core 0)
+[pid: 5529|app: 0|req: 12/98] 119.101.56.211 () {44 vars in 1013 bytes} [Tue Jun 27 09:02:30 2017] GET / => generated 12916 bytes in 37 msecs (HTTP/1.1 200) 2 headers in 82 bytes (1 switches on core 0)
+[pid: 5527|app: 0|req: 33/99] 119.101.56.211 () {42 vars in 948 bytes} [Tue Jun 27 09:02:33 2017] GET /static/images/ico/DOTA-SF.ico => generated 2829178 bytes in 8 msecs via sendfile() (HTTP/1.1 200) 7 headers in 286 bytes (6 switches on core 0)
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1994, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1985, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1540, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "./views/frontviews/accountviews.py", line 161, in personal_center
+    print '此用户是:',user.username
+UnicodeEncodeError: 'ascii' codec can't encode characters in position 0-3: ordinal not in range(128)
+[pid: 5521|app: 0|req: 28/100] 119.101.56.211 () {44 vars in 1105 bytes} [Tue Jun 27 09:02:34 2017] GET /account/personal_center/?user_id=44T6qymqkYNGAf2XVnqbFY => generated 0 bytes in 9 msecs (HTTP/1.1 500) 0 headers in 0 bytes (0 switches on core 0)
+[pid: 5527|app: 0|req: 34/101] 119.101.56.211 () {42 vars in 967 bytes} [Tue Jun 27 09:02:34 2017] GET /favicon.ico => generated 1873 bytes in 5 msecs (HTTP/1.1 404) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 5529|app: 0|req: 13/102] 119.101.56.211 () {44 vars in 1024 bytes} [Tue Jun 27 09:02:38 2017] GET /post_detail/5/ => generated 11567 bytes in 35 msecs (HTTP/1.1 200) 2 headers in 82 bytes (1 switches on core 0)
+[pid: 5527|app: 0|req: 35/103] 119.101.56.211 () {52 vars in 1252 bytes} [Tue Jun 27 09:02:43 2017] POST /read_time/ => generated 36 bytes in 25 msecs (HTTP/1.1 200) 2 headers in 71 bytes (2 switches on core 0)
+[pid: 5521|app: 0|req: 29/104] 119.101.56.211 () {42 vars in 965 bytes} [Tue Jun 27 09:02:48 2017] GET /static/images/ico/DOTA-SF.ico => generated 2829178 bytes in 8 msecs via sendfile() (HTTP/1.1 200) 7 headers in 286 bytes (9 switches on core 0)
+[pid: 5529|app: 0|req: 14/105] 119.101.56.211 () {42 vars in 948 bytes} [Tue Jun 27 09:02:51 2017] GET /static/images/ico/DOTA-SF.ico => generated 2829178 bytes in 7 msecs via sendfile() (HTTP/1.1 200) 7 headers in 286 bytes (11 switches on core 0)
+[pid: 5526|app: 0|req: 9/106] 119.101.56.211 () {42 vars in 948 bytes} [Tue Jun 27 09:02:51 2017] GET /static/images/ico/DOTA-SF.ico => generated 2829178 bytes in 7 msecs via sendfile() (HTTP/1.1 200) 7 headers in 286 bytes (10 switches on core 0)
+[pid: 5524|app: 0|req: 3/107] 119.101.56.211 () {42 vars in 948 bytes} [Tue Jun 27 09:02:58 2017] GET /static/images/ico/DOTA-SF.ico => generated 2829178 bytes in 6 msecs via sendfile() (HTTP/1.1 200) 7 headers in 286 bytes (11 switches on core 0)
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1994, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1985, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1540, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/usr/local/lib/python2.7/dist-packages/flask/views.py", line 84, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/flask/views.py", line 149, in dispatch_request
+    return meth(*args, **kwargs)
+  File "./views/frontviews/accountviews.py", line 76, in post
+    if form.validate():
+  File "/usr/local/lib/python2.7/dist-packages/wtforms/form.py", line 310, in validate
+    return super(Form, self).validate(extra)
+  File "/usr/local/lib/python2.7/dist-packages/wtforms/form.py", line 152, in validate
+    if not field.validate(self, extra):
+  File "/usr/local/lib/python2.7/dist-packages/wtforms/fields/core.py", line 204, in validate
+    stop_validation = self._run_validation_chain(form, chain)
+  File "/usr/local/lib/python2.7/dist-packages/wtforms/fields/core.py", line 224, in _run_validation_chain
+    validator(form, self)
+  File "./forms/frontforms.py", line 15, in validate_graph_captcha
+    cache_captcha = xtcache.get(graph_captcha.lower())
+  File "./utils/xtcache.py", line 16, in get
+    return cache.get(key)
+  File "/usr/local/lib/python2.7/dist-packages/memcache.py", line 1129, in get
+    return self._get('get', key)
+  File "/usr/local/lib/python2.7/dist-packages/memcache.py", line 1073, in _get
+    self.check_key(key)
+  File "/usr/local/lib/python2.7/dist-packages/memcache.py", line 1330, in check_key
+    "Control/space characters not allowed (key=%r)" % key)
+memcache.MemcachedKeyCharacterError: Control/space characters not allowed (key=' fcvz')
+[pid: 5527|app: 0|req: 36/108] 119.101.56.211 () {52 vars in 1093 bytes} [Tue Jun 27 09:04:16 2017] POST /account/login/ => generated 0 bytes in 9 msecs (HTTP/1.1 500) 0 headers in 0 bytes (1 switches on core 0)
+[pid: 5521|app: 0|req: 30/109] 119.101.56.211 () {42 vars in 841 bytes} [Tue Jun 27 09:04:32 2017] GET / => generated 12401 bytes in 38 msecs (HTTP/1.1 200) 2 headers in 82 bytes (2 switches on core 0)
+[pid: 5527|app: 0|req: 37/110] 119.101.56.211 () {44 vars in 904 bytes} [Tue Jun 27 09:04:35 2017] GET /post_detail/5/ => generated 10958 bytes in 15 msecs (HTTP/1.1 200) 2 headers in 82 bytes (1 switches on core 0)
+[pid: 5521|app: 0|req: 31/111] 119.101.56.211 () {52 vars in 1126 bytes} [Tue Jun 27 09:04:39 2017] POST /read_time/ => generated 36 bytes in 8 msecs (HTTP/1.1 200) 2 headers in 71 bytes (2 switches on core 0)
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1994, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1985, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1540, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "./views/frontviews/accountviews.py", line 161, in personal_center
+    print '此用户是:',user.username
+UnicodeEncodeError: 'ascii' codec can't encode characters in position 0-3: ordinal not in range(128)
+[pid: 5529|app: 0|req: 15/112] 119.101.56.211 () {44 vars in 999 bytes} [Tue Jun 27 09:04:39 2017] GET /account/personal_center/?user_id=44T6qymqkYNGAf2XVnqbFY => generated 0 bytes in 7 msecs (HTTP/1.1 500) 0 headers in 0 bytes (0 switches on core 0)
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1994, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1985, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1540, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "./views/frontviews/accountviews.py", line 161, in personal_center
+    print '此用户是:',user.username
+UnicodeEncodeError: 'ascii' codec can't encode characters in position 0-3: ordinal not in range(128)
+[pid: 5527|app: 0|req: 38/113] 119.101.56.211 () {44 vars in 1119 bytes} [Tue Jun 27 09:04:45 2017] GET /account/personal_center/?user_id=44T6qymqkYNGAf2XVnqbFY => generated 0 bytes in 9 msecs (HTTP/1.1 500) 0 headers in 0 bytes (1 switches on core 0)
+[pid: 5521|app: 0|req: 32/114] 119.101.56.211 () {42 vars in 948 bytes} [Tue Jun 27 09:04:45 2017] GET /static/images/ico/DOTA-SF.ico => generated 2829178 bytes in 7 msecs via sendfile() (HTTP/1.1 200) 7 headers in 286 bytes (5 switches on core 0)
+[pid: 5529|app: 0|req: 16/115] 119.101.56.211 () {44 vars in 904 bytes} [Tue Jun 27 09:04:45 2017] GET /post_detail/3/ => generated 5860 bytes in 11 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 5527|app: 0|req: 39/116] 119.101.56.211 () {44 vars in 904 bytes} [Tue Jun 27 09:04:48 2017] GET /account/login/ => generated 2875 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 5521|app: 0|req: 33/117] 119.101.56.211 () {42 vars in 853 bytes} [Tue Jun 27 09:04:49 2017] GET /account/graph_captcha/ => generated 2979 bytes in 8 msecs (HTTP/1.1 200) 2 headers in 66 bytes (1 switches on core 0)
+[pid: 5527|app: 0|req: 40/118] 119.101.56.211 () {52 vars in 1093 bytes} [Tue Jun 27 09:04:59 2017] POST /account/login/ => generated 209 bytes in 15 msecs (HTTP/1.1 302) 4 headers in 366 bytes (2 switches on core 0)
+[pid: 5521|app: 0|req: 34/119] 119.101.56.211 () {46 vars in 970 bytes} [Tue Jun 27 09:05:00 2017] GET / => generated 12916 bytes in 38 msecs (HTTP/1.1 200) 2 headers in 82 bytes (1 switches on core 0)
+[pid: 5527|app: 0|req: 41/120] 119.101.56.211 () {44 vars in 953 bytes} [Tue Jun 27 09:05:04 2017] GET /post_detail/4/ => generated 12399 bytes in 16 msecs (HTTP/1.1 200) 2 headers in 82 bytes (1 switches on core 0)
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1994, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1985, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1540, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "./views/frontviews/accountviews.py", line 161, in personal_center
+    print '此用户是:',user.username
+UnicodeEncodeError: 'ascii' codec can't encode character u'\u5927' in position 0: ordinal not in range(128)
+[pid: 5521|app: 0|req: 35/121] 119.101.56.211 () {44 vars in 1048 bytes} [Tue Jun 27 09:05:06 2017] GET /account/personal_center/?user_id=GTBZ8pkGetJeECv48GytfM => generated 0 bytes in 9 msecs (HTTP/1.1 500) 0 headers in 0 bytes (0 switches on core 0)
+[pid: 5527|app: 0|req: 42/122] 119.101.56.211 () {42 vars in 962 bytes} [Tue Jun 27 09:06:28 2017] GET /static/images/ico/DOTA-SF.ico => generated 2829178 bytes in 6 msecs via sendfile() (HTTP/1.1 200) 7 headers in 286 bytes (11 switches on core 0)
+[pid: 5521|app: 0|req: 36/123] 119.101.56.211 () {42 vars in 967 bytes} [Tue Jun 27 09:06:41 2017] GET /favicon.ico => generated 1873 bytes in 8 msecs (HTTP/1.1 404) 2 headers in 88 bytes (2 switches on core 0)
+[pid: 5527|app: 0|req: 43/124] 119.101.56.211 () {44 vars in 953 bytes} [Tue Jun 27 09:17:15 2017] GET /post_detail/5/ => generated 11567 bytes in 16 msecs (HTTP/1.1 200) 2 headers in 82 bytes (2 switches on core 0)
+[pid: 5521|app: 0|req: 37/125] 119.101.56.211 () {52 vars in 1175 bytes} [Tue Jun 27 09:17:20 2017] POST /read_time/ => generated 36 bytes in 23 msecs (HTTP/1.1 200) 2 headers in 71 bytes (2 switches on core 0)
+[pid: 5527|app: 0|req: 44/126] 119.101.56.211 () {52 vars in 1183 bytes} [Tue Jun 27 09:17:27 2017] POST /comment_reply/ => generated 36 bytes in 10 msecs (HTTP/1.1 200) 2 headers in 71 bytes (3 switches on core 0)
+[pid: 5521|app: 0|req: 38/127] 119.101.56.211 () {46 vars in 998 bytes} [Tue Jun 27 09:17:28 2017] GET /post_detail/5/ => generated 11962 bytes in 15 msecs (HTTP/1.1 200) 2 headers in 82 bytes (1 switches on core 0)
+[pid: 5527|app: 0|req: 45/128] 119.101.56.211 () {48 vars in 1035 bytes} [Tue Jun 27 09:17:28 2017] GET /static/cms/js/sweetalert.min.js => generated 0 bytes in 4 msecs (HTTP/1.1 304) 4 headers in 184 bytes (0 switches on core 0)
+[pid: 5529|app: 0|req: 17/129] 119.101.56.211 () {48 vars in 1018 bytes} [Tue Jun 27 09:17:28 2017] GET /static/common/xtajax.js => generated 0 bytes in 3 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 5526|app: 0|req: 10/130] 119.101.56.211 () {48 vars in 1046 bytes} [Tue Jun 27 09:17:28 2017] GET /static/cms/css/sweetalert.css => generated 0 bytes in 4 msecs (HTTP/1.1 304) 4 headers in 184 bytes (0 switches on core 0)
+[pid: 5524|app: 0|req: 4/131] 119.101.56.211 () {48 vars in 1040 bytes} [Tue Jun 27 09:17:29 2017] GET /static/cms/css/cms_base.css => generated 0 bytes in 4 msecs (HTTP/1.1 304) 4 headers in 182 bytes (0 switches on core 0)
+[pid: 5523|app: 0|req: 10/132] 119.101.56.211 () {48 vars in 1074 bytes} [Tue Jun 27 09:17:29 2017] GET /static/common/editor/css/wangEditor.min.css => generated 0 bytes in 19 msecs (HTTP/1.1 304) 4 headers in 184 bytes (0 switches on core 0)
+[pid: 5527|app: 0|req: 46/133] 119.101.56.211 () {48 vars in 1020 bytes} [Tue Jun 27 09:17:29 2017] GET /static/cms/js/xtalert.js => generated 0 bytes in 8 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 5528|app: 0|req: 3/134] 119.101.56.211 () {48 vars in 1060 bytes} [Tue Jun 27 09:17:29 2017] GET /static/front/css/front_postdetail.css => generated 0 bytes in 138 msecs (HTTP/1.1 304) 4 headers in 182 bytes (0 switches on core 0)
+[pid: 5522|app: 0|req: 1/135] 119.101.56.211 () {48 vars in 1049 bytes} [Tue Jun 27 09:17:29 2017] GET /static/front/css/front_base.css => generated 0 bytes in 144 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 5527|app: 0|req: 47/136] 119.101.56.211 () {48 vars in 1020 bytes} [Tue Jun 27 09:17:29 2017] GET /static/common/xtparam.js => generated 0 bytes in 4 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 5521|app: 0|req: 39/137] 119.101.56.211 () {48 vars in 1021 bytes} [Tue Jun 27 09:17:29 2017] GET /static/cms/js/cms_base.js => generated 0 bytes in 4 msecs (HTTP/1.1 304) 4 headers in 182 bytes (0 switches on core 0)
+[pid: 5529|app: 0|req: 18/138] 119.101.56.211 () {48 vars in 1042 bytes} [Tue Jun 27 09:17:29 2017] GET /static/front/js/front_postdetail.js => generated 0 bytes in 3 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 5526|app: 0|req: 11/139] 119.101.56.211 () {48 vars in 1054 bytes} [Tue Jun 27 09:17:29 2017] GET /static/images/ad/ad-test.png => generated 0 bytes in 4 msecs (HTTP/1.1 304) 4 headers in 184 bytes (0 switches on core 0)
+[pid: 5524|app: 0|req: 5/140] 119.101.56.211 () {48 vars in 1056 bytes} [Tue Jun 27 09:17:29 2017] GET /static/images/default_img.png => generated 0 bytes in 6 msecs (HTTP/1.1 304) 4 headers in 184 bytes (0 switches on core 0)
+[pid: 5527|app: 0|req: 48/141] 119.101.56.211 () {44 vars in 939 bytes} [Tue Jun 27 09:17:32 2017] GET / => generated 12916 bytes in 41 msecs (HTTP/1.1 200) 2 headers in 82 bytes (1 switches on core 0)
+[pid: 5521|app: 0|req: 40/142] 119.101.56.211 () {44 vars in 953 bytes} [Tue Jun 27 09:17:35 2017] GET /post_detail/4/ => generated 12399 bytes in 16 msecs (HTTP/1.1 200) 2 headers in 82 bytes (1 switches on core 0)
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1994, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1985, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1540, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "./views/frontviews/accountviews.py", line 161, in personal_center
+    print '此用户是:',user.username
+UnicodeEncodeError: 'ascii' codec can't encode character u'\u5927' in position 0: ordinal not in range(128)
+[pid: 5527|app: 0|req: 49/143] 119.101.56.211 () {44 vars in 1048 bytes} [Tue Jun 27 09:17:37 2017] GET /account/personal_center/?user_id=GTBZ8pkGetJeECv48GytfM => generated 0 bytes in 9 msecs (HTTP/1.1 500) 0 headers in 0 bytes (0 switches on core 0)
+[uWSGI] getting INI configuration from sbbs_uwsgi.ini
+*** Starting uWSGI 2.0.15 (64bit) on [Wed Jun 28 03:54:40 2017] ***
+compiled with version: 5.4.0 20160609 on 22 June 2017 13:16:58
+os: Linux-4.4.0-1020-aws #29-Ubuntu SMP Wed Jun 14 15:54:52 UTC 2017
+nodename: ip-172-31-41-29
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/yk_flask/sbbs
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/yk_flask/sbbs
+your processes number limit is 3903
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/ubuntu/yk_flask/sbbs/sbbs.sock fd 3
+Python version: 2.7.12 (default, Nov 19 2016, 06:48:10)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0xe0cb00
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 800360 bytes (781 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0xe0cb00 pid: 6653 (default app)
+mountpoint  already configured. skip.
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 6653)
+spawned uWSGI worker 1 (pid: 6658, cores: 1)
+spawned uWSGI worker 2 (pid: 6659, cores: 1)
+spawned uWSGI worker 3 (pid: 6660, cores: 1)
+spawned uWSGI worker 4 (pid: 6661, cores: 1)
+spawned uWSGI worker 5 (pid: 6662, cores: 1)
+spawned uWSGI worker 6 (pid: 6663, cores: 1)
+spawned uWSGI worker 7 (pid: 6664, cores: 1)
+spawned uWSGI worker 8 (pid: 6665, cores: 1)
+spawned uWSGI worker 9 (pid: 6666, cores: 1)
+spawned uWSGI worker 10 (pid: 6667, cores: 1)
+[pid: 6661|app: 0|req: 1/1] 61.184.232.175 () {44 vars in 872 bytes} [Wed Jun 28 03:54:48 2017] GET / => generated 12401 bytes in 289 msecs (HTTP/1.1 200) 3 headers in 285 bytes (1 switches on core 0)
+[pid: 6667|app: 0|req: 1/2] 61.184.232.175 () {48 vars in 955 bytes} [Wed Jun 28 03:54:49 2017] GET /static/common/xtajax.js => generated 0 bytes in 41 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 6666|app: 0|req: 1/3] 61.184.232.175 () {48 vars in 972 bytes} [Wed Jun 28 03:54:49 2017] GET /static/cms/js/sweetalert.min.js => generated 0 bytes in 37 msecs (HTTP/1.1 304) 4 headers in 184 bytes (0 switches on core 0)
+[pid: 6665|app: 0|req: 1/4] 61.184.232.175 () {48 vars in 957 bytes} [Wed Jun 28 03:54:49 2017] GET /static/cms/js/xtalert.js => generated 0 bytes in 21 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 6667|app: 0|req: 2/5] 61.184.232.175 () {48 vars in 983 bytes} [Wed Jun 28 03:54:49 2017] GET /static/cms/css/sweetalert.css => generated 0 bytes in 2 msecs (HTTP/1.1 304) 4 headers in 184 bytes (0 switches on core 0)
+[pid: 6662|app: 0|req: 1/6] 61.184.232.175 () {48 vars in 986 bytes} [Wed Jun 28 03:54:49 2017] GET /static/front/css/front_base.css => generated 0 bytes in 9 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 6667|app: 0|req: 3/7] 61.184.232.175 () {48 vars in 977 bytes} [Wed Jun 28 03:54:49 2017] GET /static/cms/css/cms_base.css => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 182 bytes (0 switches on core 0)
+[pid: 6661|app: 0|req: 2/8] 61.184.232.175 () {48 vars in 998 bytes} [Wed Jun 28 03:54:49 2017] GET /static/front/css/iconfont/iconfont.css => generated 0 bytes in 4 msecs (HTTP/1.1 304) 4 headers in 181 bytes (0 switches on core 0)
+[pid: 6663|app: 0|req: 1/9] 61.184.232.175 () {48 vars in 987 bytes} [Wed Jun 28 03:54:49 2017] GET /static/front/css/front_index.css => generated 0 bytes in 12 msecs (HTTP/1.1 304) 4 headers in 182 bytes (0 switches on core 0)
+[pid: 6667|app: 0|req: 4/10] 61.184.232.175 () {48 vars in 958 bytes} [Wed Jun 28 03:54:49 2017] GET /static/cms/js/cms_base.js => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 182 bytes (0 switches on core 0)
+[pid: 6666|app: 0|req: 2/11] 61.184.232.175 () {48 vars in 957 bytes} [Wed Jun 28 03:54:49 2017] GET /static/common/xtparam.js => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 6658|app: 0|req: 1/12] 61.184.232.175 () {48 vars in 968 bytes} [Wed Jun 28 03:54:49 2017] GET /static/front/js/front_index.js => generated 0 bytes in 8 msecs (HTTP/1.1 304) 4 headers in 182 bytes (0 switches on core 0)
+[pid: 6667|app: 0|req: 5/13] 61.184.232.175 () {48 vars in 993 bytes} [Wed Jun 28 03:54:49 2017] GET /static/images/default_img.png => generated 0 bytes in 2 msecs (HTTP/1.1 304) 4 headers in 184 bytes (0 switches on core 0)
+[pid: 6666|app: 0|req: 3/14] 61.184.232.175 () {50 vars in 1089 bytes} [Wed Jun 28 03:54:50 2017] GET /static/front/css/iconfont/iconfont.woff?t=1483088023095 => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 6664|app: 0|req: 1/15] 61.184.232.175 () {46 vars in 881 bytes} [Wed Jun 28 03:54:50 2017] GET /static/images/ico/DOTA-SF.ico => generated 2829178 bytes in 26 msecs via sendfile() (HTTP/1.1 200) 7 headers in 286 bytes (1 switches on core 0)
+[pid: 6667|app: 0|req: 6/16] 61.184.232.175 () {44 vars in 904 bytes} [Wed Jun 28 03:54:52 2017] GET /post_detail/5/ => generated 12566 bytes in 139 msecs (HTTP/1.1 200) 2 headers in 82 bytes (1 switches on core 0)
+[pid: 6666|app: 0|req: 4/17] 61.184.232.175 () {42 vars in 873 bytes} [Wed Jun 28 03:54:52 2017] GET /static/front/css/front_postdetail.css => generated 4190 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 7 headers in 279 bytes (0 switches on core 0)
+[pid: 6658|app: 0|req: 2/18] 61.184.232.175 () {42 vars in 854 bytes} [Wed Jun 28 03:54:52 2017] GET /static/front/js/front_postdetail.js => generated 3570 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 7 headers in 279 bytes (0 switches on core 0)
+[pid: 6663|app: 0|req: 2/19] 61.184.232.175 () {42 vars in 885 bytes} [Wed Jun 28 03:54:52 2017] GET /static/common/editor/css/wangEditor.min.css => generated 15141 bytes in 3 msecs via sendfile() (HTTP/1.1 200) 7 headers in 282 bytes (0 switches on core 0)
+[pid: 6664|app: 0|req: 2/20] 61.184.232.175 () {42 vars in 865 bytes} [Wed Jun 28 03:54:52 2017] GET /static/images/ad/ad-test.png => generated 46249 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 7 headers in 268 bytes (0 switches on core 0)
+[pid: 6661|app: 0|req: 3/21] 61.184.232.175 () {44 vars in 896 bytes} [Wed Jun 28 03:54:56 2017] GET /list/1/2/1 => generated 9780 bytes in 32 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 6667|app: 0|req: 7/22] 61.184.232.175 () {46 vars in 921 bytes} [Wed Jun 28 03:54:57 2017] GET /static/images/ico/DOTA-SF.ico => generated 2829178 bytes in 7 msecs via sendfile() (HTTP/1.1 200) 7 headers in 286 bytes (6 switches on core 0)
+[pid: 6666|app: 0|req: 5/23] 61.184.232.175 () {44 vars in 906 bytes} [Wed Jun 28 03:54:59 2017] GET /list/1/3/1 => generated 9780 bytes in 243 msecs (HTTP/1.1 200) 2 headers in 81 bytes (2 switches on core 0)
+[pid: 6667|app: 0|req: 8/24] 61.184.232.175 () {46 vars in 919 bytes} [Wed Jun 28 03:54:59 2017] GET /static/images/ico/DOTA-SF.ico => generated 2829178 bytes in 11 msecs via sendfile() (HTTP/1.1 200) 7 headers in 286 bytes (0 switches on core 0)
+[pid: 6665|app: 0|req: 2/25] 61.184.232.175 () {44 vars in 906 bytes} [Wed Jun 28 03:55:01 2017] GET /list/1/2/1 => generated 9780 bytes in 274 msecs (HTTP/1.1 200) 2 headers in 81 bytes (2 switches on core 0)
+[pid: 6667|app: 0|req: 9/26] 61.184.232.175 () {46 vars in 921 bytes} [Wed Jun 28 03:55:02 2017] GET /static/images/ico/DOTA-SF.ico => generated 2829178 bytes in 21 msecs via sendfile() (HTTP/1.1 200) 7 headers in 286 bytes (0 switches on core 0)
+[pid: 6666|app: 0|req: 6/27] 61.184.232.175 () {44 vars in 906 bytes} [Wed Jun 28 03:55:05 2017] GET /list/1/1/1 => generated 9780 bytes in 33 msecs (HTTP/1.1 200) 2 headers in 81 bytes (2 switches on core 0)
+[pid: 6667|app: 0|req: 10/28] 61.184.232.175 () {46 vars in 921 bytes} [Wed Jun 28 03:55:05 2017] GET /static/images/ico/DOTA-SF.ico => generated 2829178 bytes in 6 msecs via sendfile() (HTTP/1.1 200) 7 headers in 286 bytes (6 switches on core 0)
+[pid: 6665|app: 0|req: 3/29] 61.184.232.175 () {44 vars in 906 bytes} [Wed Jun 28 03:55:07 2017] GET /list/1/2/1 => generated 9780 bytes in 32 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 6667|app: 0|req: 11/30] 61.184.232.175 () {46 vars in 919 bytes} [Wed Jun 28 03:55:07 2017] GET /static/images/ico/DOTA-SF.ico => generated 2829178 bytes in 6 msecs via sendfile() (HTTP/1.1 200) 7 headers in 286 bytes (6 switches on core 0)
+[pid: 6666|app: 0|req: 7/31] 61.184.232.175 () {42 vars in 838 bytes} [Wed Jun 28 03:55:28 2017] GET /static/images/ico/DOTA-SF.ico => generated 2829178 bytes in 14 msecs via sendfile() (HTTP/1.1 200) 7 headers in 286 bytes (2 switches on core 0)
+[pid: 6667|app: 0|req: 12/32] 61.184.232.175 () {44 vars in 914 bytes} [Wed Jun 28 03:55:58 2017] GET /post_detail/2/ => generated 5897 bytes in 15 msecs (HTTP/1.1 200) 2 headers in 81 bytes (2 switches on core 0)
+[pid: 6666|app: 0|req: 8/33] 61.184.232.175 () {52 vars in 1126 bytes} [Wed Jun 28 03:56:01 2017] POST /read_time/ => generated 36 bytes in 45 msecs (HTTP/1.1 200) 2 headers in 71 bytes (2 switches on core 0)
+[pid: 6667|app: 0|req: 13/34] 61.184.232.175 () {44 vars in 890 bytes} [Wed Jun 28 03:56:07 2017] GET / => generated 12402 bytes in 329 msecs (HTTP/1.1 200) 2 headers in 82 bytes (2 switches on core 0)
+Wed Jun 28 04:02:45 2017 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 296] during GET /post_detail/5/ (61.184.232.175)
+IOError: write error
+[pid: 6666|app: 0|req: 9/35] 61.184.232.175 () {44 vars in 904 bytes} [Wed Jun 28 04:01:23 2017] GET /post_detail/5/ => generated 0 bytes in 82069 msecs (HTTP/1.1 200) 2 headers in 0 bytes (0 switches on core 0)
+Wed Jun 28 04:02:47 2017 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 296] during GET / (61.184.232.175)
+IOError: write error
+[pid: 6663|app: 0|req: 3/36] 61.184.232.175 () {42 vars in 841 bytes} [Wed Jun 28 04:01:10 2017] GET / => generated 0 bytes in 97187 msecs (HTTP/1.1 200) 2 headers in 0 bytes (0 switches on core 0)
+...brutally killing workers...
+Gracefully killing worker 1 (pid: 6658)...
+Gracefully killing worker 2 (pid: 6659)...
+Gracefully killing worker 3 (pid: 6660)...
+Gracefully killing worker 4 (pid: 6661)...
+worker 1 buried after 8 seconds
+Gracefully killing worker 5 (pid: 6662)...
+Gracefully killing worker 6 (pid: 6663)...
+Gracefully killing worker 7 (pid: 6664)...
+Gracefully killing worker 8 (pid: 6665)...
+Gracefully killing worker 9 (pid: 6666)...
+Gracefully killing worker 10 (pid: 6667)...
+worker 2 buried after 8 seconds
+worker 3 buried after 8 seconds
+worker 4 buried after 8 seconds
+worker 5 buried after 8 seconds
+worker 7 buried after 8 seconds
+worker 6 buried after 9 seconds
+worker 8 buried after 9 seconds
+worker 9 buried after 9 seconds
+worker 10 buried after 9 seconds
+binary reloading uWSGI...
+chdir() to /home/ubuntu/yk_flask/sbbs
+closing all non-uwsgi socket fds > 2 (max_fd = 1024)...
+found fd 3 mapped to socket 0 (/home/ubuntu/yk_flask/sbbs/sbbs.sock)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from sbbs_uwsgi.ini
+*** Starting uWSGI 2.0.15 (64bit) on [Wed Jun 28 04:05:49 2017] ***
+compiled with version: 5.4.0 20160609 on 22 June 2017 13:16:58
+os: Linux-4.4.0-1020-aws #29-Ubuntu SMP Wed Jun 14 15:54:52 UTC 2017
+nodename: ip-172-31-41-29
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/yk_flask/sbbs
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/yk_flask/sbbs
+your processes number limit is 3903
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/ubuntu/yk_flask/sbbs/sbbs.sock fd 3
+Python version: 2.7.12 (default, Nov 19 2016, 06:48:10)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1f8fb00
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 800360 bytes (781 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x1f8fb00 pid: 6793 (default app)
+mountpoint  already configured. skip.
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 6793)
+spawned uWSGI worker 1 (pid: 6818, cores: 1)
+spawned uWSGI worker 2 (pid: 6819, cores: 1)
+spawned uWSGI worker 3 (pid: 6820, cores: 1)
+spawned uWSGI worker 4 (pid: 6821, cores: 1)
+spawned uWSGI worker 5 (pid: 6822, cores: 1)
+spawned uWSGI worker 6 (pid: 6833, cores: 1)
+spawned uWSGI worker 7 (pid: 6834, cores: 1)
+spawned uWSGI worker 8 (pid: 6835, cores: 1)
+spawned uWSGI worker 9 (pid: 6836, cores: 1)
+spawned uWSGI worker 10 (pid: 6837, cores: 1)
+[uWSGI] getting INI configuration from sbbs_uwsgi.ini
+*** Starting uWSGI 2.0.15 (64bit) on [Thu Jun 29 03:53:11 2017] ***
+compiled with version: 5.4.0 20160609 on 22 June 2017 13:16:58
+os: Linux-4.4.0-1020-aws #29-Ubuntu SMP Wed Jun 14 15:54:52 UTC 2017
+nodename: ip-172-31-41-29
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/yk_flask/sbbs
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/yk_flask/sbbs
+your processes number limit is 3903
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/ubuntu/yk_flask/sbbs/sbbs.sock fd 3
+Python version: 2.7.12 (default, Nov 19 2016, 06:48:10)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1bb0b00
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 800360 bytes (781 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x1bb0b00 pid: 2817 (default app)
+mountpoint  already configured. skip.
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 2817)
+spawned uWSGI worker 1 (pid: 2822, cores: 1)
+spawned uWSGI worker 2 (pid: 2823, cores: 1)
+spawned uWSGI worker 3 (pid: 2824, cores: 1)
+spawned uWSGI worker 4 (pid: 2825, cores: 1)
+spawned uWSGI worker 5 (pid: 2826, cores: 1)
+spawned uWSGI worker 6 (pid: 2827, cores: 1)
+spawned uWSGI worker 7 (pid: 2828, cores: 1)
+spawned uWSGI worker 8 (pid: 2829, cores: 1)
+spawned uWSGI worker 9 (pid: 2830, cores: 1)
+spawned uWSGI worker 10 (pid: 2831, cores: 1)
+[pid: 2824|app: 0|req: 1/1] 171.112.239.217 () {46 vars in 928 bytes} [Thu Jun 29 03:53:18 2017] GET /list/1/3/0 => generated 13781 bytes in 238 msecs (HTTP/1.1 200) 3 headers in 285 bytes (1 switches on core 0)
+[pid: 2828|app: 0|req: 1/2] 171.112.239.217 () {48 vars in 969 bytes} [Thu Jun 29 03:53:18 2017] GET /static/cms/js/cms_base.js => generated 0 bytes in 21 msecs (HTTP/1.1 304) 4 headers in 182 bytes (0 switches on core 0)
+[pid: 2826|app: 0|req: 1/3] 171.112.239.217 () {48 vars in 994 bytes} [Thu Jun 29 03:53:18 2017] GET /static/cms/css/sweetalert.css => generated 0 bytes in 35 msecs (HTTP/1.1 304) 4 headers in 184 bytes (0 switches on core 0)
+[pid: 2829|app: 0|req: 1/4] 171.112.239.217 () {48 vars in 968 bytes} [Thu Jun 29 03:53:18 2017] GET /static/cms/js/xtalert.js => generated 0 bytes in 29 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 2823|app: 0|req: 1/5] 171.112.239.217 () {48 vars in 988 bytes} [Thu Jun 29 03:53:18 2017] GET /static/cms/css/cms_base.css => generated 0 bytes in 22 msecs (HTTP/1.1 304) 4 headers in 182 bytes (0 switches on core 0)
+[pid: 2822|app: 0|req: 1/6] 171.112.239.217 () {48 vars in 966 bytes} [Thu Jun 29 03:53:18 2017] GET /static/common/xtajax.js => generated 0 bytes in 41 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 2827|app: 0|req: 1/7] 171.112.239.217 () {48 vars in 983 bytes} [Thu Jun 29 03:53:18 2017] GET /static/cms/js/sweetalert.min.js => generated 0 bytes in 40 msecs (HTTP/1.1 304) 4 headers in 184 bytes (0 switches on core 0)
+[pid: 2828|app: 0|req: 2/8] 171.112.239.217 () {48 vars in 998 bytes} [Thu Jun 29 03:53:18 2017] GET /static/front/css/front_index.css => generated 0 bytes in 4 msecs (HTTP/1.1 304) 4 headers in 182 bytes (0 switches on core 0)
+[pid: 2826|app: 0|req: 2/9] 171.112.239.217 () {48 vars in 979 bytes} [Thu Jun 29 03:53:18 2017] GET /static/front/js/front_index.js => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 182 bytes (0 switches on core 0)
+[pid: 2824|app: 0|req: 2/10] 171.112.239.217 () {48 vars in 1004 bytes} [Thu Jun 29 03:53:18 2017] GET /static/images/default_img.png => generated 0 bytes in 15 msecs (HTTP/1.1 304) 4 headers in 184 bytes (0 switches on core 0)
+[pid: 2831|app: 0|req: 1/11] 171.112.239.217 () {48 vars in 968 bytes} [Thu Jun 29 03:53:18 2017] GET /static/common/xtparam.js => generated 0 bytes in 27 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 2825|app: 0|req: 1/12] 171.112.239.217 () {48 vars in 1009 bytes} [Thu Jun 29 03:53:18 2017] GET /static/front/css/iconfont/iconfont.css => generated 0 bytes in 19 msecs (HTTP/1.1 304) 4 headers in 181 bytes (0 switches on core 0)
+[pid: 2830|app: 0|req: 1/13] 171.112.239.217 () {48 vars in 997 bytes} [Thu Jun 29 03:53:18 2017] GET /static/front/css/front_base.css => generated 0 bytes in 22 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 2822|app: 0|req: 2/14] 171.112.239.217 () {46 vars in 892 bytes} [Thu Jun 29 03:53:19 2017] GET /static/images/ico/DOTA-SF.ico => generated 2829178 bytes in 5 msecs via sendfile() (HTTP/1.1 200) 7 headers in 286 bytes (5 switches on core 0)
+[pid: 2823|app: 0|req: 2/15] 171.112.239.217 () {44 vars in 915 bytes} [Thu Jun 29 03:53:20 2017] GET /post_detail/5/ => generated 13240 bytes in 107 msecs (HTTP/1.1 200) 2 headers in 82 bytes (1 switches on core 0)
+[pid: 2826|app: 0|req: 3/16] 171.112.239.217 () {42 vars in 886 bytes} [Thu Jun 29 03:53:20 2017] GET /static/common/editor/css/wangEditor.min.css => generated 15141 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 7 headers in 282 bytes (0 switches on core 0)
+[pid: 2822|app: 0|req: 3/17] 171.112.239.217 () {46 vars in 963 bytes} [Thu Jun 29 03:53:20 2017] GET /static/front/js/front_postdetail.js => generated 0 bytes in 2 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 2829|app: 0|req: 2/18] 171.112.239.217 () {42 vars in 874 bytes} [Thu Jun 29 03:53:20 2017] GET /static/front/css/front_postdetail.css => generated 4190 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 7 headers in 279 bytes (0 switches on core 0)
+[pid: 2825|app: 0|req: 2/19] 171.112.239.217 () {42 vars in 866 bytes} [Thu Jun 29 03:53:20 2017] GET /static/images/ad/ad-test.png => generated 46249 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 7 headers in 268 bytes (0 switches on core 0)
+[pid: 2827|app: 0|req: 2/20] 171.112.239.217 () {44 vars in 915 bytes} [Thu Jun 29 03:53:22 2017] GET /post_detail/4/ => generated 11790 bytes in 110 msecs (HTTP/1.1 200) 2 headers in 82 bytes (1 switches on core 0)
+[pid: 2822|app: 0|req: 4/21] 171.112.239.217 () {44 vars in 907 bytes} [Thu Jun 29 03:53:29 2017] GET /list/1/1/0 => generated 13781 bytes in 231 msecs (HTTP/1.1 200) 2 headers in 82 bytes (1 switches on core 0)
+[pid: 2823|app: 0|req: 3/22] 171.112.239.217 () {46 vars in 922 bytes} [Thu Jun 29 03:53:30 2017] GET /static/images/ico/DOTA-SF.ico => generated 2829178 bytes in 7 msecs via sendfile() (HTTP/1.1 200) 7 headers in 286 bytes (6 switches on core 0)
+[pid: 2831|app: 0|req: 2/23] 171.112.239.217 () {44 vars in 915 bytes} [Thu Jun 29 03:53:31 2017] GET /post_detail/6/ => generated 5596 bytes in 103 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 2822|app: 0|req: 5/24] 171.112.239.217 () {52 vars in 1127 bytes} [Thu Jun 29 03:53:35 2017] POST /read_time/ => generated 36 bytes in 8 msecs (HTTP/1.1 200) 2 headers in 71 bytes (2 switches on core 0)
+[pid: 2823|app: 0|req: 4/25] 171.112.239.217 () {44 vars in 934 bytes} [Thu Jun 29 03:53:36 2017] GET /add_comment/?post_id=6 => generated 237 bytes in 2 msecs (HTTP/1.1 302) 3 headers in 128 bytes (1 switches on core 0)
+[pid: 2830|app: 0|req: 2/26] 171.112.239.217 () {44 vars in 919 bytes} [Thu Jun 29 03:53:37 2017] GET /account/login/ => generated 2875 bytes in 19 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 2828|app: 0|req: 3/27] 171.112.239.217 () {42 vars in 872 bytes} [Thu Jun 29 03:53:37 2017] GET /static/front/css/front_sign_base.css => generated 729 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 7 headers in 277 bytes (0 switches on core 0)
+[pid: 2822|app: 0|req: 6/28] 171.112.239.217 () {42 vars in 860 bytes} [Thu Jun 29 03:53:37 2017] GET /static/images/DOTA-SF.jpg => generated 79812 bytes in 3 msecs via sendfile() (HTTP/1.1 200) 7 headers in 268 bytes (0 switches on core 0)
+[pid: 2823|app: 0|req: 5/29] 171.112.239.217 () {42 vars in 849 bytes} [Thu Jun 29 03:53:37 2017] GET /static/front/js/front_captcha.js => generated 447 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 7 headers in 277 bytes (0 switches on core 0)
+MemCached: MemCache: inet:172.31.41.29:11211: connect: [Errno 111] Connection refused.  Marking dead.
+[pid: 2826|app: 0|req: 4/30] 171.112.239.217 () {42 vars in 854 bytes} [Thu Jun 29 03:53:37 2017] GET /account/graph_captcha/ => generated 2871 bytes in 19 msecs (HTTP/1.1 200) 2 headers in 66 bytes (1 switches on core 0)
+[pid: 2822|app: 0|req: 7/31] 171.112.239.217 () {42 vars in 807 bytes} [Thu Jun 29 03:53:38 2017] GET /favicon.ico => generated 1873 bytes in 5 msecs (HTTP/1.1 404) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 2823|app: 0|req: 6/32] 171.112.239.217 () {52 vars in 1127 bytes} [Thu Jun 29 03:53:42 2017] POST /read_time/ => generated 36 bytes in 17 msecs (HTTP/1.1 200) 2 headers in 71 bytes (2 switches on core 0)
+[pid: 2822|app: 0|req: 8/33] 171.112.239.217 () {44 vars in 891 bytes} [Thu Jun 29 03:56:42 2017] GET / => generated 13781 bytes in 41 msecs (HTTP/1.1 200) 2 headers in 82 bytes (2 switches on core 0)
+[pid: 2823|app: 0|req: 7/34] 171.112.239.217 () {46 vars in 914 bytes} [Thu Jun 29 03:56:42 2017] GET /static/images/ico/DOTA-SF.ico => generated 2829178 bytes in 4 msecs via sendfile() (HTTP/1.1 200) 7 headers in 286 bytes (7 switches on core 0)
+realpath() of sbbs_uwsgi.in failed: No such file or directory [core/utils.c line 3618]
+realpath() of sbbs_uwsgi.in failed: No such file or directory [core/utils.c line 3618]
+realpath() of sbbs_uwsgi.in failed: No such file or directory [core/utils.c line 3618]
+realpath() of sbbs_uwsgi.in failed: No such file or directory [core/utils.c line 3618]
+realpath() of sbbs_uwsgi.in failed: No such file or directory [core/utils.c line 3618]
+realpath() of sbbs_uwsgi.in failed: No such file or directory [core/utils.c line 3618]
+realpath() of sbbs_uwsgi.in failed: No such file or directory [core/utils.c line 3618]
+realpath() of sbbs_uwsgi.in failed: No such file or directory [core/utils.c line 3618]
+realpath() of sbbs_uwsgi.in failed: No such file or directory [core/utils.c line 3618]
+realpath() of sbbs_uwsgi.in failed: No such file or directory [core/utils.c line 3618]
+realpath() of sbbs_uwsgi.in failed: No such file or directory [core/utils.c line 3618]
+realpath() of sbbs_uwsgi.in failed: No such file or directory [core/utils.c line 3618]
+realpath() of sbbs_uwsgi.in failed: No such file or directory [core/utils.c line 3618]
+realpath() of sbbs_uwsgi.in failed: No such file or directory [core/utils.c line 3618]
+realpath() of sbbs_uwsgi.in failed: No such file or directory [core/utils.c line 3618]
+realpath() of sbbs_uwsgi.in failed: No such file or directory [core/utils.c line 3618]
+realpath() of sbbs_uwsgi.in failed: No such file or directory [core/utils.c line 3618]
+realpath() of sbbs_uwsgi.in failed: No such file or directory [core/utils.c line 3618]
+realpath() of sbbs_uwsgi.in failed: No such file or directory [core/utils.c line 3618]
+realpath() of sbbs_uwsgi.in failed: No such file or directory [core/utils.c line 3618]
+realpath() of sbbs_uwsgi.in failed: No such file or directory [core/utils.c line 3618]
+realpath() of sbbs_uwsgi.in failed: No such file or directory [core/utils.c line 3618]
+realpath() of sbbs_uwsgi.in failed: No such file or directory [core/utils.c line 3618]
+realpath() of sbbs_uwsgi.in failed: No such file or directory [core/utils.c line 3618]
+realpath() of sbbs_uwsgi.in failed: No such file or directory [core/utils.c line 3618]
+realpath() of sbbs_uwsgi.in failed: No such file or directory [core/utils.c line 3618]
+realpath() of sbbs_uwsgi.in failed: No such file or directory [core/utils.c line 3618]
+realpath() of sbbs_uwsgi.in failed: No such file or directory [core/utils.c line 3618]
+realpath() of sbbs_uwsgi.in failed: No such file or directory [core/utils.c line 3618]
+realpath() of sbbs_uwsgi.in failed: No such file or directory [core/utils.c line 3618]
+realpath() of sbbs_uwsgi.in failed: No such file or directory [core/utils.c line 3618]
+realpath() of sbbs_uwsgi.in failed: No such file or directory [core/utils.c line 3618]
+realpath() of sbbs_uwsgi.in failed: No such file or directory [core/utils.c line 3618]
+realpath() of sbbs_uwsgi.in failed: No such file or directory [core/utils.c line 3618]
+realpath() of sbbs_uwsgi.in failed: No such file or directory [core/utils.c line 3618]
+realpath() of sbbs_uwsgi.in failed: No such file or directory [core/utils.c line 3618]
+realpath() of sbbs_uwsgi.in failed: No such file or directory [core/utils.c line 3618]
+realpath() of sbbs_uwsgi.in failed: No such file or directory [core/utils.c line 3618]
+realpath() of sbbs_uwsgi.in failed: No such file or directory [core/utils.c line 3618]
+realpath() of sbbs_uwsgi.in failed: No such file or directory [core/utils.c line 3618]
+realpath() of sbbs_uwsgi.in failed: No such file or directory [core/utils.c line 3618]
+realpath() of sbbs_uwsgi.in failed: No such file or directory [core/utils.c line 3618]
+realpath() of sbbs_uwsgi.in failed: No such file or directory [core/utils.c line 3618]
+realpath() of sbbs_uwsgi.in failed: No such file or directory [core/utils.c line 3618]
+realpath() of sbbs_uwsgi.in failed: No such file or directory [core/utils.c line 3618]
+realpath() of sbbs_uwsgi.in failed: No such file or directory [core/utils.c line 3618]
+realpath() of sbbs_uwsgi.in failed: No such file or directory [core/utils.c line 3618]
+realpath() of sbbs_uwsgi.in failed: No such file or directory [core/utils.c line 3618]
+realpath() of sbbs_uwsgi.in failed: No such file or directory [core/utils.c line 3618]
+realpath() of sbbs_uwsgi.in failed: No such file or directory [core/utils.c line 3618]
+realpath() of sbbs_uwsgi.in failed: No such file or directory [core/utils.c line 3618]
+realpath() of sbbs_uwsgi.in failed: No such file or directory [core/utils.c line 3618]
+realpath() of sbbs_uwsgi.in failed: No such file or directory [core/utils.c line 3618]
+realpath() of sbbs_uwsgi.in failed: No such file or directory [core/utils.c line 3618]
+realpath() of sbbs_uwsgi.in failed: No such file or directory [core/utils.c line 3618]
+realpath() of sbbs_uwsgi.in failed: No such file or directory [core/utils.c line 3618]
+realpath() of sbbs_uwsgi.in failed: No such file or directory [core/utils.c line 3618]
+realpath() of sbbs_uwsgi.in failed: No such file or directory [core/utils.c line 3618]
+realpath() of sbbs_uwsgi.in failed: No such file or directory [core/utils.c line 3618]
+realpath() of sbbs_uwsgi.in failed: No such file or directory [core/utils.c line 3618]
+realpath() of sbbs_uwsgi.in failed: No such file or directory [core/utils.c line 3618]
+realpath() of sbbs_uwsgi.in failed: No such file or directory [core/utils.c line 3618]
+realpath() of sbbs_uwsgi.in failed: No such file or directory [core/utils.c line 3618]
+realpath() of sbbs_uwsgi.in failed: No such file or directory [core/utils.c line 3618]
+realpath() of sbbs_uwsgi.in failed: No such file or directory [core/utils.c line 3618]
+realpath() of sbbs_uwsgi.in failed: No such file or directory [core/utils.c line 3618]
+realpath() of sbbs_uwsgi.in failed: No such file or directory [core/utils.c line 3618]
+realpath() of sbbs_uwsgi.in failed: No such file or directory [core/utils.c line 3618]
+realpath() of sbbs_uwsgi.in failed: No such file or directory [core/utils.c line 3618]
+realpath() of sbbs_uwsgi.in failed: No such file or directory [core/utils.c line 3618]
+realpath() of sbbs_uwsgi.in failed: No such file or directory [core/utils.c line 3618]
+realpath() of sbbs_uwsgi.in failed: No such file or directory [core/utils.c line 3618]
+realpath() of sbbs_uwsgi.in failed: No such file or directory [core/utils.c line 3618]
+realpath() of sbbs_uwsgi.in failed: No such file or directory [core/utils.c line 3618]
+realpath() of sbbs_uwsgi.in failed: No such file or directory [core/utils.c line 3618]
+realpath() of sbbs_uwsgi.in failed: No such file or directory [core/utils.c line 3618]
+realpath() of sbbs_uwsgi.in failed: No such file or directory [core/utils.c line 3618]
+realpath() of sbbs_uwsgi.in failed: No such file or directory [core/utils.c line 3618]
+realpath() of sbbs_uwsgi.in failed: No such file or directory [core/utils.c line 3618]
+realpath() of sbbs_uwsgi.in failed: No such file or directory [core/utils.c line 3618]
+realpath() of sbbs_uwsgi.in failed: No such file or directory [core/utils.c line 3618]
+realpath() of sbbs_uwsgi.in failed: No such file or directory [core/utils.c line 3618]
+realpath() of sbbs_uwsgi.in failed: No such file or directory [core/utils.c line 3618]
+realpath() of sbbs_uwsgi.in failed: No such file or directory [core/utils.c line 3618]
+[uWSGI] getting INI configuration from sbbs_uwsgi.ini
+*** Starting uWSGI 2.0.15 (64bit) on [Thu Jun 29 04:06:24 2017] ***
+compiled with version: 5.4.0 20160609 on 22 June 2017 13:16:58
+os: Linux-4.4.0-1020-aws #29-Ubuntu SMP Wed Jun 14 15:54:52 UTC 2017
+nodename: ip-172-31-41-29
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/yk_flask/sbbs
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/yk_flask/sbbs
+your processes number limit is 3903
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/ubuntu/yk_flask/sbbs/sbbs.sock fd 3
+Python version: 2.7.12 (default, Nov 19 2016, 06:48:10)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x17e5b00
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 800360 bytes (781 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x17e5b00 pid: 3008 (default app)
+mountpoint  already configured. skip.
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 3008)
+spawned uWSGI worker 1 (pid: 3013, cores: 1)
+spawned uWSGI worker 2 (pid: 3014, cores: 1)
+spawned uWSGI worker 3 (pid: 3015, cores: 1)
+spawned uWSGI worker 4 (pid: 3016, cores: 1)
+spawned uWSGI worker 5 (pid: 3017, cores: 1)
+spawned uWSGI worker 6 (pid: 3018, cores: 1)
+spawned uWSGI worker 7 (pid: 3019, cores: 1)
+spawned uWSGI worker 8 (pid: 3020, cores: 1)
+spawned uWSGI worker 9 (pid: 3021, cores: 1)
+spawned uWSGI worker 10 (pid: 3022, cores: 1)
+[pid: 3017|app: 0|req: 1/1] 171.112.239.217 () {44 vars in 873 bytes} [Thu Jun 29 04:06:28 2017] GET / => generated 13781 bytes in 243 msecs (HTTP/1.1 200) 3 headers in 285 bytes (1 switches on core 0)
+[pid: 3013|app: 0|req: 1/2] 171.112.239.217 () {48 vars in 956 bytes} [Thu Jun 29 04:06:29 2017] GET /static/common/xtajax.js => generated 0 bytes in 7 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 3013|app: 0|req: 2/3] 171.112.239.217 () {48 vars in 987 bytes} [Thu Jun 29 04:06:29 2017] GET /static/front/css/front_base.css => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 3015|app: 0|req: 1/4] 171.112.239.217 () {48 vars in 984 bytes} [Thu Jun 29 04:06:29 2017] GET /static/cms/css/sweetalert.css => generated 0 bytes in 12 msecs (HTTP/1.1 304) 4 headers in 184 bytes (0 switches on core 0)
+[pid: 3018|app: 0|req: 1/5] 171.112.239.217 () {48 vars in 978 bytes} [Thu Jun 29 04:06:29 2017] GET /static/cms/css/cms_base.css => generated 0 bytes in 7 msecs (HTTP/1.1 304) 4 headers in 182 bytes (0 switches on core 0)
+[pid: 3013|app: 0|req: 3/6] 171.112.239.217 () {48 vars in 999 bytes} [Thu Jun 29 04:06:29 2017] GET /static/front/css/iconfont/iconfont.css => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 181 bytes (0 switches on core 0)
+[pid: 3015|app: 0|req: 2/7] 171.112.239.217 () {48 vars in 988 bytes} [Thu Jun 29 04:06:29 2017] GET /static/front/css/front_index.css => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 182 bytes (0 switches on core 0)
+[pid: 3013|app: 0|req: 4/8] 171.112.239.217 () {48 vars in 959 bytes} [Thu Jun 29 04:06:29 2017] GET /static/cms/js/cms_base.js => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 182 bytes (0 switches on core 0)
+[pid: 3021|app: 0|req: 1/9] 171.112.239.217 () {48 vars in 958 bytes} [Thu Jun 29 04:06:29 2017] GET /static/common/xtparam.js => generated 0 bytes in 13 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 3020|app: 0|req: 1/10] 171.112.239.217 () {48 vars in 973 bytes} [Thu Jun 29 04:06:29 2017] GET /static/cms/js/sweetalert.min.js => generated 0 bytes in 21 msecs (HTTP/1.1 304) 4 headers in 184 bytes (0 switches on core 0)
+[pid: 3022|app: 0|req: 1/11] 171.112.239.217 () {48 vars in 958 bytes} [Thu Jun 29 04:06:29 2017] GET /static/cms/js/xtalert.js => generated 0 bytes in 22 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 3015|app: 0|req: 3/12] 171.112.239.217 () {48 vars in 969 bytes} [Thu Jun 29 04:06:29 2017] GET /static/front/js/front_index.js => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 182 bytes (0 switches on core 0)
+[pid: 3016|app: 0|req: 1/13] 171.112.239.217 () {48 vars in 994 bytes} [Thu Jun 29 04:06:29 2017] GET /static/images/default_img.png => generated 0 bytes in 7 msecs (HTTP/1.1 304) 4 headers in 184 bytes (0 switches on core 0)
+[pid: 3013|app: 0|req: 5/14] 171.112.239.217 () {46 vars in 982 bytes} [Thu Jun 29 04:06:29 2017] GET /static/front/css/iconfont/iconfont.woff?t=1483088023095 => generated 4464 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 7 headers in 278 bytes (0 switches on core 0)
+[pid: 3015|app: 0|req: 4/15] 171.112.239.217 () {46 vars in 882 bytes} [Thu Jun 29 04:06:30 2017] GET /static/images/ico/DOTA-SF.ico => generated 2829178 bytes in 5 msecs via sendfile() (HTTP/1.1 200) 7 headers in 286 bytes (6 switches on core 0)
+[pid: 3018|app: 0|req: 2/16] 171.112.239.217 () {44 vars in 905 bytes} [Thu Jun 29 04:06:32 2017] GET /post_detail/5/ => generated 13240 bytes in 111 msecs (HTTP/1.1 200) 2 headers in 82 bytes (2 switches on core 0)
+[pid: 3013|app: 0|req: 6/17] 171.112.239.217 () {44 vars in 905 bytes} [Thu Jun 29 04:06:36 2017] GET /post_detail/3/ => generated 8880 bytes in 108 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 3015|app: 0|req: 5/18] 171.112.239.217 () {44 vars in 897 bytes} [Thu Jun 29 04:06:42 2017] GET /list/1/3/0 => generated 13781 bytes in 236 msecs (HTTP/1.1 200) 2 headers in 82 bytes (1 switches on core 0)
+[pid: 3013|app: 0|req: 7/19] 171.112.239.217 () {46 vars in 922 bytes} [Thu Jun 29 04:06:42 2017] GET /static/images/ico/DOTA-SF.ico => generated 2829178 bytes in 5 msecs via sendfile() (HTTP/1.1 200) 7 headers in 286 bytes (5 switches on core 0)
+[pid: 3018|app: 0|req: 3/20] 171.112.239.217 () {44 vars in 907 bytes} [Thu Jun 29 04:06:45 2017] GET /list/1/2/0 => generated 13781 bytes in 163 msecs (HTTP/1.1 200) 2 headers in 82 bytes (2 switches on core 0)
+[pid: 3013|app: 0|req: 8/21] 171.112.239.217 () {46 vars in 922 bytes} [Thu Jun 29 04:06:46 2017] GET /static/images/ico/DOTA-SF.ico => generated 2829178 bytes in 5 msecs via sendfile() (HTTP/1.1 200) 7 headers in 286 bytes (5 switches on core 0)
+[pid: 3015|app: 0|req: 6/22] 171.112.239.217 () {44 vars in 907 bytes} [Thu Jun 29 04:06:48 2017] GET /list/1/1/0 => generated 13781 bytes in 42 msecs (HTTP/1.1 200) 2 headers in 82 bytes (2 switches on core 0)
+[pid: 3013|app: 0|req: 9/23] 171.112.239.217 () {44 vars in 907 bytes} [Thu Jun 29 04:06:48 2017] GET /list/1/2/0 => generated 13781 bytes in 161 msecs (HTTP/1.1 200) 2 headers in 82 bytes (1 switches on core 0)
+[pid: 3015|app: 0|req: 7/24] 171.112.239.217 () {46 vars in 922 bytes} [Thu Jun 29 04:06:49 2017] GET /static/images/ico/DOTA-SF.ico => generated 2829178 bytes in 5 msecs via sendfile() (HTTP/1.1 200) 7 headers in 286 bytes (5 switches on core 0)
+[pid: 3013|app: 0|req: 10/25] 171.112.239.217 () {44 vars in 907 bytes} [Thu Jun 29 04:08:04 2017] GET /list/1/2/0 => generated 13781 bytes in 41 msecs (HTTP/1.1 200) 2 headers in 82 bytes (2 switches on core 0)
+[pid: 3015|app: 0|req: 8/26] 171.112.239.217 () {44 vars in 907 bytes} [Thu Jun 29 04:08:06 2017] GET /list/1/1/0 => generated 13781 bytes in 43 msecs (HTTP/1.1 200) 2 headers in 82 bytes (1 switches on core 0)
+[pid: 3013|app: 0|req: 11/27] 171.112.239.217 () {44 vars in 907 bytes} [Thu Jun 29 04:08:07 2017] GET /list/1/2/0 => generated 13781 bytes in 43 msecs (HTTP/1.1 200) 2 headers in 82 bytes (1 switches on core 0)
+[pid: 3015|app: 0|req: 9/28] 171.112.239.217 () {44 vars in 907 bytes} [Thu Jun 29 04:08:08 2017] GET /list/1/3/0 => generated 13781 bytes in 45 msecs (HTTP/1.1 200) 2 headers in 82 bytes (1 switches on core 0)
+[pid: 3013|app: 0|req: 12/29] 171.112.239.217 () {44 vars in 907 bytes} [Thu Jun 29 04:08:09 2017] GET /list/1/4/0 => generated 13781 bytes in 43 msecs (HTTP/1.1 200) 2 headers in 82 bytes (1 switches on core 0)
+[pid: 3015|app: 0|req: 10/30] 171.112.239.217 () {44 vars in 907 bytes} [Thu Jun 29 04:08:11 2017] GET /list/1/2/0 => generated 13781 bytes in 42 msecs (HTTP/1.1 200) 2 headers in 82 bytes (1 switches on core 0)
+[uWSGI] getting INI configuration from sbbs_uwsgi.ini
+*** Starting uWSGI 2.0.15 (64bit) on [Thu Jun 29 04:14:05 2017] ***
+compiled with version: 5.4.0 20160609 on 22 June 2017 13:16:58
+os: Linux-4.4.0-1020-aws #29-Ubuntu SMP Wed Jun 14 15:54:52 UTC 2017
+nodename: ip-172-31-41-29
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/yk_flask/sbbs
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/yk_flask/sbbs
+your processes number limit is 3903
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/ubuntu/yk_flask/sbbs/sbbs.sock fd 3
+Python version: 2.7.12 (default, Nov 19 2016, 06:48:10)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x2126b00
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 800360 bytes (781 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x2126b00 pid: 3051 (default app)
+mountpoint  already configured. skip.
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 3051)
+spawned uWSGI worker 1 (pid: 3056, cores: 1)
+spawned uWSGI worker 2 (pid: 3057, cores: 1)
+spawned uWSGI worker 3 (pid: 3058, cores: 1)
+spawned uWSGI worker 4 (pid: 3059, cores: 1)
+spawned uWSGI worker 5 (pid: 3060, cores: 1)
+spawned uWSGI worker 6 (pid: 3061, cores: 1)
+spawned uWSGI worker 7 (pid: 3062, cores: 1)
+spawned uWSGI worker 8 (pid: 3063, cores: 1)
+spawned uWSGI worker 9 (pid: 3064, cores: 1)
+spawned uWSGI worker 10 (pid: 3065, cores: 1)
+[pid: 3058|app: 0|req: 1/1] 171.112.239.217 () {42 vars in 842 bytes} [Thu Jun 29 04:14:08 2017] GET / => generated 13781 bytes in 239 msecs (HTTP/1.1 200) 3 headers in 285 bytes (1 switches on core 0)
+[pid: 3062|app: 0|req: 1/2] 171.112.239.217 () {44 vars in 897 bytes} [Thu Jun 29 04:14:09 2017] GET /list/1/2/0 => generated 13781 bytes in 238 msecs (HTTP/1.1 200) 2 headers in 82 bytes (1 switches on core 0)
+[pid: 3056|app: 0|req: 1/3] 171.112.239.217 () {44 vars in 907 bytes} [Thu Jun 29 04:14:11 2017] GET /list/1/3/0 => generated 13781 bytes in 241 msecs (HTTP/1.1 200) 2 headers in 82 bytes (1 switches on core 0)
+[pid: 3062|app: 0|req: 2/4] 171.112.239.217 () {44 vars in 907 bytes} [Thu Jun 29 04:14:12 2017] GET /list/1/2/0 => generated 13781 bytes in 41 msecs (HTTP/1.1 200) 2 headers in 82 bytes (1 switches on core 0)
+[pid: 3056|app: 0|req: 2/5] 171.112.239.217 () {40 vars in 780 bytes} [Thu Jun 29 04:14:15 2017] GET / => generated 221 bytes in 2 msecs (HTTP/1.1 302) 3 headers in 124 bytes (1 switches on core 0)
+[pid: 3065|app: 0|req: 1/6] 171.112.239.217 () {40 vars in 792 bytes} [Thu Jun 29 04:14:16 2017] GET /login/ => generated 2135 bytes in 11 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 3062|app: 0|req: 3/7] 171.112.239.217 () {46 vars in 973 bytes} [Thu Jun 29 04:14:16 2017] GET /static/cms/css/signin.css => generated 0 bytes in 3 msecs (HTTP/1.1 304) 4 headers in 181 bytes (0 switches on core 0)
+[pid: 3056|app: 0|req: 3/8] 171.112.239.217 () {46 vars in 1017 bytes} [Thu Jun 29 04:14:16 2017] GET /static/cms/css/ie10-viewport-bug-workaround.css => generated 0 bytes in 3 msecs (HTTP/1.1 304) 4 headers in 181 bytes (0 switches on core 0)
+[pid: 3064|app: 0|req: 1/9] 171.112.239.217 () {46 vars in 1013 bytes} [Thu Jun 29 04:14:16 2017] GET /static/cms/js/ie8-responsive-file-warning.js => generated 0 bytes in 7 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 3062|app: 0|req: 4/10] 171.112.239.217 () {38 vars in 672 bytes} [Thu Jun 29 04:14:18 2017] GET /favicon.ico => generated 2053 bytes in 5 msecs (HTTP/1.1 404) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 3056|app: 0|req: 4/11] 171.112.239.217 () {48 vars in 1095 bytes} [Thu Jun 29 04:14:27 2017] POST /login/ => generated 209 bytes in 11 msecs (HTTP/1.1 302) 4 headers in 360 bytes (2 switches on core 0)
+[pid: 3062|app: 0|req: 5/12] 171.112.239.217 () {44 vars in 1005 bytes} [Thu Jun 29 04:14:28 2017] GET / => generated 3620 bytes in 17 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 3056|app: 0|req: 5/13] 171.112.239.217 () {46 vars in 1004 bytes} [Thu Jun 29 04:14:28 2017] GET /static/common/xtajax.js => generated 0 bytes in 3 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 3056|app: 0|req: 6/14] 171.112.239.217 () {46 vars in 1011 bytes} [Thu Jun 29 04:14:28 2017] GET /static/cms/css/cms_base.css => generated 0 bytes in 5 msecs (HTTP/1.1 304) 4 headers in 182 bytes (0 switches on core 0)
+[pid: 3062|app: 0|req: 6/15] 171.112.239.217 () {46 vars in 1017 bytes} [Thu Jun 29 04:14:28 2017] GET /static/cms/css/sweetalert.css => generated 0 bytes in 13 msecs (HTTP/1.1 304) 4 headers in 184 bytes (0 switches on core 0)
+[pid: 3062|app: 0|req: 7/16] 171.112.239.217 () {46 vars in 1007 bytes} [Thu Jun 29 04:14:28 2017] GET /static/cms/js/cms_base.js => generated 0 bytes in 3 msecs (HTTP/1.1 304) 4 headers in 182 bytes (0 switches on core 0)
+[pid: 3056|app: 0|req: 7/17] 171.112.239.217 () {38 vars in 711 bytes} [Thu Jun 29 04:14:28 2017] GET /favicon.ico => generated 2053 bytes in 16 msecs (HTTP/1.1 404) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 3065|app: 0|req: 2/18] 171.112.239.217 () {46 vars in 1021 bytes} [Thu Jun 29 04:14:28 2017] GET /static/cms/js/sweetalert.min.js => generated 0 bytes in 129 msecs (HTTP/1.1 304) 4 headers in 184 bytes (0 switches on core 0)
+[pid: 3063|app: 0|req: 1/19] 171.112.239.217 () {46 vars in 1006 bytes} [Thu Jun 29 04:14:28 2017] GET /static/cms/js/xtalert.js => generated 0 bytes in 131 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 3062|app: 0|req: 8/20] 171.112.239.217 () {42 vars in 975 bytes} [Thu Jun 29 04:14:46 2017] GET / => generated 3620 bytes in 6 msecs (HTTP/1.1 200) 2 headers in 81 bytes (2 switches on core 0)
+[pid: 3056|app: 0|req: 8/21] 171.112.239.217 () {46 vars in 1004 bytes} [Thu Jun 29 04:14:46 2017] GET /static/common/xtajax.js => generated 0 bytes in 3 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 3065|app: 0|req: 3/22] 171.112.239.217 () {46 vars in 1021 bytes} [Thu Jun 29 04:14:46 2017] GET /static/cms/js/sweetalert.min.js => generated 0 bytes in 3 msecs (HTTP/1.1 304) 4 headers in 184 bytes (0 switches on core 0)
+[pid: 3064|app: 0|req: 2/23] 171.112.239.217 () {46 vars in 1006 bytes} [Thu Jun 29 04:14:47 2017] GET /static/cms/js/xtalert.js => generated 0 bytes in 61 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 3062|app: 0|req: 9/24] 171.112.239.217 () {46 vars in 1017 bytes} [Thu Jun 29 04:14:47 2017] GET /static/cms/css/sweetalert.css => generated 0 bytes in 3 msecs (HTTP/1.1 304) 4 headers in 184 bytes (0 switches on core 0)
+[pid: 3056|app: 0|req: 9/25] 171.112.239.217 () {46 vars in 1011 bytes} [Thu Jun 29 04:14:47 2017] GET /static/cms/css/cms_base.css => generated 0 bytes in 3 msecs (HTTP/1.1 304) 4 headers in 182 bytes (0 switches on core 0)
+[pid: 3065|app: 0|req: 4/26] 171.112.239.217 () {46 vars in 1007 bytes} [Thu Jun 29 04:14:48 2017] GET /static/cms/js/cms_base.js => generated 0 bytes in 3 msecs (HTTP/1.1 304) 4 headers in 182 bytes (0 switches on core 0)
+[pid: 3063|app: 0|req: 2/27] 171.112.239.217 () {38 vars in 711 bytes} [Thu Jun 29 04:14:59 2017] GET /favicon.ico => generated 2053 bytes in 14 msecs (HTTP/1.1 404) 2 headers in 88 bytes (2 switches on core 0)
+[pid: 3062|app: 0|req: 10/28] 171.112.239.217 () {38 vars in 711 bytes} [Thu Jun 29 04:15:09 2017] GET /favicon.ico => generated 2053 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 88 bytes (2 switches on core 0)
+[pid: 3056|app: 0|req: 10/29] 171.112.239.217 () {40 vars in 942 bytes} [Thu Jun 29 04:15:24 2017] GET /login/ => generated 2135 bytes in 7 msecs (HTTP/1.1 200) 2 headers in 81 bytes (2 switches on core 0)
+[pid: 3062|app: 0|req: 11/30] 171.112.239.217 () {46 vars in 1056 bytes} [Thu Jun 29 04:15:25 2017] GET /static/cms/css/ie10-viewport-bug-workaround.css => generated 0 bytes in 3 msecs (HTTP/1.1 304) 4 headers in 181 bytes (0 switches on core 0)
+[pid: 3065|app: 0|req: 5/31] 171.112.239.217 () {46 vars in 1012 bytes} [Thu Jun 29 04:15:26 2017] GET /static/cms/css/signin.css => generated 0 bytes in 3 msecs (HTTP/1.1 304) 4 headers in 181 bytes (0 switches on core 0)
+[pid: 3064|app: 0|req: 3/32] 171.112.239.217 () {46 vars in 1052 bytes} [Thu Jun 29 04:15:26 2017] GET /static/cms/js/ie8-responsive-file-warning.js => generated 0 bytes in 3 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 3063|app: 0|req: 3/33] 171.112.239.217 () {40 vars in 819 bytes} [Thu Jun 29 04:15:28 2017] GET / => generated 3620 bytes in 17 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 3062|app: 0|req: 12/34] 171.112.239.217 () {38 vars in 711 bytes} [Thu Jun 29 04:15:28 2017] GET /favicon.ico => generated 2053 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 3056|app: 0|req: 11/35] 171.112.239.217 () {38 vars in 711 bytes} [Thu Jun 29 04:15:30 2017] GET /favicon.ico => generated 2053 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 3065|app: 0|req: 6/36] 171.112.239.217 () {42 vars in 889 bytes} [Thu Jun 29 04:15:35 2017] GET / => generated 3620 bytes in 21 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 3062|app: 0|req: 13/37] 171.112.239.217 () {40 vars in 805 bytes} [Thu Jun 29 04:15:35 2017] GET /favicon.ico => generated 2053 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 3065|app: 0|req: 7/38] 171.112.239.217 () {42 vars in 899 bytes} [Thu Jun 29 04:16:31 2017] GET /static/front/css/front_index.css => generated 994 bytes in 7 msecs via sendfile() (HTTP/1.1 200) 7 headers in 278 bytes (0 switches on core 0)
+[pid: 3062|app: 0|req: 14/39] 171.112.239.217 () {42 vars in 897 bytes} [Thu Jun 29 04:16:31 2017] GET /static/front/css/front_base.css => generated 2245 bytes in 17 msecs via sendfile() (HTTP/1.1 200) 7 headers in 280 bytes (1 switches on core 0)
+[pid: 3058|app: 0|req: 2/40] 171.112.239.217 () {42 vars in 889 bytes} [Thu Jun 29 04:16:31 2017] GET /static/cms/css/cms_base.css => generated 3172 bytes in 20 msecs via sendfile() (HTTP/1.1 200) 7 headers in 279 bytes (1 switches on core 0)
+[pid: 3060|app: 0|req: 1/41] 171.112.239.217 () {42 vars in 911 bytes} [Thu Jun 29 04:16:31 2017] GET /static/front/css/iconfont/iconfont.css => generated 814 bytes in 76 msecs via sendfile() (HTTP/1.1 200) 7 headers in 277 bytes (0 switches on core 0)
+[pid: 3062|app: 0|req: 15/42] 171.112.239.217 () {42 vars in 893 bytes} [Thu Jun 29 04:16:32 2017] GET /static/cms/css/sweetalert.css => generated 22957 bytes in 4 msecs via sendfile() (HTTP/1.1 200) 7 headers in 282 bytes (0 switches on core 0)
+[pid: 3056|app: 0|req: 12/43] 171.112.239.217 () {42 vars in 895 bytes} [Thu Jun 29 04:16:41 2017] GET /static/cms/css/cms_base.css => generated 3172 bytes in 3 msecs via sendfile() (HTTP/1.1 200) 7 headers in 279 bytes (1 switches on core 0)
+[pid: 3062|app: 0|req: 16/44] 171.112.239.217 () {40 vars in 819 bytes} [Thu Jun 29 04:17:13 2017] GET / => generated 3620 bytes in 6 msecs (HTTP/1.1 200) 2 headers in 81 bytes (2 switches on core 0)
+[pid: 3062|app: 0|req: 17/45] 171.112.239.217 () {40 vars in 675 bytes} [Thu Jun 29 04:19:16 2017] GET / => generated 221 bytes in 2 msecs (HTTP/1.1 302) 3 headers in 124 bytes (2 switches on core 0)
+[pid: 3056|app: 0|req: 13/46] 171.112.239.217 () {40 vars in 687 bytes} [Thu Jun 29 04:19:16 2017] GET /login/ => generated 2135 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 284 bytes (1 switches on core 0)
+[pid: 3065|app: 0|req: 8/47] 171.112.239.217 () {46 vars in 986 bytes} [Thu Jun 29 04:19:17 2017] GET /static/cms/css/ie10-viewport-bug-workaround.css => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 181 bytes (0 switches on core 0)
+[pid: 3064|app: 0|req: 4/48] 171.112.239.217 () {46 vars in 942 bytes} [Thu Jun 29 04:19:17 2017] GET /static/cms/css/signin.css => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 181 bytes (0 switches on core 0)
+[pid: 3063|app: 0|req: 4/49] 171.112.239.217 () {46 vars in 967 bytes} [Thu Jun 29 04:19:17 2017] GET /static/cms/js/ie8-responsive-file-warning.js => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 3060|app: 0|req: 2/50] 171.112.239.217 () {42 vars in 826 bytes} [Thu Jun 29 04:19:17 2017] GET /favicon.ico => generated 2053 bytes in 12 msecs (HTTP/1.1 404) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 3062|app: 0|req: 18/51] 171.112.239.217 () {52 vars in 1076 bytes} [Thu Jun 29 04:19:22 2017] POST /login/ => generated 209 bytes in 10 msecs (HTTP/1.1 302) 4 headers in 360 bytes (1 switches on core 0)
+[pid: 3056|app: 0|req: 14/52] 171.112.239.217 () {46 vars in 955 bytes} [Thu Jun 29 04:19:22 2017] GET / => generated 3620 bytes in 16 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 3064|app: 0|req: 5/53] 171.112.239.217 () {46 vars in 980 bytes} [Thu Jun 29 04:19:23 2017] GET /static/cms/css/cms_base.css => generated 0 bytes in 11 msecs (HTTP/1.1 304) 4 headers in 182 bytes (0 switches on core 0)
+[pid: 3065|app: 0|req: 9/55] 171.112.239.217 () {46 vars in 960 bytes} [Thu Jun 29 04:19:23 2017] GET /static/cms/js/xtalert.js => generated 0 bytes in 24 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 3062|app: 0|req: 19/55] 171.112.239.217 () {46 vars in 975 bytes} [Thu Jun 29 04:19:23 2017] GET /static/cms/js/sweetalert.min.js => generated 0 bytes in 24 msecs (HTTP/1.1 304) 4 headers in 184 bytes (0 switches on core 0)
+[pid: 3063|app: 0|req: 5/56] 171.112.239.217 () {46 vars in 986 bytes} [Thu Jun 29 04:19:23 2017] GET /static/cms/css/sweetalert.css => generated 0 bytes in 19 msecs (HTTP/1.1 304) 4 headers in 184 bytes (0 switches on core 0)
+[pid: 3061|app: 0|req: 1/57] 171.112.239.217 () {46 vars in 958 bytes} [Thu Jun 29 04:19:23 2017] GET /static/common/xtajax.js => generated 0 bytes in 143 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 3057|app: 0|req: 1/58] 171.112.239.217 () {46 vars in 961 bytes} [Thu Jun 29 04:19:23 2017] GET /static/cms/js/cms_base.js => generated 0 bytes in 135 msecs (HTTP/1.1 304) 4 headers in 182 bytes (0 switches on core 0)
+[pid: 3062|app: 0|req: 20/59] 171.112.239.217 () {44 vars in 930 bytes} [Thu Jun 29 04:19:29 2017] GET /posts/ => generated 9972 bytes in 37 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 3063|app: 0|req: 6/60] 171.112.239.217 () {46 vars in 966 bytes} [Thu Jun 29 04:19:29 2017] GET /static/common/xtparam.js => generated 0 bytes in 4 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 3056|app: 0|req: 15/61] 171.112.239.217 () {46 vars in 969 bytes} [Thu Jun 29 04:19:29 2017] GET /static/cms/js/cms_posts.js => generated 0 bytes in 6 msecs (HTTP/1.1 304) 4 headers in 182 bytes (0 switches on core 0)
+[pid: 3065|app: 0|req: 10/62] 171.112.239.217 () {52 vars in 1164 bytes} [Thu Jun 29 04:19:30 2017] POST /highlight/ => generated 36 bytes in 19 msecs (HTTP/1.1 200) 2 headers in 71 bytes (2 switches on core 0)
+[pid: 3062|app: 0|req: 21/63] 171.112.239.217 () {46 vars in 967 bytes} [Thu Jun 29 04:19:32 2017] GET /posts/ => generated 9969 bytes in 14 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 3065|app: 0|req: 11/65] 171.112.239.217 () {48 vars in 1023 bytes} [Thu Jun 29 04:19:32 2017] GET /static/cms/css/sweetalert.css => generated 0 bytes in 10 msecs (HTTP/1.1 304) 4 headers in 184 bytes (0 switches on core 0)
+[pid: 3057|app: 0|req: 2/65] 171.112.239.217 () {48 vars in 1017 bytes} [Thu Jun 29 04:19:32 2017] GET /static/cms/css/cms_base.css => generated 0 bytes in 10 msecs (HTTP/1.1 304) 4 headers in 182 bytes (0 switches on core 0)
+[pid: 3063|app: 0|req: 7/66] 171.112.239.217 () {48 vars in 1012 bytes} [Thu Jun 29 04:19:32 2017] GET /static/cms/js/sweetalert.min.js => generated 0 bytes in 17 msecs (HTTP/1.1 304) 4 headers in 184 bytes (0 switches on core 0)
+[pid: 3056|app: 0|req: 16/67] 171.112.239.217 () {48 vars in 995 bytes} [Thu Jun 29 04:19:32 2017] GET /static/common/xtajax.js => generated 0 bytes in 20 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 3062|app: 0|req: 22/68] 171.112.239.217 () {48 vars in 998 bytes} [Thu Jun 29 04:19:32 2017] GET /static/cms/js/cms_base.js => generated 0 bytes in 6 msecs (HTTP/1.1 304) 4 headers in 182 bytes (0 switches on core 0)
+[pid: 3059|app: 0|req: 1/69] 171.112.239.217 () {48 vars in 997 bytes} [Thu Jun 29 04:19:32 2017] GET /static/cms/js/xtalert.js => generated 0 bytes in 80 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 3062|app: 0|req: 23/70] 171.112.239.217 () {48 vars in 1000 bytes} [Thu Jun 29 04:19:32 2017] GET /static/cms/js/cms_posts.js => generated 0 bytes in 3 msecs (HTTP/1.1 304) 4 headers in 182 bytes (0 switches on core 0)
+[pid: 3056|app: 0|req: 17/71] 171.112.239.217 () {48 vars in 997 bytes} [Thu Jun 29 04:19:32 2017] GET /static/common/xtparam.js => generated 0 bytes in 3 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 3063|app: 0|req: 8/72] 171.112.239.217 () {52 vars in 1164 bytes} [Thu Jun 29 04:19:34 2017] POST /highlight/ => generated 36 bytes in 26 msecs (HTTP/1.1 200) 2 headers in 71 bytes (2 switches on core 0)
+[pid: 3062|app: 0|req: 24/73] 171.112.239.217 () {46 vars in 967 bytes} [Thu Jun 29 04:19:35 2017] GET /posts/ => generated 9972 bytes in 16 msecs (HTTP/1.1 200) 2 headers in 81 bytes (2 switches on core 0)
+[pid: 3065|app: 0|req: 12/74] 171.112.239.217 () {48 vars in 1012 bytes} [Thu Jun 29 04:19:36 2017] GET /static/cms/js/sweetalert.min.js => generated 0 bytes in 7 msecs (HTTP/1.1 304) 4 headers in 184 bytes (0 switches on core 0)
+[pid: 3057|app: 0|req: 3/75] 171.112.239.217 () {48 vars in 1023 bytes} [Thu Jun 29 04:19:36 2017] GET /static/cms/css/sweetalert.css => generated 0 bytes in 7 msecs (HTTP/1.1 304) 4 headers in 184 bytes (0 switches on core 0)
+[pid: 3063|app: 0|req: 9/76] 171.112.239.217 () {48 vars in 995 bytes} [Thu Jun 29 04:19:36 2017] GET /static/common/xtajax.js => generated 0 bytes in 10 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 3056|app: 0|req: 18/77] 171.112.239.217 () {48 vars in 997 bytes} [Thu Jun 29 04:19:36 2017] GET /static/cms/js/xtalert.js => generated 0 bytes in 13 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 3064|app: 0|req: 6/78] 171.112.239.217 () {48 vars in 1017 bytes} [Thu Jun 29 04:19:36 2017] GET /static/cms/css/cms_base.css => generated 0 bytes in 3 msecs (HTTP/1.1 304) 4 headers in 182 bytes (0 switches on core 0)
+[pid: 3061|app: 0|req: 2/79] 171.112.239.217 () {48 vars in 997 bytes} [Thu Jun 29 04:19:36 2017] GET /static/common/xtparam.js => generated 0 bytes in 5 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 3058|app: 0|req: 3/80] 171.112.239.217 () {48 vars in 1000 bytes} [Thu Jun 29 04:19:36 2017] GET /static/cms/js/cms_posts.js => generated 0 bytes in 7 msecs (HTTP/1.1 304) 4 headers in 182 bytes (0 switches on core 0)
+[pid: 3060|app: 0|req: 3/81] 171.112.239.217 () {48 vars in 998 bytes} [Thu Jun 29 04:19:37 2017] GET /static/cms/js/cms_base.js => generated 0 bytes in 3 msecs (HTTP/1.1 304) 4 headers in 182 bytes (0 switches on core 0)
+[pid: 3059|app: 0|req: 2/82] 171.112.239.217 () {52 vars in 1164 bytes} [Thu Jun 29 04:19:38 2017] POST /highlight/ => generated 36 bytes in 27 msecs (HTTP/1.1 200) 2 headers in 71 bytes (2 switches on core 0)
+[pid: 3062|app: 0|req: 25/83] 171.112.239.217 () {46 vars in 967 bytes} [Thu Jun 29 04:19:39 2017] GET /posts/ => generated 9969 bytes in 14 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 3056|app: 0|req: 19/84] 171.112.239.217 () {48 vars in 995 bytes} [Thu Jun 29 04:19:39 2017] GET /static/common/xtajax.js => generated 0 bytes in 3 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 3065|app: 0|req: 13/85] 171.112.239.217 () {48 vars in 1012 bytes} [Thu Jun 29 04:19:39 2017] GET /static/cms/js/sweetalert.min.js => generated 0 bytes in 3 msecs (HTTP/1.1 304) 4 headers in 184 bytes (0 switches on core 0)
+[pid: 3058|app: 0|req: 4/86] 171.112.239.217 () {48 vars in 997 bytes} [Thu Jun 29 04:19:39 2017] GET /static/cms/js/xtalert.js => generated 0 bytes in 3 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 3063|app: 0|req: 10/87] 171.112.239.217 () {48 vars in 1023 bytes} [Thu Jun 29 04:19:39 2017] GET /static/cms/css/sweetalert.css => generated 0 bytes in 6 msecs (HTTP/1.1 304) 4 headers in 184 bytes (0 switches on core 0)
+[pid: 3057|app: 0|req: 4/88] 171.112.239.217 () {48 vars in 1017 bytes} [Thu Jun 29 04:19:39 2017] GET /static/cms/css/cms_base.css => generated 0 bytes in 3 msecs (HTTP/1.1 304) 4 headers in 182 bytes (0 switches on core 0)
+[pid: 3064|app: 0|req: 7/89] 171.112.239.217 () {48 vars in 998 bytes} [Thu Jun 29 04:19:39 2017] GET /static/cms/js/cms_base.js => generated 0 bytes in 6 msecs (HTTP/1.1 304) 4 headers in 182 bytes (0 switches on core 0)
+[pid: 3060|app: 0|req: 4/90] 171.112.239.217 () {48 vars in 1000 bytes} [Thu Jun 29 04:19:39 2017] GET /static/cms/js/cms_posts.js => generated 0 bytes in 3 msecs (HTTP/1.1 304) 4 headers in 182 bytes (0 switches on core 0)
+[pid: 3061|app: 0|req: 3/91] 171.112.239.217 () {48 vars in 997 bytes} [Thu Jun 29 04:19:39 2017] GET /static/common/xtparam.js => generated 0 bytes in 3 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 3059|app: 0|req: 3/92] 171.112.239.217 () {52 vars in 1164 bytes} [Thu Jun 29 04:19:40 2017] POST /highlight/ => generated 36 bytes in 10 msecs (HTTP/1.1 200) 2 headers in 71 bytes (2 switches on core 0)
+[pid: 3062|app: 0|req: 26/93] 171.112.239.217 () {46 vars in 967 bytes} [Thu Jun 29 04:19:41 2017] GET /posts/ => generated 9972 bytes in 15 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 3056|app: 0|req: 20/94] 171.112.239.217 () {48 vars in 1012 bytes} [Thu Jun 29 04:19:41 2017] GET /static/cms/js/sweetalert.min.js => generated 0 bytes in 3 msecs (HTTP/1.1 304) 4 headers in 184 bytes (0 switches on core 0)
+[pid: 3065|app: 0|req: 14/95] 171.112.239.217 () {48 vars in 995 bytes} [Thu Jun 29 04:19:41 2017] GET /static/common/xtajax.js => generated 0 bytes in 3 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 3060|app: 0|req: 5/96] 171.112.239.217 () {48 vars in 1017 bytes} [Thu Jun 29 04:19:41 2017] GET /static/cms/css/cms_base.css => generated 0 bytes in 3 msecs (HTTP/1.1 304) 4 headers in 182 bytes (0 switches on core 0)
+[pid: 3058|app: 0|req: 5/97] 171.112.239.217 () {48 vars in 997 bytes} [Thu Jun 29 04:19:41 2017] GET /static/cms/js/xtalert.js => generated 0 bytes in 3 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 3061|app: 0|req: 4/98] 171.112.239.217 () {48 vars in 1023 bytes} [Thu Jun 29 04:19:41 2017] GET /static/cms/css/sweetalert.css => generated 0 bytes in 3 msecs (HTTP/1.1 304) 4 headers in 184 bytes (0 switches on core 0)
+[pid: 3064|app: 0|req: 8/99] 171.112.239.217 () {48 vars in 998 bytes} [Thu Jun 29 04:19:41 2017] GET /static/cms/js/cms_base.js => generated 0 bytes in 2 msecs (HTTP/1.1 304) 4 headers in 182 bytes (0 switches on core 0)
+[pid: 3063|app: 0|req: 11/100] 171.112.239.217 () {48 vars in 1000 bytes} [Thu Jun 29 04:19:42 2017] GET /static/cms/js/cms_posts.js => generated 0 bytes in 3 msecs (HTTP/1.1 304) 4 headers in 182 bytes (0 switches on core 0)
+[pid: 3057|app: 0|req: 5/101] 171.112.239.217 () {48 vars in 997 bytes} [Thu Jun 29 04:19:42 2017] GET /static/common/xtparam.js => generated 0 bytes in 3 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 3059|app: 0|req: 4/102] 171.112.239.217 () {44 vars in 949 bytes} [Thu Jun 29 04:19:43 2017] GET /posts/?sort=2 => generated 9972 bytes in 54 msecs (HTTP/1.1 200) 2 headers in 81 bytes (2 switches on core 0)
+[pid: 3062|app: 0|req: 27/103] 171.112.239.217 () {44 vars in 956 bytes} [Thu Jun 29 04:19:46 2017] GET /posts/?sort=1 => generated 9972 bytes in 15 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 3056|app: 0|req: 21/104] 171.112.239.217 () {44 vars in 956 bytes} [Thu Jun 29 04:19:47 2017] GET /posts/?sort=3 => generated 9972 bytes in 37 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 3062|app: 0|req: 28/105] 171.112.239.217 () {44 vars in 956 bytes} [Thu Jun 29 04:19:50 2017] GET /posts/?sort=1 => generated 9972 bytes in 15 msecs (HTTP/1.1 200) 2 headers in 81 bytes (2 switches on core 0)
+[pid: 3056|app: 0|req: 22/106] 171.112.239.217 () {46 vars in 977 bytes} [Thu Jun 29 04:19:53 2017] GET /list/1/2/0 => generated 13781 bytes in 45 msecs (HTTP/1.1 200) 2 headers in 82 bytes (2 switches on core 0)
+[pid: 3063|app: 0|req: 12/107] 171.112.239.217 () {44 vars in 899 bytes} [Thu Jun 29 04:19:54 2017] GET /static/cms/js/xtalert.js => generated 5369 bytes in 4 msecs via sendfile() (HTTP/1.1 200) 7 headers in 279 bytes (0 switches on core 0)
+[pid: 3058|app: 0|req: 6/108] 171.112.239.217 () {44 vars in 913 bytes} [Thu Jun 29 04:19:54 2017] GET /static/cms/js/sweetalert.min.js => generated 16994 bytes in 9 msecs via sendfile() (HTTP/1.1 200) 7 headers in 281 bytes (0 switches on core 0)
+[pid: 3062|app: 0|req: 29/109] 171.112.239.217 () {44 vars in 897 bytes} [Thu Jun 29 04:19:54 2017] GET /static/common/xtajax.js => generated 1391 bytes in 10 msecs via sendfile() (HTTP/1.1 200) 7 headers in 279 bytes (0 switches on core 0)
+[pid: 3065|app: 0|req: 15/110] 171.112.239.217 () {48 vars in 1033 bytes} [Thu Jun 29 04:19:54 2017] GET /static/cms/css/sweetalert.css => generated 0 bytes in 3 msecs (HTTP/1.1 304) 4 headers in 184 bytes (0 switches on core 0)
+[pid: 3064|app: 0|req: 9/111] 171.112.239.217 () {48 vars in 1027 bytes} [Thu Jun 29 04:19:54 2017] GET /static/cms/css/cms_base.css => generated 0 bytes in 3 msecs (HTTP/1.1 304) 4 headers in 182 bytes (0 switches on core 0)
+[pid: 3061|app: 0|req: 5/112] 171.112.239.217 () {48 vars in 1036 bytes} [Thu Jun 29 04:19:54 2017] GET /static/front/css/front_base.css => generated 0 bytes in 3 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 3060|app: 0|req: 6/113] 171.112.239.217 () {48 vars in 1037 bytes} [Thu Jun 29 04:19:54 2017] GET /static/front/css/front_index.css => generated 0 bytes in 3 msecs (HTTP/1.1 304) 4 headers in 182 bytes (0 switches on core 0)
+[pid: 3057|app: 0|req: 6/114] 171.112.239.217 () {48 vars in 1048 bytes} [Thu Jun 29 04:19:54 2017] GET /static/front/css/iconfont/iconfont.css => generated 0 bytes in 3 msecs (HTTP/1.1 304) 4 headers in 181 bytes (0 switches on core 0)
+[pid: 3059|app: 0|req: 5/115] 171.112.239.217 () {44 vars in 901 bytes} [Thu Jun 29 04:19:54 2017] GET /static/cms/js/cms_base.js => generated 2820 bytes in 3 msecs via sendfile() (HTTP/1.1 200) 7 headers in 278 bytes (0 switches on core 0)
+[pid: 3063|app: 0|req: 13/116] 171.112.239.217 () {44 vars in 899 bytes} [Thu Jun 29 04:19:54 2017] GET /static/common/xtparam.js => generated 1410 bytes in 3 msecs via sendfile() (HTTP/1.1 200) 7 headers in 279 bytes (0 switches on core 0)
+[pid: 3056|app: 0|req: 23/117] 171.112.239.217 () {44 vars in 911 bytes} [Thu Jun 29 04:19:54 2017] GET /static/front/js/front_index.js => generated 435 bytes in 3 msecs via sendfile() (HTTP/1.1 200) 7 headers in 277 bytes (0 switches on core 0)
+[pid: 3062|app: 0|req: 30/118] 171.112.239.217 () {44 vars in 934 bytes} [Thu Jun 29 04:19:55 2017] GET /static/images/default_img.png => generated 32052 bytes in 4 msecs via sendfile() (HTTP/1.1 200) 7 headers in 268 bytes (0 switches on core 0)
+[pid: 3065|app: 0|req: 16/119] 171.112.239.217 () {46 vars in 1021 bytes} [Thu Jun 29 04:19:55 2017] GET /static/front/css/iconfont/iconfont.woff?t=1483088023095 => generated 4464 bytes in 3 msecs via sendfile() (HTTP/1.1 200) 7 headers in 278 bytes (0 switches on core 0)
+[pid: 3058|app: 0|req: 7/120] 171.112.239.217 () {46 vars in 931 bytes} [Thu Jun 29 04:19:56 2017] GET /static/images/ico/DOTA-SF.ico => generated 2829178 bytes in 7 msecs via sendfile() (HTTP/1.1 200) 7 headers in 286 bytes (6 switches on core 0)
+[pid: 3064|app: 0|req: 10/121] 171.112.239.217 () {44 vars in 946 bytes} [Thu Jun 29 04:20:03 2017] GET /list/1/3/0 => generated 13781 bytes in 185 msecs (HTTP/1.1 200) 2 headers in 82 bytes (1 switches on core 0)
+[pid: 3062|app: 0|req: 31/122] 171.112.239.217 () {46 vars in 963 bytes} [Thu Jun 29 04:20:04 2017] GET /static/images/ico/DOTA-SF.ico => generated 2829178 bytes in 7 msecs via sendfile() (HTTP/1.1 200) 7 headers in 286 bytes (6 switches on core 0)
+[pid: 3056|app: 0|req: 24/123] 171.112.239.217 () {44 vars in 946 bytes} [Thu Jun 29 04:20:05 2017] GET /list/1/1/0 => generated 13781 bytes in 44 msecs (HTTP/1.1 200) 2 headers in 82 bytes (1 switches on core 0)
+[pid: 3062|app: 0|req: 32/124] 171.112.239.217 () {46 vars in 961 bytes} [Thu Jun 29 04:20:05 2017] GET /static/images/ico/DOTA-SF.ico => generated 2829178 bytes in 7 msecs via sendfile() (HTTP/1.1 200) 7 headers in 286 bytes (6 switches on core 0)
+[pid: 3065|app: 0|req: 17/125] 171.112.239.217 () {44 vars in 946 bytes} [Thu Jun 29 04:20:06 2017] GET /list/1/2/0 => generated 13781 bytes in 178 msecs (HTTP/1.1 200) 2 headers in 82 bytes (1 switches on core 0)
+[pid: 3062|app: 0|req: 33/126] 171.112.239.217 () {46 vars in 959 bytes} [Thu Jun 29 04:20:06 2017] GET /static/images/ico/DOTA-SF.ico => generated 2829178 bytes in 7 msecs via sendfile() (HTTP/1.1 200) 7 headers in 286 bytes (6 switches on core 0)
+[pid: 3056|app: 0|req: 25/127] 171.112.239.217 () {40 vars in 819 bytes} [Thu Jun 29 04:20:18 2017] GET / => generated 3620 bytes in 6 msecs (HTTP/1.1 200) 2 headers in 81 bytes (2 switches on core 0)
+[pid: 3062|app: 0|req: 34/128] 171.112.239.217 () {44 vars in 954 bytes} [Thu Jun 29 04:21:29 2017] GET /post_detail/5/ => generated 13240 bytes in 37 msecs (HTTP/1.1 200) 2 headers in 82 bytes (2 switches on core 0)
+[pid: 3056|app: 0|req: 26/129] 171.112.239.217 () {42 vars in 913 bytes} [Thu Jun 29 04:21:29 2017] GET /static/front/css/front_postdetail.css => generated 4190 bytes in 4 msecs via sendfile() (HTTP/1.1 200) 7 headers in 279 bytes (0 switches on core 0)
+[pid: 3065|app: 0|req: 18/130] 171.112.239.217 () {42 vars in 925 bytes} [Thu Jun 29 04:21:29 2017] GET /static/common/editor/css/wangEditor.min.css => generated 15141 bytes in 3 msecs via sendfile() (HTTP/1.1 200) 7 headers in 282 bytes (0 switches on core 0)
+[pid: 3064|app: 0|req: 11/131] 171.112.239.217 () {42 vars in 894 bytes} [Thu Jun 29 04:21:29 2017] GET /static/front/js/front_postdetail.js => generated 3570 bytes in 3 msecs via sendfile() (HTTP/1.1 200) 7 headers in 279 bytes (0 switches on core 0)
+[pid: 3063|app: 0|req: 14/132] 171.112.239.217 () {42 vars in 905 bytes} [Thu Jun 29 04:21:29 2017] GET /static/images/ad/ad-test.png => generated 46249 bytes in 4 msecs via sendfile() (HTTP/1.1 200) 7 headers in 268 bytes (0 switches on core 0)
+[pid: 3060|app: 0|req: 7/133] 171.112.239.217 () {42 vars in 776 bytes} [Thu Jun 29 04:21:53 2017] GET / => generated 221 bytes in 2 msecs (HTTP/1.1 302) 3 headers in 124 bytes (1 switches on core 0)
+[pid: 3057|app: 0|req: 7/134] 171.112.239.217 () {42 vars in 788 bytes} [Thu Jun 29 04:21:53 2017] GET /login/ => generated 2135 bytes in 9 msecs (HTTP/1.1 200) 3 headers in 284 bytes (1 switches on core 0)
+[pid: 3062|app: 0|req: 35/135] 171.112.239.217 () {42 vars in 940 bytes} [Thu Jun 29 04:21:54 2017] GET /static/cms/js/ie8-responsive-file-warning.js => generated 2129 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 7 headers in 279 bytes (0 switches on core 0)
+[pid: 3056|app: 0|req: 27/136] 171.112.239.217 () {42 vars in 961 bytes} [Thu Jun 29 04:21:55 2017] GET /static/cms/css/ie10-viewport-bug-workaround.css => generated 433 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 7 headers in 277 bytes (0 switches on core 0)
+[pid: 3065|app: 0|req: 19/137] 171.112.239.217 () {42 vars in 917 bytes} [Thu Jun 29 04:21:55 2017] GET /static/cms/css/signin.css => generated 792 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 7 headers in 277 bytes (0 switches on core 0)
+[pid: 3064|app: 0|req: 12/138] 171.112.239.217 () {42 vars in 882 bytes} [Thu Jun 29 04:21:55 2017] GET /favicon.ico => generated 2053 bytes in 5 msecs (HTTP/1.1 404) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 3062|app: 0|req: 36/139] 171.112.239.217 () {52 vars in 1163 bytes} [Thu Jun 29 04:22:05 2017] POST /login/ => generated 209 bytes in 13 msecs (HTTP/1.1 302) 4 headers in 360 bytes (2 switches on core 0)
+[pid: 3056|app: 0|req: 28/140] 171.112.239.217 () {46 vars in 1036 bytes} [Thu Jun 29 04:22:06 2017] GET / => generated 3620 bytes in 6 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 3062|app: 0|req: 37/141] 171.112.239.217 () {46 vars in 1041 bytes} [Thu Jun 29 04:22:06 2017] GET /static/cms/js/xtalert.js => generated 0 bytes in 3 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 3065|app: 0|req: 20/142] 171.112.239.217 () {46 vars in 1039 bytes} [Thu Jun 29 04:22:06 2017] GET /static/common/xtajax.js => generated 0 bytes in 3 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 3058|app: 0|req: 8/143] 171.112.239.217 () {46 vars in 1042 bytes} [Thu Jun 29 04:22:07 2017] GET /static/cms/js/cms_base.js => generated 0 bytes in 5 msecs (HTTP/1.1 304) 4 headers in 182 bytes (0 switches on core 0)
+[pid: 3064|app: 0|req: 13/144] 171.112.239.217 () {46 vars in 1067 bytes} [Thu Jun 29 04:22:07 2017] GET /static/cms/css/sweetalert.css => generated 0 bytes in 7 msecs (HTTP/1.1 304) 4 headers in 184 bytes (0 switches on core 0)
+[pid: 3063|app: 0|req: 15/145] 171.112.239.217 () {46 vars in 1061 bytes} [Thu Jun 29 04:22:07 2017] GET /static/cms/css/cms_base.css => generated 0 bytes in 3 msecs (HTTP/1.1 304) 4 headers in 182 bytes (0 switches on core 0)
+[pid: 3060|app: 0|req: 8/146] 171.112.239.217 () {46 vars in 1056 bytes} [Thu Jun 29 04:22:08 2017] GET /static/cms/js/sweetalert.min.js => generated 0 bytes in 3 msecs (HTTP/1.1 304) 4 headers in 184 bytes (0 switches on core 0)
+[pid: 3057|app: 0|req: 8/147] 171.112.239.217 () {44 vars in 1013 bytes} [Thu Jun 29 04:22:13 2017] GET /boards/ => generated 5632 bytes in 41 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 3062|app: 0|req: 38/148] 171.112.239.217 () {42 vars in 946 bytes} [Thu Jun 29 04:22:13 2017] GET /static/cms/js/cms_boards.js => generated 3366 bytes in 4 msecs via sendfile() (HTTP/1.1 200) 7 headers in 278 bytes (0 switches on core 0)
+[pid: 3056|app: 0|req: 29/149] 171.112.239.217 () {42 vars in 922 bytes} [Thu Jun 29 04:22:14 2017] GET /favicon.ico => generated 2053 bytes in 5 msecs (HTTP/1.1 404) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 3065|app: 0|req: 21/150] 171.112.239.217 () {44 vars in 1018 bytes} [Thu Jun 29 04:22:17 2017] GET /posts/ => generated 9972 bytes in 37 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 3062|app: 0|req: 39/151] 171.112.239.217 () {42 vars in 943 bytes} [Thu Jun 29 04:22:17 2017] GET /static/cms/js/cms_posts.js => generated 2904 bytes in 4 msecs via sendfile() (HTTP/1.1 200) 7 headers in 278 bytes (0 switches on core 0)
+[pid: 3056|app: 0|req: 30/152] 171.112.239.217 () {46 vars in 1047 bytes} [Thu Jun 29 04:22:18 2017] GET /static/common/xtparam.js => generated 0 bytes in 3 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 3064|app: 0|req: 14/153] 171.112.239.217 () {42 vars in 921 bytes} [Thu Jun 29 04:22:18 2017] GET /favicon.ico => generated 2053 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 3063|app: 0|req: 16/154] 171.112.239.217 () {44 vars in 1023 bytes} [Thu Jun 29 04:22:26 2017] GET /cmsusers/ => generated 4661 bytes in 16 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 3062|app: 0|req: 40/155] 171.112.239.217 () {42 vars in 971 bytes} [Thu Jun 29 04:22:26 2017] GET /static/cms/css/cms_cmsusers.css => generated 55 bytes in 4 msecs via sendfile() (HTTP/1.1 200) 7 headers in 276 bytes (0 switches on core 0)
+[pid: 3056|app: 0|req: 31/156] 171.112.239.217 () {42 vars in 924 bytes} [Thu Jun 29 04:22:27 2017] GET /favicon.ico => generated 2053 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 3065|app: 0|req: 22/157] 171.112.239.217 () {44 vars in 1032 bytes} [Thu Jun 29 04:22:31 2017] GET /add_cmsuser/ => generated 4622 bytes in 12 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 3062|app: 0|req: 41/158] 171.112.239.217 () {42 vars in 959 bytes} [Thu Jun 29 04:22:31 2017] GET /static/cms/js/cms_addcmsuser.js => generated 1584 bytes in 4 msecs via sendfile() (HTTP/1.1 200) 7 headers in 279 bytes (0 switches on core 0)
+[pid: 3056|app: 0|req: 32/159] 171.112.239.217 () {42 vars in 927 bytes} [Thu Jun 29 04:22:32 2017] GET /favicon.ico => generated 2053 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 3064|app: 0|req: 15/160] 171.112.239.217 () {52 vars in 1261 bytes} [Thu Jun 29 04:22:54 2017] POST /add_cmsuser/ => generated 36 bytes in 17 msecs (HTTP/1.1 200) 2 headers in 71 bytes (3 switches on core 0)
+[pid: 3062|app: 0|req: 42/161] 171.112.239.217 () {44 vars in 1029 bytes} [Thu Jun 29 04:22:58 2017] GET /cmsusers/ => generated 5359 bytes in 17 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 3056|app: 0|req: 33/162] 171.112.239.217 () {42 vars in 924 bytes} [Thu Jun 29 04:22:59 2017] GET /favicon.ico => generated 2053 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 3065|app: 0|req: 23/163] 171.112.239.217 () {44 vars in 1053 bytes} [Thu Jun 29 04:23:02 2017] GET /edit_cmsuser/?user_id=2 => generated 4722 bytes in 18 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 3062|app: 0|req: 43/164] 171.112.239.217 () {42 vars in 972 bytes} [Thu Jun 29 04:23:02 2017] GET /static/cms/js/cms_editcmsuser.js => generated 2165 bytes in 3 msecs via sendfile() (HTTP/1.1 200) 7 headers in 279 bytes (0 switches on core 0)
+[pid: 3056|app: 0|req: 34/165] 171.112.239.217 () {42 vars in 938 bytes} [Thu Jun 29 04:23:03 2017] GET /favicon.ico => generated 2053 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 3064|app: 0|req: 16/166] 171.112.239.217 () {52 vars in 1270 bytes} [Thu Jun 29 04:23:05 2017] POST /black_list/ => generated 36 bytes in 9 msecs (HTTP/1.1 200) 2 headers in 71 bytes (2 switches on core 0)
+[pid: 3062|app: 0|req: 44/167] 171.112.239.217 () {46 vars in 1098 bytes} [Thu Jun 29 04:23:06 2017] GET /edit_cmsuser/?user_id=2 => generated 4723 bytes in 19 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 3061|app: 0|req: 6/168] 171.112.239.217 () {48 vars in 1121 bytes} [Thu Jun 29 04:23:07 2017] GET /static/cms/css/sweetalert.css => generated 0 bytes in 8 msecs (HTTP/1.1 304) 4 headers in 184 bytes (0 switches on core 0)
+[pid: 3056|app: 0|req: 35/169] 171.112.239.217 () {48 vars in 1095 bytes} [Thu Jun 29 04:23:07 2017] GET /static/cms/js/xtalert.js => generated 0 bytes in 10 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 3057|app: 0|req: 9/170] 171.112.239.217 () {48 vars in 1110 bytes} [Thu Jun 29 04:23:07 2017] GET /static/cms/js/sweetalert.min.js => generated 0 bytes in 8 msecs (HTTP/1.1 304) 4 headers in 184 bytes (0 switches on core 0)
+[pid: 3065|app: 0|req: 24/171] 171.112.239.217 () {48 vars in 1093 bytes} [Thu Jun 29 04:23:07 2017] GET /static/common/xtajax.js => generated 0 bytes in 3 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 3064|app: 0|req: 17/172] 171.112.239.217 () {48 vars in 1115 bytes} [Thu Jun 29 04:23:07 2017] GET /static/cms/css/cms_base.css => generated 0 bytes in 3 msecs (HTTP/1.1 304) 4 headers in 182 bytes (0 switches on core 0)
+[pid: 3059|app: 0|req: 6/174] 171.112.239.217 () {48 vars in 1111 bytes} [Thu Jun 29 04:23:07 2017] GET /static/cms/js/cms_editcmsuser.js => generated 0 bytes in 6 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 3063|app: 0|req: 17/174] 171.112.239.217 () {48 vars in 1096 bytes} [Thu Jun 29 04:23:07 2017] GET /static/cms/js/cms_base.js => generated 0 bytes in 6 msecs (HTTP/1.1 304) 4 headers in 182 bytes (0 switches on core 0)
+[pid: 3060|app: 0|req: 9/175] 171.112.239.217 () {52 vars in 1270 bytes} [Thu Jun 29 04:23:09 2017] POST /black_list/ => generated 36 bytes in 12 msecs (HTTP/1.1 200) 2 headers in 71 bytes (2 switches on core 0)
+[pid: 3062|app: 0|req: 45/176] 171.112.239.217 () {46 vars in 1098 bytes} [Thu Jun 29 04:23:10 2017] GET /edit_cmsuser/?user_id=2 => generated 4722 bytes in 10 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 3063|app: 0|req: 18/177] 171.112.239.217 () {48 vars in 1110 bytes} [Thu Jun 29 04:23:10 2017] GET /static/cms/js/sweetalert.min.js => generated 0 bytes in 6 msecs (HTTP/1.1 304) 4 headers in 184 bytes (0 switches on core 0)
+[pid: 3056|app: 0|req: 36/178] 171.112.239.217 () {48 vars in 1093 bytes} [Thu Jun 29 04:23:10 2017] GET /static/common/xtajax.js => generated 0 bytes in 7 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 3057|app: 0|req: 10/179] 171.112.239.217 () {48 vars in 1096 bytes} [Thu Jun 29 04:23:10 2017] GET /static/cms/js/cms_base.js => generated 0 bytes in 10 msecs (HTTP/1.1 304) 4 headers in 182 bytes (0 switches on core 0)
+[pid: 3061|app: 0|req: 7/180] 171.112.239.217 () {48 vars in 1095 bytes} [Thu Jun 29 04:23:10 2017] GET /static/cms/js/xtalert.js => generated 0 bytes in 10 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 3058|app: 0|req: 9/181] 171.112.239.217 () {48 vars in 1121 bytes} [Thu Jun 29 04:23:10 2017] GET /static/cms/css/sweetalert.css => generated 0 bytes in 11 msecs (HTTP/1.1 304) 4 headers in 184 bytes (0 switches on core 0)
+[pid: 3065|app: 0|req: 25/182] 171.112.239.217 () {48 vars in 1115 bytes} [Thu Jun 29 04:23:10 2017] GET /static/cms/css/cms_base.css => generated 0 bytes in 13 msecs (HTTP/1.1 304) 4 headers in 182 bytes (0 switches on core 0)
+[pid: 3064|app: 0|req: 18/183] 171.112.239.217 () {48 vars in 1111 bytes} [Thu Jun 29 04:23:10 2017] GET /static/cms/js/cms_editcmsuser.js => generated 0 bytes in 3 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 3060|app: 0|req: 10/184] 171.112.239.217 () {44 vars in 1038 bytes} [Thu Jun 29 04:23:14 2017] GET /profile/ => generated 4600 bytes in 21 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 3062|app: 0|req: 46/185] 171.112.239.217 () {42 vars in 923 bytes} [Thu Jun 29 04:23:15 2017] GET /favicon.ico => generated 2053 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 3056|app: 0|req: 37/186] 171.112.239.217 () {44 vars in 1025 bytes} [Thu Jun 29 04:23:19 2017] GET /resetpwd/ => generated 4759 bytes in 10 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 3062|app: 0|req: 47/187] 171.112.239.217 () {42 vars in 952 bytes} [Thu Jun 29 04:23:19 2017] GET /static/cms/js/cms_resetpwd.js => generated 1321 bytes in 3 msecs via sendfile() (HTTP/1.1 200) 7 headers in 279 bytes (0 switches on core 0)
+[pid: 3065|app: 0|req: 26/188] 171.112.239.217 () {42 vars in 924 bytes} [Thu Jun 29 04:23:20 2017] GET /favicon.ico => generated 2053 bytes in 7 msecs (HTTP/1.1 404) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 3062|app: 0|req: 48/189] 171.112.239.217 () {44 vars in 1028 bytes} [Thu Jun 29 04:23:21 2017] GET /resetmail/ => generated 4374 bytes in 11 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 3056|app: 0|req: 38/190] 171.112.239.217 () {42 vars in 955 bytes} [Thu Jun 29 04:23:22 2017] GET /static/cms/js/cms_resetmail.js => generated 1612 bytes in 3 msecs via sendfile() (HTTP/1.1 200) 7 headers in 279 bytes (0 switches on core 0)
+[pid: 3065|app: 0|req: 27/191] 171.112.239.217 () {42 vars in 925 bytes} [Thu Jun 29 04:23:22 2017] GET /favicon.ico => generated 2053 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 3064|app: 0|req: 19/192] 171.112.239.217 () {44 vars in 1021 bytes} [Thu Jun 29 04:23:24 2017] GET /posts/ => generated 9972 bytes in 44 msecs (HTTP/1.1 200) 2 headers in 81 bytes (2 switches on core 0)
+[pid: 3062|app: 0|req: 49/193] 171.112.239.217 () {42 vars in 921 bytes} [Thu Jun 29 04:23:24 2017] GET /favicon.ico => generated 2053 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 3056|app: 0|req: 39/194] 171.112.239.217 () {44 vars in 956 bytes} [Thu Jun 29 04:23:45 2017] GET /posts/?sort=2 => generated 9972 bytes in 17 msecs (HTTP/1.1 200) 2 headers in 81 bytes (2 switches on core 0)
+[pid: 3062|app: 0|req: 50/195] 171.112.239.217 () {44 vars in 1019 bytes} [Thu Jun 29 04:23:54 2017] GET /boards/ => generated 5632 bytes in 25 msecs (HTTP/1.1 200) 2 headers in 81 bytes (2 switches on core 0)
+[pid: 3056|app: 0|req: 40/196] 171.112.239.217 () {42 vars in 922 bytes} [Thu Jun 29 04:23:55 2017] GET /favicon.ico => generated 2053 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 3062|app: 0|req: 51/197] 171.112.239.217 () {44 vars in 954 bytes} [Thu Jun 29 04:26:13 2017] GET /post_detail/3/ => generated 8880 bytes in 14 msecs (HTTP/1.1 200) 2 headers in 81 bytes (2 switches on core 0)
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1994, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1985, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1540, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "./views/frontviews/accountviews.py", line 161, in personal_center
+    print '此用户是:',user.username
+UnicodeEncodeError: 'ascii' codec can't encode character u'\u5927' in position 0: ordinal not in range(128)
+[pid: 3056|app: 0|req: 41/198] 171.112.239.217 () {44 vars in 1039 bytes} [Thu Jun 29 04:26:16 2017] GET /account/personal_center/?user_id=GTBZ8pkGetJeECv48GytfM => generated 0 bytes in 10 msecs (HTTP/1.1 500) 0 headers in 0 bytes (0 switches on core 0)
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1994, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1985, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1540, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "./views/frontviews/accountviews.py", line 161, in personal_center
+    print '此用户是:',user.username
+UnicodeEncodeError: 'ascii' codec can't encode character u'\u5927' in position 0: ordinal not in range(128)
+[pid: 3062|app: 0|req: 52/199] 171.112.239.217 () {46 vars in 1070 bytes} [Thu Jun 29 04:26:23 2017] GET /account/personal_center/?user_id=GTBZ8pkGetJeECv48GytfM => generated 0 bytes in 9 msecs (HTTP/1.1 500) 0 headers in 0 bytes (0 switches on core 0)
+[pid: 3056|app: 0|req: 42/200] 171.112.239.217 () {44 vars in 954 bytes} [Thu Jun 29 04:26:25 2017] GET /post_detail/6/ => generated 5596 bytes in 31 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 3062|app: 0|req: 53/201] 171.112.239.217 () {44 vars in 954 bytes} [Thu Jun 29 04:26:27 2017] GET /post_detail/5/ => generated 13240 bytes in 18 msecs (HTTP/1.1 200) 2 headers in 82 bytes (1 switches on core 0)
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1994, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1985, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1540, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "./views/frontviews/accountviews.py", line 161, in personal_center
+    print '此用户是:',user.username
+UnicodeEncodeError: 'ascii' codec can't encode characters in position 0-3: ordinal not in range(128)
+[pid: 3056|app: 0|req: 43/202] 171.112.239.217 () {44 vars in 1039 bytes} [Thu Jun 29 04:26:29 2017] GET /account/personal_center/?user_id=44T6qymqkYNGAf2XVnqbFY => generated 0 bytes in 9 msecs (HTTP/1.1 500) 0 headers in 0 bytes (0 switches on core 0)
+[pid: 3062|app: 0|req: 54/203] 171.112.239.217 () {44 vars in 954 bytes} [Thu Jun 29 04:26:42 2017] GET /post_detail/5/ => generated 13240 bytes in 19 msecs (HTTP/1.1 200) 2 headers in 82 bytes (2 switches on core 0)
+[pid: 3056|app: 0|req: 44/204] 171.112.239.217 () {44 vars in 954 bytes} [Thu Jun 29 04:26:45 2017] GET /account/login/ => generated 2875 bytes in 13 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 3062|app: 0|req: 55/205] 171.112.239.217 () {42 vars in 911 bytes} [Thu Jun 29 04:26:45 2017] GET /static/front/css/front_sign_base.css => generated 729 bytes in 4 msecs via sendfile() (HTTP/1.1 200) 7 headers in 277 bytes (0 switches on core 0)
+[pid: 3061|app: 0|req: 8/206] 171.112.239.217 () {42 vars in 888 bytes} [Thu Jun 29 04:26:45 2017] GET /static/front/js/front_captcha.js => generated 447 bytes in 4 msecs via sendfile() (HTTP/1.1 200) 7 headers in 277 bytes (0 switches on core 0)
+[pid: 3065|app: 0|req: 28/207] 171.112.239.217 () {42 vars in 899 bytes} [Thu Jun 29 04:26:45 2017] GET /static/images/DOTA-SF.jpg => generated 79812 bytes in 7 msecs via sendfile() (HTTP/1.1 200) 7 headers in 268 bytes (0 switches on core 0)
+[pid: 3064|app: 0|req: 20/208] 171.112.239.217 () {42 vars in 893 bytes} [Thu Jun 29 04:26:45 2017] GET /account/graph_captcha/ => generated 3440 bytes in 20 msecs (HTTP/1.1 200) 2 headers in 66 bytes (1 switches on core 0)
+[pid: 3062|app: 0|req: 56/209] 171.112.239.217 () {44 vars in 930 bytes} [Thu Jun 29 04:26:47 2017] GET / => generated 13781 bytes in 44 msecs (HTTP/1.1 200) 2 headers in 82 bytes (1 switches on core 0)
+[pid: 3056|app: 0|req: 45/210] 171.112.239.217 () {44 vars in 936 bytes} [Thu Jun 29 04:26:48 2017] GET /list/1/2/1 => generated 11159 bytes in 37 msecs (HTTP/1.1 200) 2 headers in 82 bytes (1 switches on core 0)
+[pid: 3062|app: 0|req: 57/211] 171.112.239.217 () {44 vars in 954 bytes} [Thu Jun 29 04:26:50 2017] GET /post_detail/4/ => generated 11790 bytes in 18 msecs (HTTP/1.1 200) 2 headers in 82 bytes (2 switches on core 0)
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1994, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1985, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1540, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "./views/frontviews/accountviews.py", line 161, in personal_center
+    print '此用户是:',user.username
+UnicodeEncodeError: 'ascii' codec can't encode character u'\u5927' in position 0: ordinal not in range(128)
+[pid: 3056|app: 0|req: 46/212] 171.112.239.217 () {44 vars in 1039 bytes} [Thu Jun 29 04:26:51 2017] GET /account/personal_center/?user_id=GTBZ8pkGetJeECv48GytfM => generated 0 bytes in 8 msecs (HTTP/1.1 500) 0 headers in 0 bytes (0 switches on core 0)
+[pid: 3065|app: 0|req: 29/213] 171.112.239.217 () {44 vars in 954 bytes} [Thu Jun 29 04:26:54 2017] GET /account/login/ => generated 2875 bytes in 13 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+MemCached: MemCache: inet:172.31.41.29:11211: connect: [Errno 111] Connection refused.  Marking dead.
+[pid: 3062|app: 0|req: 58/214] 171.112.239.217 () {42 vars in 893 bytes} [Thu Jun 29 04:26:54 2017] GET /account/graph_captcha/ => generated 3185 bytes in 20 msecs (HTTP/1.1 200) 2 headers in 66 bytes (1 switches on core 0)
+MemCached: MemCache: inet:172.31.41.29:11211: connect: [Errno 111] Connection refused.  Marking dead.
+[pid: 3056|app: 0|req: 47/215] 171.112.239.217 () {52 vars in 1133 bytes} [Thu Jun 29 04:27:04 2017] POST /account/login/ => generated 209 bytes in 15 msecs (HTTP/1.1 302) 4 headers in 401 bytes (2 switches on core 0)
+[pid: 3062|app: 0|req: 59/216] 171.112.239.217 () {46 vars in 1006 bytes} [Thu Jun 29 04:27:04 2017] GET / => generated 14325 bytes in 44 msecs (HTTP/1.1 200) 2 headers in 82 bytes (1 switches on core 0)
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1994, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1985, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1540, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "./views/frontviews/accountviews.py", line 161, in personal_center
+    print '此用户是:',user.username
+UnicodeEncodeError: 'ascii' codec can't encode characters in position 0-1: ordinal not in range(128)
+[pid: 3056|app: 0|req: 48/217] 171.112.239.217 () {44 vars in 1070 bytes} [Thu Jun 29 04:27:07 2017] GET /account/personal_center/?user_id=UCGJdsjQVcchDeGPDxReYW => generated 0 bytes in 10 msecs (HTTP/1.1 500) 0 headers in 0 bytes (0 switches on core 0)
+[pid: 3062|app: 0|req: 60/218] 171.112.239.217 () {44 vars in 981 bytes} [Thu Jun 29 04:27:15 2017] GET /list/1/2/1 => generated 11703 bytes in 40 msecs (HTTP/1.1 200) 2 headers in 82 bytes (1 switches on core 0)
+[pid: 3056|app: 0|req: 49/219] 171.112.239.217 () {44 vars in 1005 bytes} [Thu Jun 29 04:27:16 2017] GET /account/settings/ => generated 5505 bytes in 16 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 3062|app: 0|req: 61/220] 171.112.239.217 () {42 vars in 957 bytes} [Thu Jun 29 04:27:17 2017] GET /static/front/css/front_settings.css => generated 456 bytes in 5 msecs via sendfile() (HTTP/1.1 200) 7 headers in 278 bytes (0 switches on core 0)
+[pid: 3065|app: 0|req: 30/221] 171.112.239.217 () {42 vars in 920 bytes} [Thu Jun 29 04:27:17 2017] GET /static/common/xtqiniu.js => generated 2115 bytes in 5 msecs via sendfile() (HTTP/1.1 200) 7 headers in 279 bytes (0 switches on core 0)
+[pid: 3064|app: 0|req: 21/222] 171.112.239.217 () {42 vars in 950 bytes} [Thu Jun 29 04:27:17 2017] GET /static/front/js/front_settings-qiniu.js => generated 6896 bytes in 5 msecs via sendfile() (HTTP/1.1 200) 7 headers in 279 bytes (0 switches on core 0)
+[pid: 3056|app: 0|req: 50/223] 171.112.239.217 () {46 vars in 952 bytes} [Thu Jun 29 04:27:17 2017] GET /qiniu_token => generated 269 bytes in 16 msecs (HTTP/1.1 301) 3 headers in 138 bytes (1 switches on core 0)
+[pid: 3062|app: 0|req: 62/224] 171.112.239.217 () {46 vars in 954 bytes} [Thu Jun 29 04:27:17 2017] GET /qiniu_token/ => generated 146 bytes in 4 msecs (HTTP/1.1 200) 2 headers in 72 bytes (2 switches on core 0)
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1994, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1985, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1540, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "./views/frontviews/accountviews.py", line 161, in personal_center
+    print '此用户是:',user.username
+UnicodeEncodeError: 'ascii' codec can't encode characters in position 0-1: ordinal not in range(128)
+[pid: 3065|app: 0|req: 31/225] 171.112.239.217 () {44 vars in 1087 bytes} [Thu Jun 29 04:27:19 2017] GET /account/personal_center/?user_id=UCGJdsjQVcchDeGPDxReYW => generated 0 bytes in 10 msecs (HTTP/1.1 500) 0 headers in 0 bytes (0 switches on core 0)
+[pid: 3062|app: 0|req: 63/226] 171.112.239.217 () {46 vars in 952 bytes} [Thu Jun 29 04:27:20 2017] GET /qiniu_token => generated 269 bytes in 6 msecs (HTTP/1.1 301) 3 headers in 138 bytes (1 switches on core 0)
+[pid: 3056|app: 0|req: 51/227] 171.112.239.217 () {46 vars in 954 bytes} [Thu Jun 29 04:27:20 2017] GET /qiniu_token/ => generated 146 bytes in 4 msecs (HTTP/1.1 200) 2 headers in 72 bytes (2 switches on core 0)
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1994, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1985, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1540, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "./views/frontviews/accountviews.py", line 161, in personal_center
+    print '此用户是:',user.username
+UnicodeEncodeError: 'ascii' codec can't encode characters in position 0-1: ordinal not in range(128)
+[pid: 3062|app: 0|req: 64/228] 171.112.239.217 () {44 vars in 1087 bytes} [Thu Jun 29 04:27:45 2017] GET /account/personal_center/?user_id=UCGJdsjQVcchDeGPDxReYW => generated 0 bytes in 10 msecs (HTTP/1.1 500) 0 headers in 0 bytes (1 switches on core 0)
+[pid: 3056|app: 0|req: 52/229] 171.112.239.217 () {46 vars in 952 bytes} [Thu Jun 29 04:27:46 2017] GET /qiniu_token => generated 269 bytes in 4 msecs (HTTP/1.1 301) 3 headers in 138 bytes (1 switches on core 0)
+[pid: 3065|app: 0|req: 32/230] 171.112.239.217 () {46 vars in 954 bytes} [Thu Jun 29 04:27:47 2017] GET /qiniu_token/ => generated 146 bytes in 5 msecs (HTTP/1.1 200) 2 headers in 72 bytes (2 switches on core 0)
+...brutally killing workers...
+[uWSGI] getting INI configuration from sbbs_uwsgi.ini
+*** Starting uWSGI 2.0.15 (64bit) on [Thu Jun 29 04:44:02 2017] ***
+compiled with version: 5.4.0 20160609 on 22 June 2017 13:16:58
+os: Linux-4.4.0-1020-aws #29-Ubuntu SMP Wed Jun 14 15:54:52 UTC 2017
+nodename: ip-172-31-41-29
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/yk_flask/sbbs
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/yk_flask/sbbs
+your processes number limit is 3903
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/ubuntu/yk_flask/sbbs/sbbs.sock fd 3
+Python version: 2.7.12 (default, Nov 19 2016, 06:48:10)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x145cb00
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 800360 bytes (781 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x145cb00 pid: 3190 (default app)
+mountpoint  already configured. skip.
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 3190)
+spawned uWSGI worker 1 (pid: 3195, cores: 1)
+spawned uWSGI worker 2 (pid: 3196, cores: 1)
+spawned uWSGI worker 3 (pid: 3197, cores: 1)
+spawned uWSGI worker 4 (pid: 3198, cores: 1)
+spawned uWSGI worker 5 (pid: 3199, cores: 1)
+spawned uWSGI worker 6 (pid: 3200, cores: 1)
+spawned uWSGI worker 7 (pid: 3201, cores: 1)
+spawned uWSGI worker 8 (pid: 3202, cores: 1)
+spawned uWSGI worker 9 (pid: 3203, cores: 1)
+spawned uWSGI worker 10 (pid: 3204, cores: 1)
+[pid: 3197|app: 0|req: 1/1] 171.112.239.217 () {44 vars in 978 bytes} [Thu Jun 29 04:44:08 2017] GET / => generated 13781 bytes in 242 msecs (HTTP/1.1 200) 3 headers in 285 bytes (1 switches on core 0)
+[pid: 3200|app: 0|req: 1/2] 171.112.239.217 () {44 vars in 905 bytes} [Thu Jun 29 04:44:10 2017] GET /account/login/ => generated 2875 bytes in 21 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 3197|app: 0|req: 2/3] 171.112.239.217 () {42 vars in 854 bytes} [Thu Jun 29 04:44:11 2017] GET /account/graph_captcha/ => generated 2878 bytes in 18 msecs (HTTP/1.1 200) 2 headers in 66 bytes (1 switches on core 0)
+[pid: 3200|app: 0|req: 2/4] 171.112.239.217 () {44 vars in 905 bytes} [Thu Jun 29 04:44:13 2017] GET /post_detail/3/ => generated 8880 bytes in 97 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1994, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1985, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1540, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "./views/frontviews/accountviews.py", line 161, in personal_center
+    print '此用户是:',user.username
+UnicodeEncodeError: 'ascii' codec can't encode character u'\u5927' in position 0: ordinal not in range(128)
+[pid: 3197|app: 0|req: 3/5] 171.112.239.217 () {44 vars in 1000 bytes} [Thu Jun 29 04:44:16 2017] GET /account/personal_center/?user_id=GTBZ8pkGetJeECv48GytfM => generated 0 bytes in 8 msecs (HTTP/1.1 500) 0 headers in 0 bytes (0 switches on core 0)
+[pid: 3200|app: 0|req: 3/6] 171.112.239.217 () {44 vars in 905 bytes} [Thu Jun 29 04:51:39 2017] GET /post_detail/3/ => generated 8880 bytes in 13 msecs (HTTP/1.1 200) 2 headers in 81 bytes (2 switches on core 0)
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1994, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1985, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1540, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "./views/frontviews/accountviews.py", line 161, in personal_center
+    print '此用户是:',user.username
+UnicodeEncodeError: 'ascii' codec can't encode character u'\u5927' in position 0: ordinal not in range(128)
+[pid: 3197|app: 0|req: 4/7] 171.112.239.217 () {44 vars in 1000 bytes} [Thu Jun 29 04:51:43 2017] GET /account/personal_center/?user_id=GTBZ8pkGetJeECv48GytfM => generated 0 bytes in 8 msecs (HTTP/1.1 500) 0 headers in 0 bytes (0 switches on core 0)
+Thu Jun 29 04:51:43 2017 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 296] during POST /read_time/ (171.112.239.217)
+IOError: write error
+[pid: 3204|app: 0|req: 1/8] 171.112.239.217 () {52 vars in 1127 bytes} [Thu Jun 29 04:51:43 2017] POST /read_time/ => generated 0 bytes in 83 msecs (HTTP/1.1 200) 2 headers in 0 bytes (0 switches on core 0)
+[pid: 3200|app: 0|req: 4/9] 171.112.239.217 () {42 vars in 842 bytes} [Thu Jun 29 04:51:51 2017] GET / => generated 13781 bytes in 163 msecs (HTTP/1.1 200) 2 headers in 82 bytes (2 switches on core 0)
+[pid: 3200|app: 0|req: 5/10] 171.112.239.217 () {42 vars in 842 bytes} [Thu Jun 29 04:52:27 2017] GET / => generated 13781 bytes in 41 msecs (HTTP/1.1 200) 2 headers in 82 bytes (2 switches on core 0)
+[pid: 3197|app: 0|req: 5/11] 171.112.239.217 () {44 vars in 905 bytes} [Thu Jun 29 04:52:29 2017] GET /post_detail/3/ => generated 8880 bytes in 33 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1994, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1985, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1540, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "./views/frontviews/accountviews.py", line 161, in personal_center
+    print '此用户是:',user.username
+UnicodeEncodeError: 'ascii' codec can't encode character u'\u5927' in position 0: ordinal not in range(128)
+[pid: 3200|app: 0|req: 6/12] 171.112.239.217 () {44 vars in 1000 bytes} [Thu Jun 29 04:52:31 2017] GET /account/personal_center/?user_id=GTBZ8pkGetJeECv48GytfM => generated 0 bytes in 7 msecs (HTTP/1.1 500) 0 headers in 0 bytes (0 switches on core 0)

@@ -158,7 +158,7 @@ def setting():
 def personal_center():
     user_id = flask.request.args.get('user_id')
     user = FrontUser.query.filter(FrontUser.id == user_id).first()
-    print '此用户是:',user.username
+    # print '此用户是:',user.username
     contest = {
         'user': user
     }
@@ -181,7 +181,7 @@ def sms_captcha():
     try:
         int(telephone)
     except Exception, e:
-        print e
+        # print e
         return xtjson.json_params_error(message=u'手机号码格式不正确，请重新填写！')
 
     captcha = Captcha.gene_text()
@@ -196,13 +196,13 @@ def sms_captcha():
     req.rec_num = telephone.decode('utf-8').encode('ascii')
     req.sms_template_code = constants.ALIDAYU_APP_TEMPLATE_CODE
     try:
-        print '短信验证码是：', captcha
+        # print '短信验证码是：', captcha
         # 设置缓存
         xtcache.set(telephone, captcha)
         resp = req.getResponse()
         return xtjson.json_result()
     except Exception, e:
-        print e
+        # print e
         if e.submsg == u'触发业务流控':
             return xtjson.json_method_error(message=u'发送验证码过于频繁，请于一小时后再注册！')
 
@@ -214,7 +214,7 @@ def sms_captcha():
 def graph_captcha():
     # 验证码过期时间，默认2分钟
     timeout = flask.request.args.get('timeout', 2, int)
-    print 'timeout:', timeout
+    # print 'timeout:', timeout
     text, image = Captcha.gene_code()
     out = StringIO()  # StringIO相当于是一个管道
     image.save(out, 'png')  # 把image塞到StingIO这个管道中

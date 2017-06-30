@@ -1,0 +1,1978 @@
+
+2017-06-27 07:46:05,889 INFO RPC interface 'supervisor' initialized
+2017-06-27 07:46:05,891 INFO daemonizing the supervisord process
+2017-06-27 07:46:05,891 INFO supervisord started with pid 4903
+2017-06-27 07:46:06,894 INFO spawned: 'sbbs' with pid 4904
+2017-06-27 07:46:06,897 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:46:06,897 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:46:07,900 INFO spawned: 'sbbs' with pid 4905
+2017-06-27 07:46:07,903 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:46:07,904 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:46:08,906 INFO spawned: 'sbbs' with pid 4906
+2017-06-27 07:46:08,909 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:46:08,910 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:46:09,912 INFO spawned: 'sbbs' with pid 4907
+2017-06-27 07:46:09,915 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:46:09,916 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:46:10,918 INFO spawned: 'sbbs' with pid 4908
+2017-06-27 07:46:10,921 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:46:10,922 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:46:11,925 INFO spawned: 'sbbs' with pid 4909
+2017-06-27 07:46:11,928 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:46:11,928 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:46:12,931 INFO spawned: 'sbbs' with pid 4910
+2017-06-27 07:46:12,934 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:46:12,934 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:46:13,937 INFO spawned: 'sbbs' with pid 4911
+2017-06-27 07:46:13,940 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:46:13,940 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:46:14,943 INFO spawned: 'sbbs' with pid 4912
+2017-06-27 07:46:14,946 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:46:14,946 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:46:15,949 INFO spawned: 'sbbs' with pid 4913
+2017-06-27 07:46:15,952 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:46:15,953 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:46:16,955 INFO spawned: 'sbbs' with pid 4914
+2017-06-27 07:46:16,960 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:46:17,962 INFO spawned: 'sbbs' with pid 4915
+2017-06-27 07:46:17,965 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:46:17,966 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:46:18,968 INFO spawned: 'sbbs' with pid 4916
+2017-06-27 07:46:18,971 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:46:18,972 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:46:19,974 INFO spawned: 'sbbs' with pid 4917
+2017-06-27 07:46:19,977 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:46:19,978 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:46:20,981 INFO spawned: 'sbbs' with pid 4918
+2017-06-27 07:46:20,984 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:46:20,985 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:46:21,987 INFO spawned: 'sbbs' with pid 4919
+2017-06-27 07:46:21,990 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:46:21,991 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:46:22,993 INFO spawned: 'sbbs' with pid 4920
+2017-06-27 07:46:22,996 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:46:22,997 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:46:24,000 INFO spawned: 'sbbs' with pid 4921
+2017-06-27 07:46:24,003 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:46:24,003 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:46:25,006 INFO spawned: 'sbbs' with pid 4922
+2017-06-27 07:46:25,009 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:46:25,009 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:46:26,012 INFO spawned: 'sbbs' with pid 4923
+2017-06-27 07:46:26,015 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:46:26,015 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:46:27,018 INFO spawned: 'sbbs' with pid 4924
+2017-06-27 07:46:27,021 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:46:27,021 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:46:28,024 INFO spawned: 'sbbs' with pid 4925
+2017-06-27 07:46:28,027 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:46:28,027 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:46:29,030 INFO spawned: 'sbbs' with pid 4926
+2017-06-27 07:46:29,033 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:46:29,033 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:46:30,036 INFO spawned: 'sbbs' with pid 4927
+2017-06-27 07:46:30,039 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:46:30,040 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:46:31,042 INFO spawned: 'sbbs' with pid 4928
+2017-06-27 07:46:31,045 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:46:31,046 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:46:32,048 INFO spawned: 'sbbs' with pid 4929
+2017-06-27 07:46:32,051 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:46:32,052 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:46:33,054 INFO spawned: 'sbbs' with pid 4930
+2017-06-27 07:46:33,057 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:46:33,058 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:46:34,060 INFO spawned: 'sbbs' with pid 4934
+2017-06-27 07:46:34,063 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:46:34,064 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:46:35,066 INFO spawned: 'sbbs' with pid 4935
+2017-06-27 07:46:35,069 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:46:35,070 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:46:36,072 INFO spawned: 'sbbs' with pid 4936
+2017-06-27 07:46:36,075 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:46:36,076 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:46:37,078 INFO spawned: 'sbbs' with pid 4937
+2017-06-27 07:46:37,081 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:46:37,082 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:46:38,084 INFO spawned: 'sbbs' with pid 4938
+2017-06-27 07:46:38,087 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:46:38,088 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:46:39,090 INFO spawned: 'sbbs' with pid 4939
+2017-06-27 07:46:39,093 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:46:39,094 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:46:40,096 INFO spawned: 'sbbs' with pid 4940
+2017-06-27 07:46:40,099 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:46:40,100 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:46:41,103 INFO spawned: 'sbbs' with pid 4941
+2017-06-27 07:46:41,106 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:46:41,106 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:46:42,109 INFO spawned: 'sbbs' with pid 4942
+2017-06-27 07:46:42,112 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:46:42,112 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:46:43,115 INFO spawned: 'sbbs' with pid 4943
+2017-06-27 07:46:43,118 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:46:43,118 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:46:44,121 INFO spawned: 'sbbs' with pid 4944
+2017-06-27 07:46:44,124 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:46:44,124 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:46:45,127 INFO spawned: 'sbbs' with pid 4945
+2017-06-27 07:46:45,130 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:46:45,131 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:46:46,133 INFO spawned: 'sbbs' with pid 4946
+2017-06-27 07:46:46,136 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:46:46,137 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:46:47,139 INFO spawned: 'sbbs' with pid 4947
+2017-06-27 07:46:47,142 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:46:47,143 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:46:48,145 INFO spawned: 'sbbs' with pid 4948
+2017-06-27 07:46:48,148 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:46:48,149 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:46:49,151 INFO spawned: 'sbbs' with pid 4950
+2017-06-27 07:46:49,158 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:46:49,160 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:46:50,163 INFO spawned: 'sbbs' with pid 4951
+2017-06-27 07:46:50,166 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:46:50,166 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:46:51,169 INFO spawned: 'sbbs' with pid 4952
+2017-06-27 07:46:51,172 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:46:51,172 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:46:52,175 INFO spawned: 'sbbs' with pid 4953
+2017-06-27 07:46:52,178 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:46:52,178 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:46:53,181 INFO spawned: 'sbbs' with pid 4954
+2017-06-27 07:46:53,184 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:46:53,185 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:46:54,187 INFO spawned: 'sbbs' with pid 4955
+2017-06-27 07:46:54,190 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:46:54,191 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:46:55,193 INFO spawned: 'sbbs' with pid 4956
+2017-06-27 07:46:55,196 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:46:55,197 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:46:56,199 INFO spawned: 'sbbs' with pid 4957
+2017-06-27 07:46:56,202 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:46:56,203 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:46:57,205 INFO spawned: 'sbbs' with pid 4959
+2017-06-27 07:46:57,208 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:46:57,209 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:46:58,211 INFO spawned: 'sbbs' with pid 4960
+2017-06-27 07:46:58,214 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:46:58,215 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:46:59,217 INFO spawned: 'sbbs' with pid 4961
+2017-06-27 07:46:59,220 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:46:59,221 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:47:00,223 INFO spawned: 'sbbs' with pid 4962
+2017-06-27 07:47:00,226 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:47:00,227 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:47:01,230 INFO spawned: 'sbbs' with pid 4963
+2017-06-27 07:47:01,233 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:47:01,233 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:47:02,236 INFO spawned: 'sbbs' with pid 4964
+2017-06-27 07:47:02,239 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:47:02,239 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:47:03,242 INFO spawned: 'sbbs' with pid 4965
+2017-06-27 07:47:03,245 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:47:03,246 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:47:04,248 INFO spawned: 'sbbs' with pid 4966
+2017-06-27 07:47:04,251 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:47:04,252 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:47:05,254 INFO spawned: 'sbbs' with pid 4967
+2017-06-27 07:47:05,257 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:47:05,258 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:47:06,260 INFO spawned: 'sbbs' with pid 4968
+2017-06-27 07:47:06,264 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:47:06,264 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:47:07,267 INFO spawned: 'sbbs' with pid 4969
+2017-06-27 07:47:07,270 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:47:07,270 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:47:08,273 INFO spawned: 'sbbs' with pid 4970
+2017-06-27 07:47:08,276 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:47:08,276 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:47:09,279 INFO spawned: 'sbbs' with pid 4971
+2017-06-27 07:47:09,282 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:47:09,283 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:47:10,285 INFO spawned: 'sbbs' with pid 4972
+2017-06-27 07:47:10,288 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:47:10,289 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:47:11,291 INFO spawned: 'sbbs' with pid 4973
+2017-06-27 07:47:11,294 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:47:11,295 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:47:12,297 INFO spawned: 'sbbs' with pid 4974
+2017-06-27 07:47:12,300 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:47:12,301 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:47:13,303 INFO spawned: 'sbbs' with pid 4975
+2017-06-27 07:47:13,306 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:47:13,307 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:47:14,309 INFO spawned: 'sbbs' with pid 4979
+2017-06-27 07:47:14,312 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:47:14,313 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:47:15,316 INFO spawned: 'sbbs' with pid 4980
+2017-06-27 07:47:15,319 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:47:15,319 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:47:16,322 INFO spawned: 'sbbs' with pid 4981
+2017-06-27 07:47:16,325 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:47:16,325 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:47:17,328 INFO spawned: 'sbbs' with pid 4982
+2017-06-27 07:47:17,331 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:47:17,331 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:47:18,334 INFO spawned: 'sbbs' with pid 4983
+2017-06-27 07:47:18,337 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:47:18,338 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:47:19,340 INFO spawned: 'sbbs' with pid 4984
+2017-06-27 07:47:19,343 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:47:19,344 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:47:20,346 INFO spawned: 'sbbs' with pid 4985
+2017-06-27 07:47:20,349 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:47:20,350 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:47:21,353 INFO spawned: 'sbbs' with pid 4986
+2017-06-27 07:47:21,355 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:47:21,356 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:47:22,359 INFO spawned: 'sbbs' with pid 4987
+2017-06-27 07:47:22,362 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:47:22,363 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:47:23,365 INFO spawned: 'sbbs' with pid 4988
+2017-06-27 07:47:23,368 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:47:23,369 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:47:24,371 INFO spawned: 'sbbs' with pid 4989
+2017-06-27 07:47:24,374 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:47:24,375 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:47:25,377 INFO spawned: 'sbbs' with pid 4990
+2017-06-27 07:47:25,380 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:47:25,381 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:47:26,384 INFO spawned: 'sbbs' with pid 4991
+2017-06-27 07:47:26,387 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:47:26,387 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:47:27,390 INFO spawned: 'sbbs' with pid 4992
+2017-06-27 07:47:27,393 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:47:27,393 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:47:28,396 INFO spawned: 'sbbs' with pid 4993
+2017-06-27 07:47:28,399 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:47:28,400 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:47:29,402 INFO spawned: 'sbbs' with pid 4994
+2017-06-27 07:47:29,405 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:47:29,406 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:47:30,408 INFO spawned: 'sbbs' with pid 4995
+2017-06-27 07:47:30,411 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:47:30,412 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:47:31,415 INFO spawned: 'sbbs' with pid 4996
+2017-06-27 07:47:31,418 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:47:31,418 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:47:32,421 INFO spawned: 'sbbs' with pid 4997
+2017-06-27 07:47:32,424 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:47:32,424 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:47:33,427 INFO spawned: 'sbbs' with pid 4998
+2017-06-27 07:47:33,430 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:47:33,430 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:47:34,433 INFO spawned: 'sbbs' with pid 4999
+2017-06-27 07:47:34,436 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:47:34,436 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:47:35,439 INFO spawned: 'sbbs' with pid 5000
+2017-06-27 07:47:35,442 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:47:35,443 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:47:36,445 INFO spawned: 'sbbs' with pid 5001
+2017-06-27 07:47:36,448 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:47:36,449 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:47:37,451 INFO spawned: 'sbbs' with pid 5002
+2017-06-27 07:47:37,454 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:47:37,455 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:47:38,457 INFO spawned: 'sbbs' with pid 5003
+2017-06-27 07:47:38,460 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:47:38,461 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:47:39,463 INFO spawned: 'sbbs' with pid 5004
+2017-06-27 07:47:39,466 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:47:39,467 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:47:40,469 INFO spawned: 'sbbs' with pid 5005
+2017-06-27 07:47:40,472 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:47:40,473 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:47:41,475 INFO spawned: 'sbbs' with pid 5006
+2017-06-27 07:47:41,478 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:47:41,479 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:47:42,481 INFO spawned: 'sbbs' with pid 5007
+2017-06-27 07:47:42,484 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:47:42,485 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:47:43,487 INFO spawned: 'sbbs' with pid 5008
+2017-06-27 07:47:43,490 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:47:43,491 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:47:44,493 INFO spawned: 'sbbs' with pid 5009
+2017-06-27 07:47:44,496 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:47:44,497 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:47:45,499 INFO spawned: 'sbbs' with pid 5010
+2017-06-27 07:47:45,502 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:47:45,503 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:47:46,506 INFO spawned: 'sbbs' with pid 5011
+2017-06-27 07:47:46,508 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:47:46,509 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:47:47,512 INFO spawned: 'sbbs' with pid 5012
+2017-06-27 07:47:47,515 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:47:47,515 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:47:48,518 INFO spawned: 'sbbs' with pid 5013
+2017-06-27 07:47:48,521 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:47:48,521 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:47:49,524 INFO spawned: 'sbbs' with pid 5014
+2017-06-27 07:47:49,527 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:47:49,527 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:47:50,530 INFO spawned: 'sbbs' with pid 5015
+2017-06-27 07:47:50,533 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:47:50,534 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:47:51,536 INFO spawned: 'sbbs' with pid 5016
+2017-06-27 07:47:51,539 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:47:51,540 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:47:52,542 INFO spawned: 'sbbs' with pid 5017
+2017-06-27 07:47:52,545 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:47:52,546 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:47:53,548 INFO spawned: 'sbbs' with pid 5018
+2017-06-27 07:47:53,551 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:47:53,552 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:47:54,554 INFO spawned: 'sbbs' with pid 5019
+2017-06-27 07:47:54,557 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:47:54,558 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:47:55,560 INFO spawned: 'sbbs' with pid 5020
+2017-06-27 07:47:55,563 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:47:55,564 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:47:56,566 INFO spawned: 'sbbs' with pid 5022
+2017-06-27 07:47:56,569 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:47:56,570 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:47:57,573 INFO spawned: 'sbbs' with pid 5023
+2017-06-27 07:47:57,576 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:47:57,576 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:47:58,579 INFO spawned: 'sbbs' with pid 5025
+2017-06-27 07:47:58,582 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:47:58,583 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:47:59,585 INFO spawned: 'sbbs' with pid 5026
+2017-06-27 07:47:59,588 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:47:59,589 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:48:00,591 INFO spawned: 'sbbs' with pid 5028
+2017-06-27 07:48:00,594 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:48:00,595 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:48:01,597 INFO spawned: 'sbbs' with pid 5030
+2017-06-27 07:48:01,600 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:48:01,601 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:48:02,603 INFO spawned: 'sbbs' with pid 5031
+2017-06-27 07:48:02,606 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:48:02,607 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:48:03,609 INFO spawned: 'sbbs' with pid 5032
+2017-06-27 07:48:03,612 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:48:03,613 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:48:04,615 INFO spawned: 'sbbs' with pid 5033
+2017-06-27 07:48:04,618 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:48:04,619 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:48:05,622 INFO spawned: 'sbbs' with pid 5034
+2017-06-27 07:48:05,625 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:48:05,625 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:48:06,628 INFO spawned: 'sbbs' with pid 5035
+2017-06-27 07:48:06,631 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:48:06,632 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:48:07,634 INFO spawned: 'sbbs' with pid 5036
+2017-06-27 07:48:07,637 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:48:07,638 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:48:08,640 INFO spawned: 'sbbs' with pid 5037
+2017-06-27 07:48:08,643 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:48:08,644 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:48:09,646 INFO spawned: 'sbbs' with pid 5038
+2017-06-27 07:48:09,649 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:48:09,650 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:48:10,653 INFO spawned: 'sbbs' with pid 5039
+2017-06-27 07:48:10,656 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:48:10,656 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:48:11,659 INFO spawned: 'sbbs' with pid 5040
+2017-06-27 07:48:11,662 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:48:11,662 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:48:12,665 INFO spawned: 'sbbs' with pid 5041
+2017-06-27 07:48:12,668 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:48:12,669 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:48:13,671 INFO spawned: 'sbbs' with pid 5042
+2017-06-27 07:48:13,674 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:48:13,675 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:48:14,677 INFO spawned: 'sbbs' with pid 5043
+2017-06-27 07:48:14,680 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:48:14,681 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:48:15,683 INFO spawned: 'sbbs' with pid 5044
+2017-06-27 07:48:15,686 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:48:15,687 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:48:16,689 INFO spawned: 'sbbs' with pid 5045
+2017-06-27 07:48:16,692 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:48:16,693 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:48:17,695 INFO spawned: 'sbbs' with pid 5046
+2017-06-27 07:48:17,699 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:48:17,699 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:48:18,702 INFO spawned: 'sbbs' with pid 5047
+2017-06-27 07:48:18,705 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:48:18,705 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:48:19,708 INFO spawned: 'sbbs' with pid 5048
+2017-06-27 07:48:19,711 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:48:19,712 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:48:20,714 INFO spawned: 'sbbs' with pid 5049
+2017-06-27 07:48:20,717 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:48:20,718 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:48:21,720 INFO spawned: 'sbbs' with pid 5050
+2017-06-27 07:48:21,723 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:48:21,724 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:48:22,726 INFO spawned: 'sbbs' with pid 5051
+2017-06-27 07:48:22,729 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:48:22,730 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:48:23,733 INFO spawned: 'sbbs' with pid 5052
+2017-06-27 07:48:23,736 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:48:23,736 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:48:24,739 INFO spawned: 'sbbs' with pid 5053
+2017-06-27 07:48:24,742 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:48:24,743 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:48:25,745 INFO spawned: 'sbbs' with pid 5054
+2017-06-27 07:48:25,748 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:48:25,749 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:48:26,751 INFO spawned: 'sbbs' with pid 5055
+2017-06-27 07:48:26,754 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:48:26,755 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:48:27,757 INFO spawned: 'sbbs' with pid 5056
+2017-06-27 07:48:27,760 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:48:27,761 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:48:28,764 INFO spawned: 'sbbs' with pid 5057
+2017-06-27 07:48:28,767 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:48:28,767 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:48:29,770 INFO spawned: 'sbbs' with pid 5058
+2017-06-27 07:48:29,773 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:48:29,773 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:48:30,776 INFO spawned: 'sbbs' with pid 5059
+2017-06-27 07:48:30,779 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:48:30,779 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:48:31,782 INFO spawned: 'sbbs' with pid 5060
+2017-06-27 07:48:31,785 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:48:31,785 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:48:32,788 INFO spawned: 'sbbs' with pid 5061
+2017-06-27 07:48:32,791 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:48:32,792 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:48:33,794 INFO spawned: 'sbbs' with pid 5062
+2017-06-27 07:48:33,797 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:48:33,798 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:48:34,801 INFO spawned: 'sbbs' with pid 5063
+2017-06-27 07:48:34,804 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:48:34,804 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:48:35,807 INFO spawned: 'sbbs' with pid 5064
+2017-06-27 07:48:35,810 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:48:35,810 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:48:36,813 INFO spawned: 'sbbs' with pid 5065
+2017-06-27 07:48:36,816 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:48:36,816 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:48:37,819 INFO spawned: 'sbbs' with pid 5066
+2017-06-27 07:48:37,822 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:48:37,822 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:48:38,825 INFO spawned: 'sbbs' with pid 5067
+2017-06-27 07:48:38,828 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:48:38,829 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:48:39,831 INFO spawned: 'sbbs' with pid 5068
+2017-06-27 07:48:39,834 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:48:39,835 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:48:40,837 INFO spawned: 'sbbs' with pid 5069
+2017-06-27 07:48:40,840 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:48:40,841 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:48:41,843 INFO spawned: 'sbbs' with pid 5070
+2017-06-27 07:48:41,846 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:48:41,847 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:48:42,849 INFO spawned: 'sbbs' with pid 5071
+2017-06-27 07:48:42,852 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:48:42,853 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:48:43,855 INFO spawned: 'sbbs' with pid 5072
+2017-06-27 07:48:43,858 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:48:43,859 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:48:44,861 INFO spawned: 'sbbs' with pid 5073
+2017-06-27 07:48:44,864 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:48:44,865 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:48:45,867 INFO spawned: 'sbbs' with pid 5074
+2017-06-27 07:48:45,871 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:48:45,871 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:48:46,874 INFO spawned: 'sbbs' with pid 5075
+2017-06-27 07:48:46,877 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:48:46,877 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:48:47,880 INFO spawned: 'sbbs' with pid 5076
+2017-06-27 07:48:47,883 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:48:47,883 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:48:48,886 INFO spawned: 'sbbs' with pid 5077
+2017-06-27 07:48:48,889 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:48:48,889 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:48:49,892 INFO spawned: 'sbbs' with pid 5090
+2017-06-27 07:48:49,895 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:48:49,895 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:48:50,898 INFO spawned: 'sbbs' with pid 5091
+2017-06-27 07:48:50,901 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:48:50,902 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:48:51,904 INFO spawned: 'sbbs' with pid 5092
+2017-06-27 07:48:51,907 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:48:51,908 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:48:52,910 INFO spawned: 'sbbs' with pid 5093
+2017-06-27 07:48:52,913 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:48:52,914 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:48:53,916 INFO spawned: 'sbbs' with pid 5094
+2017-06-27 07:48:53,920 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:48:53,921 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:48:54,923 INFO spawned: 'sbbs' with pid 5095
+2017-06-27 07:48:54,926 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:48:54,927 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:48:55,929 INFO spawned: 'sbbs' with pid 5096
+2017-06-27 07:48:55,932 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:48:55,933 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:48:56,935 INFO spawned: 'sbbs' with pid 5097
+2017-06-27 07:48:56,938 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:48:56,939 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:48:57,941 INFO spawned: 'sbbs' with pid 5098
+2017-06-27 07:48:57,944 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:48:57,945 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:48:58,947 INFO spawned: 'sbbs' with pid 5099
+2017-06-27 07:48:58,950 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:48:58,951 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:48:59,953 INFO spawned: 'sbbs' with pid 5103
+2017-06-27 07:48:59,956 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:48:59,957 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:49:00,960 INFO spawned: 'sbbs' with pid 5104
+2017-06-27 07:49:00,963 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:49:00,963 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:49:01,966 INFO spawned: 'sbbs' with pid 5105
+2017-06-27 07:49:01,969 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:49:01,970 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:49:02,972 INFO spawned: 'sbbs' with pid 5106
+2017-06-27 07:49:02,975 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:49:02,976 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:49:03,978 INFO spawned: 'sbbs' with pid 5107
+2017-06-27 07:49:03,981 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:49:03,982 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:49:04,984 INFO spawned: 'sbbs' with pid 5108
+2017-06-27 07:49:04,987 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:49:04,988 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:49:05,991 INFO spawned: 'sbbs' with pid 5109
+2017-06-27 07:49:05,994 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:49:05,995 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:49:06,997 INFO spawned: 'sbbs' with pid 5111
+2017-06-27 07:49:07,002 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:49:07,008 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:49:08,011 INFO spawned: 'sbbs' with pid 5112
+2017-06-27 07:49:08,014 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:49:08,015 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:49:09,017 INFO spawned: 'sbbs' with pid 5113
+2017-06-27 07:49:09,020 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:49:09,021 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:49:10,023 INFO spawned: 'sbbs' with pid 5114
+2017-06-27 07:49:10,026 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:49:10,027 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:49:11,029 INFO spawned: 'sbbs' with pid 5115
+2017-06-27 07:49:11,032 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:49:11,033 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:49:12,035 INFO spawned: 'sbbs' with pid 5116
+2017-06-27 07:49:12,038 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:49:12,039 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:49:13,041 INFO spawned: 'sbbs' with pid 5117
+2017-06-27 07:49:13,044 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:49:13,045 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:49:14,047 INFO spawned: 'sbbs' with pid 5118
+2017-06-27 07:49:14,050 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:49:14,051 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:49:15,053 INFO spawned: 'sbbs' with pid 5119
+2017-06-27 07:49:15,056 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:49:15,057 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:49:16,060 INFO spawned: 'sbbs' with pid 5120
+2017-06-27 07:49:16,063 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:49:16,063 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:49:17,066 INFO spawned: 'sbbs' with pid 5121
+2017-06-27 07:49:17,069 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:49:17,070 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:49:18,072 INFO spawned: 'sbbs' with pid 5122
+2017-06-27 07:49:18,075 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:49:18,076 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:49:19,078 INFO spawned: 'sbbs' with pid 5123
+2017-06-27 07:49:19,081 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:49:19,082 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:49:20,084 INFO spawned: 'sbbs' with pid 5124
+2017-06-27 07:49:20,087 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:49:20,088 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:49:21,090 INFO spawned: 'sbbs' with pid 5125
+2017-06-27 07:49:21,094 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:49:21,094 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:49:22,097 INFO spawned: 'sbbs' with pid 5126
+2017-06-27 07:49:22,100 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:49:22,100 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:49:23,103 INFO spawned: 'sbbs' with pid 5127
+2017-06-27 07:49:23,106 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:49:23,107 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:49:24,109 INFO spawned: 'sbbs' with pid 5128
+2017-06-27 07:49:24,112 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:49:24,113 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:49:25,115 INFO spawned: 'sbbs' with pid 5129
+2017-06-27 07:49:25,118 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:49:25,119 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:49:26,121 INFO spawned: 'sbbs' with pid 5130
+2017-06-27 07:49:26,124 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:49:26,125 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:49:27,127 INFO spawned: 'sbbs' with pid 5131
+2017-06-27 07:49:27,130 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:49:27,131 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:49:28,134 INFO spawned: 'sbbs' with pid 5132
+2017-06-27 07:49:28,137 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:49:28,137 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:49:29,140 INFO spawned: 'sbbs' with pid 5133
+2017-06-27 07:49:29,143 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:49:29,144 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:49:30,146 INFO spawned: 'sbbs' with pid 5134
+2017-06-27 07:49:30,149 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:49:30,150 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:49:31,152 INFO spawned: 'sbbs' with pid 5135
+2017-06-27 07:49:31,155 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:49:31,156 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:49:32,158 INFO spawned: 'sbbs' with pid 5136
+2017-06-27 07:49:32,162 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:49:32,162 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:49:33,165 INFO spawned: 'sbbs' with pid 5137
+2017-06-27 07:49:33,168 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:49:33,168 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:49:34,171 INFO spawned: 'sbbs' with pid 5138
+2017-06-27 07:49:34,174 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:49:34,175 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:49:35,177 INFO spawned: 'sbbs' with pid 5139
+2017-06-27 07:49:35,180 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:49:35,181 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:49:36,183 INFO spawned: 'sbbs' with pid 5140
+2017-06-27 07:49:36,186 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:49:36,187 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:49:37,189 INFO spawned: 'sbbs' with pid 5141
+2017-06-27 07:49:37,192 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:49:37,193 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:49:38,195 INFO spawned: 'sbbs' with pid 5142
+2017-06-27 07:49:38,198 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:49:38,199 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:49:39,201 INFO spawned: 'sbbs' with pid 5143
+2017-06-27 07:49:39,204 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:49:39,205 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:49:40,207 INFO spawned: 'sbbs' with pid 5144
+2017-06-27 07:49:40,210 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:49:40,211 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:49:41,213 INFO spawned: 'sbbs' with pid 5145
+2017-06-27 07:49:41,216 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:49:41,217 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:49:42,220 INFO spawned: 'sbbs' with pid 5146
+2017-06-27 07:49:42,223 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:49:42,223 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:49:43,226 INFO spawned: 'sbbs' with pid 5147
+2017-06-27 07:49:43,229 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:49:43,229 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:49:44,232 INFO spawned: 'sbbs' with pid 5148
+2017-06-27 07:49:44,235 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:49:44,235 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:49:45,238 INFO spawned: 'sbbs' with pid 5149
+2017-06-27 07:49:45,241 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:49:45,242 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:49:46,244 INFO spawned: 'sbbs' with pid 5150
+2017-06-27 07:49:46,247 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:49:46,248 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:49:47,250 INFO spawned: 'sbbs' with pid 5151
+2017-06-27 07:49:47,253 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:49:47,254 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:49:48,256 INFO spawned: 'sbbs' with pid 5152
+2017-06-27 07:49:48,259 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:49:48,260 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:49:49,262 INFO spawned: 'sbbs' with pid 5153
+2017-06-27 07:49:49,265 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:49:49,266 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:49:50,269 INFO spawned: 'sbbs' with pid 5154
+2017-06-27 07:49:50,272 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:49:50,272 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:49:51,275 INFO spawned: 'sbbs' with pid 5155
+2017-06-27 07:49:51,278 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:49:51,279 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:49:52,281 INFO spawned: 'sbbs' with pid 5156
+2017-06-27 07:49:52,284 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:49:52,285 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:49:53,287 INFO spawned: 'sbbs' with pid 5157
+2017-06-27 07:49:53,290 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:49:53,291 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:49:54,294 INFO spawned: 'sbbs' with pid 5159
+2017-06-27 07:49:54,296 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:49:54,297 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:49:55,300 INFO spawned: 'sbbs' with pid 5160
+2017-06-27 07:49:55,303 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:49:55,303 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:49:56,306 INFO spawned: 'sbbs' with pid 5161
+2017-06-27 07:49:56,309 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:49:56,309 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:49:57,312 INFO spawned: 'sbbs' with pid 5162
+2017-06-27 07:49:57,315 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:49:57,315 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:49:58,318 INFO spawned: 'sbbs' with pid 5164
+2017-06-27 07:49:58,321 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:49:58,322 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:49:59,324 INFO spawned: 'sbbs' with pid 5165
+2017-06-27 07:49:59,327 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:49:59,328 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:50:00,330 INFO spawned: 'sbbs' with pid 5166
+2017-06-27 07:50:00,333 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:50:00,334 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:50:01,336 INFO spawned: 'sbbs' with pid 5167
+2017-06-27 07:50:01,339 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:50:01,340 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:50:02,342 INFO spawned: 'sbbs' with pid 5169
+2017-06-27 07:50:02,345 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:50:02,346 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:50:03,348 INFO spawned: 'sbbs' with pid 5171
+2017-06-27 07:50:03,351 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:50:03,352 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:50:04,354 INFO spawned: 'sbbs' with pid 5172
+2017-06-27 07:50:04,357 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:50:04,358 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:50:05,361 INFO spawned: 'sbbs' with pid 5174
+2017-06-27 07:50:05,364 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:50:05,364 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:50:06,367 INFO spawned: 'sbbs' with pid 5176
+2017-06-27 07:50:06,370 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:50:06,371 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:50:07,373 INFO spawned: 'sbbs' with pid 5177
+2017-06-27 07:50:07,376 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:50:07,377 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:50:08,379 INFO spawned: 'sbbs' with pid 5178
+2017-06-27 07:50:08,382 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:50:08,383 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:50:09,385 INFO spawned: 'sbbs' with pid 5180
+2017-06-27 07:50:09,388 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:50:09,389 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:50:10,392 INFO spawned: 'sbbs' with pid 5182
+2017-06-27 07:50:10,395 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:50:10,395 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:50:11,398 INFO spawned: 'sbbs' with pid 5183
+2017-06-27 07:50:11,401 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:50:11,402 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:50:12,404 INFO spawned: 'sbbs' with pid 5185
+2017-06-27 07:50:12,407 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:50:12,408 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:50:13,410 INFO spawned: 'sbbs' with pid 5187
+2017-06-27 07:50:13,413 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:50:13,414 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:50:14,417 INFO spawned: 'sbbs' with pid 5188
+2017-06-27 07:50:14,420 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:50:14,421 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:50:15,423 INFO spawned: 'sbbs' with pid 5189
+2017-06-27 07:50:15,426 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:50:15,427 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:50:16,429 INFO spawned: 'sbbs' with pid 5190
+2017-06-27 07:50:16,432 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:50:16,433 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:50:17,435 INFO spawned: 'sbbs' with pid 5191
+2017-06-27 07:50:17,438 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:50:17,439 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:50:18,441 INFO spawned: 'sbbs' with pid 5192
+2017-06-27 07:50:18,444 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:50:18,445 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:50:19,447 INFO spawned: 'sbbs' with pid 5193
+2017-06-27 07:50:19,451 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:50:19,451 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:50:20,454 INFO spawned: 'sbbs' with pid 5194
+2017-06-27 07:50:20,457 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:50:20,457 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:50:21,460 INFO spawned: 'sbbs' with pid 5195
+2017-06-27 07:50:21,463 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:50:21,463 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:50:22,466 INFO spawned: 'sbbs' with pid 5196
+2017-06-27 07:50:22,469 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:50:22,469 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:50:23,472 INFO spawned: 'sbbs' with pid 5199
+2017-06-27 07:50:23,475 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:50:23,476 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:50:24,478 INFO spawned: 'sbbs' with pid 5200
+2017-06-27 07:50:24,481 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:50:24,482 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:50:25,484 INFO spawned: 'sbbs' with pid 5203
+2017-06-27 07:50:25,487 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:50:25,488 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:50:26,490 INFO spawned: 'sbbs' with pid 5205
+2017-06-27 07:50:26,493 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:50:26,494 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:50:27,496 INFO spawned: 'sbbs' with pid 5206
+2017-06-27 07:50:27,499 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:50:27,500 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:50:28,502 INFO spawned: 'sbbs' with pid 5207
+2017-06-27 07:50:28,505 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:50:28,506 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:50:29,508 INFO spawned: 'sbbs' with pid 5209
+2017-06-27 07:50:29,511 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:50:29,512 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:50:30,515 INFO spawned: 'sbbs' with pid 5210
+2017-06-27 07:50:30,518 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:50:30,518 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:50:31,521 INFO spawned: 'sbbs' with pid 5212
+2017-06-27 07:50:31,524 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:50:31,524 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:50:32,527 INFO spawned: 'sbbs' with pid 5213
+2017-06-27 07:50:32,530 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:50:32,530 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:50:33,533 INFO spawned: 'sbbs' with pid 5214
+2017-06-27 07:50:33,536 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:50:33,536 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:50:34,539 INFO spawned: 'sbbs' with pid 5215
+2017-06-27 07:50:34,542 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:50:34,543 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:50:35,545 INFO spawned: 'sbbs' with pid 5216
+2017-06-27 07:50:35,548 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:50:35,549 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:50:36,551 INFO spawned: 'sbbs' with pid 5217
+2017-06-27 07:50:36,554 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:50:36,555 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:50:37,557 INFO spawned: 'sbbs' with pid 5218
+2017-06-27 07:50:37,560 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:50:37,561 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:50:38,563 INFO spawned: 'sbbs' with pid 5219
+2017-06-27 07:50:38,566 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:50:38,567 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:50:39,570 INFO spawned: 'sbbs' with pid 5220
+2017-06-27 07:50:39,573 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:50:39,573 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:50:40,576 INFO spawned: 'sbbs' with pid 5221
+2017-06-27 07:50:40,579 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:50:40,579 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:50:41,582 INFO spawned: 'sbbs' with pid 5222
+2017-06-27 07:50:41,585 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:50:41,586 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:50:42,588 INFO spawned: 'sbbs' with pid 5223
+2017-06-27 07:50:42,591 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:50:42,592 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:50:43,594 INFO spawned: 'sbbs' with pid 5224
+2017-06-27 07:50:43,597 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:50:43,598 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:50:44,600 INFO spawned: 'sbbs' with pid 5225
+2017-06-27 07:50:44,603 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:50:44,604 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:50:45,606 INFO spawned: 'sbbs' with pid 5226
+2017-06-27 07:50:45,609 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:50:45,610 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:50:46,612 INFO spawned: 'sbbs' with pid 5227
+2017-06-27 07:50:46,615 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:50:46,616 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:50:47,618 INFO spawned: 'sbbs' with pid 5228
+2017-06-27 07:50:47,621 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:50:47,622 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:50:48,624 INFO spawned: 'sbbs' with pid 5229
+2017-06-27 07:50:48,627 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:50:48,628 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:50:49,631 INFO spawned: 'sbbs' with pid 5230
+2017-06-27 07:50:49,634 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:50:49,634 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:50:50,637 INFO spawned: 'sbbs' with pid 5231
+2017-06-27 07:50:50,640 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:50:50,641 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:50:51,643 INFO spawned: 'sbbs' with pid 5232
+2017-06-27 07:50:51,646 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:50:51,647 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:50:52,649 INFO spawned: 'sbbs' with pid 5233
+2017-06-27 07:50:52,652 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:50:52,653 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:50:53,655 INFO spawned: 'sbbs' with pid 5234
+2017-06-27 07:50:53,658 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:50:53,659 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:50:54,661 INFO spawned: 'sbbs' with pid 5235
+2017-06-27 07:50:54,664 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:50:54,665 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:50:55,667 INFO spawned: 'sbbs' with pid 5236
+2017-06-27 07:50:55,670 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:50:55,671 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:50:56,674 INFO spawned: 'sbbs' with pid 5237
+2017-06-27 07:50:56,677 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:50:56,677 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:50:57,680 INFO spawned: 'sbbs' with pid 5238
+2017-06-27 07:50:57,683 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:50:57,683 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:50:58,686 INFO spawned: 'sbbs' with pid 5239
+2017-06-27 07:50:58,689 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:50:58,690 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:50:59,692 INFO spawned: 'sbbs' with pid 5240
+2017-06-27 07:50:59,695 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:50:59,696 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:51:00,698 INFO spawned: 'sbbs' with pid 5241
+2017-06-27 07:51:00,701 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:51:00,702 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:51:01,704 INFO spawned: 'sbbs' with pid 5242
+2017-06-27 07:51:01,707 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:51:01,708 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:51:02,710 INFO spawned: 'sbbs' with pid 5243
+2017-06-27 07:51:02,713 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:51:02,714 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:51:03,717 INFO spawned: 'sbbs' with pid 5244
+2017-06-27 07:51:03,720 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:51:03,720 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:51:04,723 INFO spawned: 'sbbs' with pid 5245
+2017-06-27 07:51:04,726 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:51:04,727 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:51:05,729 INFO spawned: 'sbbs' with pid 5246
+2017-06-27 07:51:05,732 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:51:05,733 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:51:06,735 INFO spawned: 'sbbs' with pid 5247
+2017-06-27 07:51:06,738 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:51:06,739 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:51:07,741 INFO spawned: 'sbbs' with pid 5248
+2017-06-27 07:51:07,744 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:51:07,745 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:51:08,748 INFO spawned: 'sbbs' with pid 5249
+2017-06-27 07:51:08,751 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:51:08,751 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:51:09,754 INFO spawned: 'sbbs' with pid 5250
+2017-06-27 07:51:09,757 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:51:09,757 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:51:10,760 INFO spawned: 'sbbs' with pid 5251
+2017-06-27 07:51:10,763 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:51:10,763 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:51:11,766 INFO spawned: 'sbbs' with pid 5252
+2017-06-27 07:51:11,769 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:51:11,769 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:51:12,772 INFO spawned: 'sbbs' with pid 5253
+2017-06-27 07:51:12,775 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:51:12,776 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:51:13,778 INFO spawned: 'sbbs' with pid 5254
+2017-06-27 07:51:13,781 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:51:13,782 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:51:14,784 INFO spawned: 'sbbs' with pid 5255
+2017-06-27 07:51:14,787 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:51:14,788 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:51:15,790 INFO spawned: 'sbbs' with pid 5256
+2017-06-27 07:51:15,793 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:51:15,794 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:51:16,796 INFO spawned: 'sbbs' with pid 5257
+2017-06-27 07:51:16,799 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:51:16,800 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:51:17,802 INFO spawned: 'sbbs' with pid 5258
+2017-06-27 07:51:17,805 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:51:17,806 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:51:18,808 INFO spawned: 'sbbs' with pid 5259
+2017-06-27 07:51:18,811 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:51:18,812 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:51:19,814 INFO spawned: 'sbbs' with pid 5260
+2017-06-27 07:51:19,818 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:51:19,818 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:51:20,821 INFO spawned: 'sbbs' with pid 5261
+2017-06-27 07:51:20,824 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:51:20,824 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:51:21,827 INFO spawned: 'sbbs' with pid 5262
+2017-06-27 07:51:21,830 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:51:21,830 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:51:22,833 INFO spawned: 'sbbs' with pid 5263
+2017-06-27 07:51:22,836 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:51:22,836 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:51:23,839 INFO spawned: 'sbbs' with pid 5264
+2017-06-27 07:51:23,842 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:51:23,843 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:51:24,845 INFO spawned: 'sbbs' with pid 5265
+2017-06-27 07:51:24,848 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:51:24,849 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:51:25,851 INFO spawned: 'sbbs' with pid 5266
+2017-06-27 07:51:25,854 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:51:25,855 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:51:26,857 INFO spawned: 'sbbs' with pid 5267
+2017-06-27 07:51:26,860 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:51:26,861 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:51:27,863 INFO spawned: 'sbbs' with pid 5268
+2017-06-27 07:51:27,866 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:51:27,867 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:51:28,869 INFO spawned: 'sbbs' with pid 5269
+2017-06-27 07:51:28,872 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:51:28,873 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:51:29,875 INFO spawned: 'sbbs' with pid 5270
+2017-06-27 07:51:29,878 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:51:29,879 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:51:30,881 INFO spawned: 'sbbs' with pid 5271
+2017-06-27 07:51:30,885 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:51:30,885 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:51:31,888 INFO spawned: 'sbbs' with pid 5272
+2017-06-27 07:51:31,891 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:51:31,891 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:51:32,894 INFO spawned: 'sbbs' with pid 5273
+2017-06-27 07:51:32,897 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:51:32,897 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:51:33,900 INFO spawned: 'sbbs' with pid 5274
+2017-06-27 07:51:33,903 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:51:33,903 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:51:34,906 INFO spawned: 'sbbs' with pid 5275
+2017-06-27 07:51:34,909 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:51:34,909 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:51:35,912 INFO spawned: 'sbbs' with pid 5276
+2017-06-27 07:51:35,915 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:51:35,915 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:51:36,918 INFO spawned: 'sbbs' with pid 5277
+2017-06-27 07:51:36,921 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:51:36,922 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:51:37,924 INFO spawned: 'sbbs' with pid 5278
+2017-06-27 07:51:37,927 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:51:37,928 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:51:38,930 INFO spawned: 'sbbs' with pid 5279
+2017-06-27 07:51:38,933 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:51:38,934 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:51:39,936 INFO spawned: 'sbbs' with pid 5280
+2017-06-27 07:51:39,939 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:51:39,940 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:51:40,942 INFO spawned: 'sbbs' with pid 5281
+2017-06-27 07:51:40,945 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:51:40,946 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:51:41,948 INFO spawned: 'sbbs' with pid 5282
+2017-06-27 07:51:41,951 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:51:41,952 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:51:42,954 INFO spawned: 'sbbs' with pid 5283
+2017-06-27 07:51:42,957 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:51:42,958 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:51:43,961 INFO spawned: 'sbbs' with pid 5284
+2017-06-27 07:51:43,963 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:51:43,964 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:51:44,967 INFO spawned: 'sbbs' with pid 5285
+2017-06-27 07:51:44,970 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:51:44,970 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:51:45,973 INFO spawned: 'sbbs' with pid 5286
+2017-06-27 07:51:45,976 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:51:45,976 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:51:46,979 INFO spawned: 'sbbs' with pid 5287
+2017-06-27 07:51:46,982 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:51:46,982 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:51:47,985 INFO spawned: 'sbbs' with pid 5288
+2017-06-27 07:51:47,988 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:51:47,989 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:51:48,991 INFO spawned: 'sbbs' with pid 5289
+2017-06-27 07:51:48,994 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:51:48,995 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:51:49,997 INFO spawned: 'sbbs' with pid 5290
+2017-06-27 07:51:50,000 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:51:50,001 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:51:51,003 INFO spawned: 'sbbs' with pid 5291
+2017-06-27 07:51:51,006 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:51:51,007 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:51:52,009 INFO spawned: 'sbbs' with pid 5292
+2017-06-27 07:51:52,012 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:51:52,013 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:51:53,015 INFO spawned: 'sbbs' with pid 5293
+2017-06-27 07:51:53,018 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:51:53,018 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:51:54,021 INFO spawned: 'sbbs' with pid 5294
+2017-06-27 07:51:54,024 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:51:54,024 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:51:55,027 INFO spawned: 'sbbs' with pid 5295
+2017-06-27 07:51:55,030 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:51:55,030 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:51:56,033 INFO spawned: 'sbbs' with pid 5296
+2017-06-27 07:51:56,036 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:51:56,037 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:51:57,039 INFO spawned: 'sbbs' with pid 5297
+2017-06-27 07:51:57,042 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:51:57,043 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:51:58,045 INFO spawned: 'sbbs' with pid 5298
+2017-06-27 07:51:58,048 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:51:58,049 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:51:59,051 INFO spawned: 'sbbs' with pid 5299
+2017-06-27 07:51:59,054 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:51:59,055 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:52:00,058 INFO spawned: 'sbbs' with pid 5300
+2017-06-27 07:52:00,061 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:52:00,062 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:52:01,064 INFO spawned: 'sbbs' with pid 5301
+2017-06-27 07:52:01,067 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:52:01,068 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:52:02,071 INFO spawned: 'sbbs' with pid 5302
+2017-06-27 07:52:02,074 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:52:02,074 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:52:03,077 INFO spawned: 'sbbs' with pid 5303
+2017-06-27 07:52:03,080 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:52:03,081 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:52:04,083 INFO spawned: 'sbbs' with pid 5304
+2017-06-27 07:52:04,086 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:52:04,087 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:52:05,089 INFO spawned: 'sbbs' with pid 5305
+2017-06-27 07:52:05,092 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:52:05,093 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:52:06,095 INFO spawned: 'sbbs' with pid 5306
+2017-06-27 07:52:06,098 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:52:06,099 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:52:07,102 INFO spawned: 'sbbs' with pid 5307
+2017-06-27 07:52:07,105 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:52:07,105 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:52:08,108 INFO spawned: 'sbbs' with pid 5308
+2017-06-27 07:52:08,111 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:52:08,111 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:52:09,114 INFO spawned: 'sbbs' with pid 5309
+2017-06-27 07:52:09,117 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:52:09,117 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:52:10,120 INFO spawned: 'sbbs' with pid 5310
+2017-06-27 07:52:10,123 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:52:10,124 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:52:11,126 INFO spawned: 'sbbs' with pid 5311
+2017-06-27 07:52:11,129 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:52:11,130 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:52:12,132 INFO spawned: 'sbbs' with pid 5312
+2017-06-27 07:52:12,135 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:52:12,136 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:52:13,138 INFO spawned: 'sbbs' with pid 5313
+2017-06-27 07:52:13,141 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:52:13,142 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:52:14,144 INFO spawned: 'sbbs' with pid 5314
+2017-06-27 07:52:14,147 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:52:14,148 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:52:15,150 INFO spawned: 'sbbs' with pid 5315
+2017-06-27 07:52:15,153 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:52:15,154 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:52:16,157 INFO spawned: 'sbbs' with pid 5316
+2017-06-27 07:52:16,160 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:52:16,160 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:52:17,163 INFO spawned: 'sbbs' with pid 5317
+2017-06-27 07:52:17,166 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:52:17,166 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:52:18,169 INFO spawned: 'sbbs' with pid 5318
+2017-06-27 07:52:18,172 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:52:18,172 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:52:19,175 INFO spawned: 'sbbs' with pid 5319
+2017-06-27 07:52:19,178 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:52:19,178 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:52:20,181 INFO spawned: 'sbbs' with pid 5320
+2017-06-27 07:52:20,184 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:52:20,185 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:52:21,187 INFO spawned: 'sbbs' with pid 5321
+2017-06-27 07:52:21,190 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:52:21,191 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:52:22,193 INFO spawned: 'sbbs' with pid 5324
+2017-06-27 07:52:22,196 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:52:22,197 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:52:23,199 INFO spawned: 'sbbs' with pid 5325
+2017-06-27 07:52:23,202 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:52:23,203 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:52:24,205 INFO spawned: 'sbbs' with pid 5326
+2017-06-27 07:52:24,208 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:52:24,209 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:52:25,211 INFO spawned: 'sbbs' with pid 5327
+2017-06-27 07:52:25,214 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:52:25,215 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:52:26,217 INFO spawned: 'sbbs' with pid 5328
+2017-06-27 07:52:26,220 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:52:26,221 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:52:27,223 INFO spawned: 'sbbs' with pid 5329
+2017-06-27 07:52:27,226 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:52:27,227 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:52:28,229 INFO spawned: 'sbbs' with pid 5330
+2017-06-27 07:52:28,232 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:52:28,233 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:52:29,235 INFO spawned: 'sbbs' with pid 5331
+2017-06-27 07:52:29,238 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:52:29,239 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:52:30,241 INFO spawned: 'sbbs' with pid 5332
+2017-06-27 07:52:30,244 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:52:30,245 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:52:31,247 INFO spawned: 'sbbs' with pid 5333
+2017-06-27 07:52:31,250 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:52:31,251 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:52:32,253 INFO spawned: 'sbbs' with pid 5334
+2017-06-27 07:52:32,256 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:52:32,257 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:52:33,259 INFO spawned: 'sbbs' with pid 5335
+2017-06-27 07:52:33,262 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:52:33,263 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:52:34,265 INFO spawned: 'sbbs' with pid 5336
+2017-06-27 07:52:34,268 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:52:34,269 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:52:35,271 INFO spawned: 'sbbs' with pid 5337
+2017-06-27 07:52:35,274 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:52:35,275 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:52:36,278 INFO spawned: 'sbbs' with pid 5338
+2017-06-27 07:52:36,281 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:52:36,281 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:52:37,284 INFO spawned: 'sbbs' with pid 5339
+2017-06-27 07:52:37,287 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:52:37,287 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:52:38,290 INFO spawned: 'sbbs' with pid 5340
+2017-06-27 07:52:38,293 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:52:38,293 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:52:39,296 INFO spawned: 'sbbs' with pid 5341
+2017-06-27 07:52:39,299 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:52:39,300 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:52:40,302 INFO spawned: 'sbbs' with pid 5342
+2017-06-27 07:52:40,305 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:52:40,306 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:52:41,308 INFO spawned: 'sbbs' with pid 5343
+2017-06-27 07:52:41,311 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:52:41,312 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:52:42,314 INFO spawned: 'sbbs' with pid 5344
+2017-06-27 07:52:42,317 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:52:42,318 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:52:43,320 INFO spawned: 'sbbs' with pid 5345
+2017-06-27 07:52:43,323 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:52:43,324 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:52:44,326 INFO spawned: 'sbbs' with pid 5346
+2017-06-27 07:52:44,329 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:52:44,330 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:52:45,332 INFO spawned: 'sbbs' with pid 5347
+2017-06-27 07:52:45,335 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:52:45,336 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:52:46,339 INFO spawned: 'sbbs' with pid 5348
+2017-06-27 07:52:46,342 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:52:46,342 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:52:47,345 INFO spawned: 'sbbs' with pid 5349
+2017-06-27 07:52:47,348 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:52:47,349 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:52:48,351 INFO spawned: 'sbbs' with pid 5350
+2017-06-27 07:52:48,354 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:52:48,355 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:52:49,357 INFO spawned: 'sbbs' with pid 5351
+2017-06-27 07:52:49,360 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:52:49,361 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:52:50,363 INFO spawned: 'sbbs' with pid 5352
+2017-06-27 07:52:50,367 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:52:50,367 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:52:51,370 INFO spawned: 'sbbs' with pid 5353
+2017-06-27 07:52:51,373 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:52:51,373 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:52:52,376 INFO spawned: 'sbbs' with pid 5354
+2017-06-27 07:52:52,379 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:52:52,380 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:52:53,382 INFO spawned: 'sbbs' with pid 5355
+2017-06-27 07:52:53,385 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:52:53,386 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:52:54,388 INFO spawned: 'sbbs' with pid 5356
+2017-06-27 07:52:54,391 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:52:54,392 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:52:55,394 INFO spawned: 'sbbs' with pid 5357
+2017-06-27 07:52:55,397 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:52:55,398 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:52:56,400 INFO spawned: 'sbbs' with pid 5358
+2017-06-27 07:52:56,403 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:52:56,404 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:52:57,407 INFO spawned: 'sbbs' with pid 5359
+2017-06-27 07:52:57,410 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:52:57,410 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:52:58,413 INFO spawned: 'sbbs' with pid 5360
+2017-06-27 07:52:58,416 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:52:58,417 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:52:59,419 INFO spawned: 'sbbs' with pid 5361
+2017-06-27 07:52:59,422 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:52:59,423 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:53:00,426 INFO spawned: 'sbbs' with pid 5362
+2017-06-27 07:53:00,429 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:53:00,429 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:53:01,432 INFO spawned: 'sbbs' with pid 5363
+2017-06-27 07:53:01,435 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:53:01,435 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:53:02,438 INFO spawned: 'sbbs' with pid 5364
+2017-06-27 07:53:02,441 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:53:02,442 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:53:03,444 INFO spawned: 'sbbs' with pid 5365
+2017-06-27 07:53:03,447 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:53:03,448 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:53:04,450 INFO spawned: 'sbbs' with pid 5368
+2017-06-27 07:53:04,453 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:53:04,454 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:53:05,457 INFO spawned: 'sbbs' with pid 5369
+2017-06-27 07:53:05,460 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:53:05,460 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:53:06,463 INFO spawned: 'sbbs' with pid 5370
+2017-06-27 07:53:06,466 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:53:06,467 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:53:07,469 INFO spawned: 'sbbs' with pid 5371
+2017-06-27 07:53:07,472 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:53:07,473 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:53:08,475 INFO spawned: 'sbbs' with pid 5372
+2017-06-27 07:53:08,478 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:53:08,479 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:53:09,481 INFO spawned: 'sbbs' with pid 5373
+2017-06-27 07:53:09,484 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:53:09,485 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:53:10,488 INFO spawned: 'sbbs' with pid 5374
+2017-06-27 07:53:10,491 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:53:10,491 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:53:11,494 INFO spawned: 'sbbs' with pid 5375
+2017-06-27 07:53:11,497 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:53:11,498 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:53:12,500 INFO spawned: 'sbbs' with pid 5376
+2017-06-27 07:53:12,503 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:53:12,504 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:53:13,506 INFO spawned: 'sbbs' with pid 5377
+2017-06-27 07:53:13,513 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:53:13,514 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:53:14,517 INFO spawned: 'sbbs' with pid 5378
+2017-06-27 07:53:14,520 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:53:14,521 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:53:15,524 INFO spawned: 'sbbs' with pid 5379
+2017-06-27 07:53:15,527 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:53:15,528 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:53:16,530 INFO spawned: 'sbbs' with pid 5380
+2017-06-27 07:53:16,533 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:53:16,534 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:53:17,536 INFO spawned: 'sbbs' with pid 5381
+2017-06-27 07:53:17,539 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:53:17,540 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:53:18,542 INFO spawned: 'sbbs' with pid 5382
+2017-06-27 07:53:18,545 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:53:18,546 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:53:19,548 INFO spawned: 'sbbs' with pid 5383
+2017-06-27 07:53:19,551 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:53:19,552 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:53:20,555 INFO spawned: 'sbbs' with pid 5384
+2017-06-27 07:53:20,558 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:53:20,559 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:53:21,561 INFO spawned: 'sbbs' with pid 5385
+2017-06-27 07:53:21,564 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:53:21,565 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:53:22,567 INFO spawned: 'sbbs' with pid 5386
+2017-06-27 07:53:22,570 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:53:22,571 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:53:23,573 INFO spawned: 'sbbs' with pid 5387
+2017-06-27 07:53:23,576 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:53:23,577 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:53:24,579 INFO spawned: 'sbbs' with pid 5388
+2017-06-27 07:53:24,582 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:53:24,583 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:53:25,585 INFO spawned: 'sbbs' with pid 5389
+2017-06-27 07:53:25,588 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:53:25,589 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:53:26,591 INFO spawned: 'sbbs' with pid 5390
+2017-06-27 07:53:26,594 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:53:26,595 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:53:27,598 INFO spawned: 'sbbs' with pid 5391
+2017-06-27 07:53:27,601 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:53:27,601 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:53:28,604 INFO spawned: 'sbbs' with pid 5392
+2017-06-27 07:53:28,607 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:53:28,607 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:53:29,610 INFO spawned: 'sbbs' with pid 5393
+2017-06-27 07:53:29,613 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:53:29,614 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:53:30,616 INFO spawned: 'sbbs' with pid 5394
+2017-06-27 07:53:30,619 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:53:30,620 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:53:31,622 INFO spawned: 'sbbs' with pid 5395
+2017-06-27 07:53:31,625 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:53:31,626 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:53:32,628 INFO spawned: 'sbbs' with pid 5396
+2017-06-27 07:53:32,631 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:53:32,632 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:53:33,634 INFO spawned: 'sbbs' with pid 5397
+2017-06-27 07:53:33,637 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:53:33,638 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:53:34,641 INFO spawned: 'sbbs' with pid 5398
+2017-06-27 07:53:34,644 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:53:34,644 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:53:35,647 INFO spawned: 'sbbs' with pid 5399
+2017-06-27 07:53:35,650 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:53:35,650 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:53:36,653 INFO spawned: 'sbbs' with pid 5400
+2017-06-27 07:53:36,656 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:53:36,657 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:53:37,659 INFO spawned: 'sbbs' with pid 5401
+2017-06-27 07:53:37,662 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:53:37,663 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:53:38,665 INFO spawned: 'sbbs' with pid 5402
+2017-06-27 07:53:38,668 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:53:38,669 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:53:39,671 INFO spawned: 'sbbs' with pid 5403
+2017-06-27 07:53:39,674 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:53:39,675 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:53:40,677 INFO spawned: 'sbbs' with pid 5404
+2017-06-27 07:53:40,680 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:53:40,681 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:53:41,683 INFO spawned: 'sbbs' with pid 5405
+2017-06-27 07:53:41,686 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:53:41,687 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:53:42,690 INFO spawned: 'sbbs' with pid 5406
+2017-06-27 07:53:42,693 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:53:42,693 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:53:43,696 INFO spawned: 'sbbs' with pid 5407
+2017-06-27 07:53:43,699 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:53:43,699 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:53:44,702 INFO spawned: 'sbbs' with pid 5408
+2017-06-27 07:53:44,705 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:53:44,706 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:53:45,708 INFO spawned: 'sbbs' with pid 5409
+2017-06-27 07:53:45,711 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:53:45,712 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:53:46,714 INFO spawned: 'sbbs' with pid 5410
+2017-06-27 07:53:46,717 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:53:46,718 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:53:47,720 INFO spawned: 'sbbs' with pid 5411
+2017-06-27 07:53:47,723 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:53:47,724 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:53:48,726 INFO spawned: 'sbbs' with pid 5412
+2017-06-27 07:53:48,729 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:53:48,730 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:53:49,732 INFO spawned: 'sbbs' with pid 5413
+2017-06-27 07:53:49,735 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:53:49,736 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:53:50,738 INFO spawned: 'sbbs' with pid 5414
+2017-06-27 07:53:50,741 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:53:50,742 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:53:51,745 INFO spawned: 'sbbs' with pid 5415
+2017-06-27 07:53:51,747 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:53:51,748 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:53:52,751 INFO spawned: 'sbbs' with pid 5416
+2017-06-27 07:53:52,753 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:53:52,754 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:53:53,757 INFO spawned: 'sbbs' with pid 5417
+2017-06-27 07:53:53,760 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:53:53,760 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:53:54,763 INFO spawned: 'sbbs' with pid 5418
+2017-06-27 07:53:54,766 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:53:54,767 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:53:55,769 INFO spawned: 'sbbs' with pid 5419
+2017-06-27 07:53:55,772 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:53:55,773 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:53:56,775 INFO spawned: 'sbbs' with pid 5420
+2017-06-27 07:53:56,778 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:53:56,779 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:53:57,781 INFO spawned: 'sbbs' with pid 5421
+2017-06-27 07:53:57,784 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:53:57,785 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:53:58,788 INFO spawned: 'sbbs' with pid 5422
+2017-06-27 07:53:58,791 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:53:58,791 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:53:59,794 INFO spawned: 'sbbs' with pid 5423
+2017-06-27 07:53:59,797 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:53:59,797 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:54:00,800 INFO spawned: 'sbbs' with pid 5424
+2017-06-27 07:54:00,803 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:54:00,803 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:54:01,806 INFO spawned: 'sbbs' with pid 5425
+2017-06-27 07:54:01,809 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:54:01,809 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:54:02,812 INFO spawned: 'sbbs' with pid 5426
+2017-06-27 07:54:02,815 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:54:02,815 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:54:03,818 INFO spawned: 'sbbs' with pid 5427
+2017-06-27 07:54:03,821 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:54:03,822 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:54:04,824 INFO spawned: 'sbbs' with pid 5428
+2017-06-27 07:54:04,827 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:54:04,828 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:54:05,830 INFO spawned: 'sbbs' with pid 5429
+2017-06-27 07:54:05,833 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:54:05,834 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:54:06,837 INFO spawned: 'sbbs' with pid 5430
+2017-06-27 07:54:06,840 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:54:06,841 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:54:07,843 INFO spawned: 'sbbs' with pid 5431
+2017-06-27 07:54:07,846 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:54:07,847 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:54:08,849 INFO spawned: 'sbbs' with pid 5432
+2017-06-27 07:54:08,852 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:54:08,853 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:54:09,855 INFO spawned: 'sbbs' with pid 5433
+2017-06-27 07:54:09,858 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:54:09,859 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:54:10,862 INFO spawned: 'sbbs' with pid 5434
+2017-06-27 07:54:10,865 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:54:10,865 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:54:11,868 INFO spawned: 'sbbs' with pid 5435
+2017-06-27 07:54:11,871 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:54:11,872 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:54:12,874 INFO spawned: 'sbbs' with pid 5436
+2017-06-27 07:54:12,877 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:54:12,878 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:54:13,880 INFO spawned: 'sbbs' with pid 5437
+2017-06-27 07:54:13,883 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:54:13,884 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:54:14,886 INFO spawned: 'sbbs' with pid 5438
+2017-06-27 07:54:14,889 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:54:14,890 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:54:15,893 INFO spawned: 'sbbs' with pid 5439
+2017-06-27 07:54:15,896 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:54:15,896 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:54:16,086 INFO spawned: 'sbbs' with pid 5440
+2017-06-27 07:54:16,087 WARN received SIGTERM indicating exit request
+2017-06-27 07:54:16,087 INFO waiting for sbbs to die
+2017-06-27 07:54:16,090 WARN killing 'sbbs' (5440) with SIGKILL
+2017-06-27 07:54:16,090 WARN killing 'sbbs' (5440) with SIGKILL
+2017-06-27 07:54:16,090 WARN killing 'sbbs' (5440) with SIGKILL
+2017-06-27 07:54:16,090 WARN killing 'sbbs' (5440) with SIGKILL
+2017-06-27 07:54:16,091 INFO stopped: sbbs (terminated by SIGKILL)
+2017-06-27 07:56:31,812 INFO RPC interface 'supervisor' initialized
+2017-06-27 07:56:31,813 INFO daemonizing the supervisord process
+2017-06-27 07:56:31,814 INFO supervisord started with pid 5450
+2017-06-27 07:56:32,816 INFO spawned: 'sbbs' with pid 5451
+2017-06-27 07:56:32,819 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:56:32,820 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:56:33,823 INFO spawned: 'sbbs' with pid 5452
+2017-06-27 07:56:33,826 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:56:33,826 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:56:34,829 INFO spawned: 'sbbs' with pid 5453
+2017-06-27 07:56:34,832 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:56:34,832 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:56:35,835 INFO spawned: 'sbbs' with pid 5454
+2017-06-27 07:56:35,838 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:56:35,839 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:56:36,841 INFO spawned: 'sbbs' with pid 5455
+2017-06-27 07:56:36,844 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:56:36,845 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:56:37,847 INFO spawned: 'sbbs' with pid 5456
+2017-06-27 07:56:37,850 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:56:37,851 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:56:38,853 INFO spawned: 'sbbs' with pid 5457
+2017-06-27 07:56:38,856 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:56:38,857 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:56:39,859 INFO spawned: 'sbbs' with pid 5458
+2017-06-27 07:56:39,862 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:56:39,863 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:56:40,866 INFO spawned: 'sbbs' with pid 5459
+2017-06-27 07:56:40,869 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:56:40,869 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:56:41,872 INFO spawned: 'sbbs' with pid 5460
+2017-06-27 07:56:41,875 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:56:41,875 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:56:42,878 INFO spawned: 'sbbs' with pid 5461
+2017-06-27 07:56:42,881 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:56:42,882 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:56:43,884 INFO spawned: 'sbbs' with pid 5462
+2017-06-27 07:56:43,887 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:56:43,888 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:56:44,890 INFO spawned: 'sbbs' with pid 5463
+2017-06-27 07:56:44,893 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:56:44,894 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:56:45,897 INFO spawned: 'sbbs' with pid 5464
+2017-06-27 07:56:45,900 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:56:45,900 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:56:46,902 INFO spawned: 'sbbs' with pid 5465
+2017-06-27 07:56:46,905 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:56:46,906 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:56:47,908 INFO spawned: 'sbbs' with pid 5466
+2017-06-27 07:56:47,911 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:56:47,912 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:56:48,914 INFO spawned: 'sbbs' with pid 5467
+2017-06-27 07:56:48,917 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:56:48,918 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:56:49,920 INFO spawned: 'sbbs' with pid 5468
+2017-06-27 07:56:49,923 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:56:49,924 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:56:50,927 INFO spawned: 'sbbs' with pid 5469
+2017-06-27 07:56:50,930 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:56:50,930 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:56:51,933 INFO spawned: 'sbbs' with pid 5470
+2017-06-27 07:56:51,936 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:56:51,937 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:56:52,939 INFO spawned: 'sbbs' with pid 5471
+2017-06-27 07:56:52,942 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:56:52,943 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:56:53,946 INFO spawned: 'sbbs' with pid 5472
+2017-06-27 07:56:53,949 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:56:53,950 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:56:54,952 INFO spawned: 'sbbs' with pid 5473
+2017-06-27 07:56:54,955 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:56:54,956 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:56:55,958 INFO spawned: 'sbbs' with pid 5474
+2017-06-27 07:56:55,961 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:56:55,962 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:56:56,964 INFO spawned: 'sbbs' with pid 5475
+2017-06-27 07:56:56,967 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:56:56,968 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:56:57,970 INFO spawned: 'sbbs' with pid 5476
+2017-06-27 07:56:57,974 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:56:57,974 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:56:58,977 INFO spawned: 'sbbs' with pid 5477
+2017-06-27 07:56:58,980 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:56:58,980 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:56:59,983 INFO spawned: 'sbbs' with pid 5478
+2017-06-27 07:56:59,986 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:56:59,986 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:57:00,989 INFO spawned: 'sbbs' with pid 5479
+2017-06-27 07:57:00,992 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:57:00,993 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:57:01,995 INFO spawned: 'sbbs' with pid 5480
+2017-06-27 07:57:01,998 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:57:01,999 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:57:03,001 INFO spawned: 'sbbs' with pid 5481
+2017-06-27 07:57:03,004 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:57:03,005 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:57:04,008 INFO spawned: 'sbbs' with pid 5482
+2017-06-27 07:57:04,011 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:57:04,012 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:57:05,014 INFO spawned: 'sbbs' with pid 5483
+2017-06-27 07:57:05,017 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:57:05,018 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:57:06,020 INFO spawned: 'sbbs' with pid 5484
+2017-06-27 07:57:06,023 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:57:06,024 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:57:07,026 INFO spawned: 'sbbs' with pid 5485
+2017-06-27 07:57:07,029 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:57:07,030 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:57:08,032 INFO spawned: 'sbbs' with pid 5486
+2017-06-27 07:57:08,035 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:57:08,036 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:57:09,038 INFO spawned: 'sbbs' with pid 5487
+2017-06-27 07:57:09,041 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:57:09,042 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:57:10,045 INFO spawned: 'sbbs' with pid 5488
+2017-06-27 07:57:10,048 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:57:10,050 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:57:11,053 INFO spawned: 'sbbs' with pid 5491
+2017-06-27 07:57:11,056 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:57:11,056 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:57:12,059 INFO spawned: 'sbbs' with pid 5492
+2017-06-27 07:57:12,062 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:57:12,062 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:57:13,065 INFO spawned: 'sbbs' with pid 5493
+2017-06-27 07:57:13,068 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:57:13,069 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:57:14,071 INFO spawned: 'sbbs' with pid 5494
+2017-06-27 07:57:14,074 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:57:14,075 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:57:15,077 INFO spawned: 'sbbs' with pid 5495
+2017-06-27 07:57:15,080 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:57:15,081 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:57:16,083 INFO spawned: 'sbbs' with pid 5496
+2017-06-27 07:57:16,086 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:57:16,087 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:57:17,089 INFO spawned: 'sbbs' with pid 5497
+2017-06-27 07:57:17,094 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:57:17,095 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:57:18,097 INFO spawned: 'sbbs' with pid 5498
+2017-06-27 07:57:18,100 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:57:18,101 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:57:19,103 INFO spawned: 'sbbs' with pid 5499
+2017-06-27 07:57:19,106 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:57:19,107 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:57:20,109 INFO spawned: 'sbbs' with pid 5500
+2017-06-27 07:57:20,112 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:57:20,113 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:57:21,115 INFO spawned: 'sbbs' with pid 5501
+2017-06-27 07:57:21,118 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:57:21,119 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:57:22,121 INFO spawned: 'sbbs' with pid 5502
+2017-06-27 07:57:22,124 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:57:22,125 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:57:23,127 INFO spawned: 'sbbs' with pid 5503
+2017-06-27 07:57:23,130 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:57:23,131 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:57:24,133 INFO spawned: 'sbbs' with pid 5504
+2017-06-27 07:57:24,136 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:57:24,137 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:57:25,139 INFO spawned: 'sbbs' with pid 5505
+2017-06-27 07:57:25,142 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:57:25,143 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:57:26,145 INFO spawned: 'sbbs' with pid 5506
+2017-06-27 07:57:26,148 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:57:26,149 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:57:27,151 INFO spawned: 'sbbs' with pid 5507
+2017-06-27 07:57:27,154 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:57:27,155 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:57:28,157 INFO spawned: 'sbbs' with pid 5508
+2017-06-27 07:57:28,160 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-27 07:57:28,161 INFO exited: sbbs (exit status 127; not expected)
+2017-06-27 07:59:10,934 INFO RPC interface 'supervisor' initialized
+2017-06-27 07:59:10,936 INFO daemonizing the supervisord process
+2017-06-27 07:59:10,936 INFO supervisord started with pid 5515
+2017-06-27 07:59:11,939 INFO spawned: 'sbbs' with pid 5516
+2017-06-27 07:59:11,950 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+timeout: 2
+GPhm
+timeout: 2
+QpbJ
+timeout: 2
+ycnb
+timeout: 2
+2vnq
+timeout: 2
+TVzF
+timeout: 2
+FJc4
+timeout: 2
+BbcG
+短信验证码是： mvxH
+timeout: 2
+HQ27
+timeout: 2
+8arg
+timeout: 2
+fcvz
+timeout: 2
+Mu8j
+timeout: 2
+cyPA
+此用户是: 此用户是: 此用户是: 此用户是: timeout: 2
+jhNz
+此用户是: 此用户是: 2017-06-28 03:54:39,577 INFO RPC interface 'supervisor' initialized
+2017-06-28 03:54:39,579 INFO daemonizing the supervisord process
+2017-06-28 03:54:39,580 INFO supervisord started with pid 6652
+2017-06-28 03:54:40,582 INFO spawned: 'sbbs' with pid 6653
+2017-06-28 03:54:40,599 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-28 04:05:46,435 WARN received SIGTERM indicating exit request
+2017-06-28 04:05:46,574 INFO waiting for sbbs to die
+2017-06-28 04:05:46,601 WARN killing 'sbbs' (6653) with SIGKILL
+2017-06-28 04:05:46,601 WARN received SIGHUP indicating restart request
+2017-06-28 04:05:46,626 WARN killing 'sbbs' (6653) with SIGKILL
+2017-06-28 04:05:46,626 INFO stopped: sbbs (terminated by SIGKILL)
+2017-06-28 04:05:47,340 INFO RPC interface 'supervisor' initialized
+2017-06-28 04:05:47,360 INFO supervisord started with pid 6652
+2017-06-28 04:05:49,166 INFO spawned: 'sbbs' with pid 6793
+2017-06-28 04:05:49,365 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-29 03:53:10,237 INFO RPC interface 'supervisor' initialized
+2017-06-29 03:53:10,239 INFO daemonizing the supervisord process
+2017-06-29 03:53:10,239 INFO supervisord started with pid 2816
+2017-06-29 03:53:11,241 INFO spawned: 'sbbs' with pid 2817
+2017-06-29 03:53:11,247 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+timeout: 2
+NYgr
+2017-06-29 04:04:51,139 INFO RPC interface 'supervisor' initialized
+2017-06-29 04:04:51,140 INFO daemonizing the supervisord process
+2017-06-29 04:04:51,142 INFO supervisord started with pid 2907
+2017-06-29 04:04:52,144 INFO spawned: 'sbbs' with pid 2908
+2017-06-29 04:04:52,148 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-29 04:04:52,149 INFO exited: sbbs (exit status 1; not expected)
+2017-06-29 04:04:53,151 INFO spawned: 'sbbs' with pid 2909
+2017-06-29 04:04:53,156 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-29 04:04:53,156 INFO exited: sbbs (exit status 1; not expected)
+2017-06-29 04:04:54,159 INFO spawned: 'sbbs' with pid 2910
+2017-06-29 04:04:54,164 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-29 04:04:54,164 INFO exited: sbbs (exit status 1; not expected)
+2017-06-29 04:04:55,166 INFO spawned: 'sbbs' with pid 2911
+2017-06-29 04:04:55,171 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-29 04:04:55,171 INFO exited: sbbs (exit status 1; not expected)
+2017-06-29 04:04:56,174 INFO spawned: 'sbbs' with pid 2912
+2017-06-29 04:04:56,179 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-29 04:04:56,179 INFO exited: sbbs (exit status 1; not expected)
+2017-06-29 04:04:57,181 INFO spawned: 'sbbs' with pid 2913
+2017-06-29 04:04:57,186 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-29 04:04:57,186 INFO exited: sbbs (exit status 1; not expected)
+2017-06-29 04:04:58,189 INFO spawned: 'sbbs' with pid 2914
+2017-06-29 04:04:58,193 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-29 04:04:58,194 INFO exited: sbbs (exit status 1; not expected)
+2017-06-29 04:04:59,196 INFO spawned: 'sbbs' with pid 2915
+2017-06-29 04:04:59,201 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-29 04:04:59,201 INFO exited: sbbs (exit status 1; not expected)
+2017-06-29 04:05:00,204 INFO spawned: 'sbbs' with pid 2916
+2017-06-29 04:05:00,209 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-29 04:05:00,209 INFO exited: sbbs (exit status 1; not expected)
+2017-06-29 04:05:01,211 INFO spawned: 'sbbs' with pid 2917
+2017-06-29 04:05:01,216 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-29 04:05:01,217 INFO exited: sbbs (exit status 1; not expected)
+2017-06-29 04:05:02,219 INFO spawned: 'sbbs' with pid 2918
+2017-06-29 04:05:02,224 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-29 04:05:02,224 INFO exited: sbbs (exit status 1; not expected)
+2017-06-29 04:05:03,227 INFO spawned: 'sbbs' with pid 2919
+2017-06-29 04:05:03,231 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-29 04:05:03,232 INFO exited: sbbs (exit status 1; not expected)
+2017-06-29 04:05:04,234 INFO spawned: 'sbbs' with pid 2920
+2017-06-29 04:05:04,239 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-29 04:05:04,240 INFO exited: sbbs (exit status 1; not expected)
+2017-06-29 04:05:05,242 INFO spawned: 'sbbs' with pid 2921
+2017-06-29 04:05:05,247 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-29 04:05:05,247 INFO exited: sbbs (exit status 1; not expected)
+2017-06-29 04:05:06,249 INFO spawned: 'sbbs' with pid 2922
+2017-06-29 04:05:06,254 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-29 04:05:06,255 INFO exited: sbbs (exit status 1; not expected)
+2017-06-29 04:05:07,257 INFO spawned: 'sbbs' with pid 2923
+2017-06-29 04:05:07,262 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-29 04:05:07,262 INFO exited: sbbs (exit status 1; not expected)
+2017-06-29 04:05:08,265 INFO spawned: 'sbbs' with pid 2924
+2017-06-29 04:05:08,269 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-29 04:05:08,270 INFO exited: sbbs (exit status 1; not expected)
+2017-06-29 04:05:09,272 INFO spawned: 'sbbs' with pid 2925
+2017-06-29 04:05:09,277 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-29 04:05:09,277 INFO exited: sbbs (exit status 1; not expected)
+2017-06-29 04:05:10,280 INFO spawned: 'sbbs' with pid 2926
+2017-06-29 04:05:10,285 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-29 04:05:10,285 INFO exited: sbbs (exit status 1; not expected)
+2017-06-29 04:05:11,287 INFO spawned: 'sbbs' with pid 2927
+2017-06-29 04:05:11,292 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-29 04:05:11,293 INFO exited: sbbs (exit status 1; not expected)
+2017-06-29 04:05:12,295 INFO spawned: 'sbbs' with pid 2928
+2017-06-29 04:05:12,300 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-29 04:05:12,300 INFO exited: sbbs (exit status 1; not expected)
+2017-06-29 04:05:13,302 INFO spawned: 'sbbs' with pid 2929
+2017-06-29 04:05:13,307 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-29 04:05:13,308 INFO exited: sbbs (exit status 1; not expected)
+2017-06-29 04:05:14,310 INFO spawned: 'sbbs' with pid 2930
+2017-06-29 04:05:14,315 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-29 04:05:14,315 INFO exited: sbbs (exit status 1; not expected)
+2017-06-29 04:05:15,318 INFO spawned: 'sbbs' with pid 2931
+2017-06-29 04:05:15,323 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-29 04:05:15,323 INFO exited: sbbs (exit status 1; not expected)
+2017-06-29 04:05:16,325 INFO spawned: 'sbbs' with pid 2932
+2017-06-29 04:05:16,330 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-29 04:05:16,331 INFO exited: sbbs (exit status 1; not expected)
+2017-06-29 04:05:17,333 INFO spawned: 'sbbs' with pid 2933
+2017-06-29 04:05:17,338 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-29 04:05:17,338 INFO exited: sbbs (exit status 1; not expected)
+2017-06-29 04:05:18,340 INFO spawned: 'sbbs' with pid 2934
+2017-06-29 04:05:18,345 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-29 04:05:18,346 INFO exited: sbbs (exit status 1; not expected)
+2017-06-29 04:05:19,348 INFO spawned: 'sbbs' with pid 2935
+2017-06-29 04:05:19,353 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-29 04:05:19,353 INFO exited: sbbs (exit status 1; not expected)
+2017-06-29 04:05:20,355 INFO spawned: 'sbbs' with pid 2936
+2017-06-29 04:05:20,360 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-29 04:05:20,361 INFO exited: sbbs (exit status 1; not expected)
+2017-06-29 04:05:21,363 INFO spawned: 'sbbs' with pid 2937
+2017-06-29 04:05:21,379 INFO exited: sbbs (exit status 1; not expected)
+2017-06-29 04:05:22,381 INFO spawned: 'sbbs' with pid 2938
+2017-06-29 04:05:22,386 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-29 04:05:22,387 INFO exited: sbbs (exit status 1; not expected)
+2017-06-29 04:05:23,389 INFO spawned: 'sbbs' with pid 2939
+2017-06-29 04:05:23,394 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-29 04:05:23,394 INFO exited: sbbs (exit status 1; not expected)
+2017-06-29 04:05:24,396 INFO spawned: 'sbbs' with pid 2940
+2017-06-29 04:05:24,401 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-29 04:05:24,402 INFO exited: sbbs (exit status 1; not expected)
+2017-06-29 04:05:25,404 INFO spawned: 'sbbs' with pid 2941
+2017-06-29 04:05:25,409 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-29 04:05:25,409 INFO exited: sbbs (exit status 1; not expected)
+2017-06-29 04:05:26,412 INFO spawned: 'sbbs' with pid 2942
+2017-06-29 04:05:26,417 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-29 04:05:26,417 INFO exited: sbbs (exit status 1; not expected)
+2017-06-29 04:05:27,419 INFO spawned: 'sbbs' with pid 2943
+2017-06-29 04:05:27,424 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-29 04:05:27,425 INFO exited: sbbs (exit status 1; not expected)
+2017-06-29 04:05:28,427 INFO spawned: 'sbbs' with pid 2944
+2017-06-29 04:05:28,432 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-29 04:05:28,432 INFO exited: sbbs (exit status 1; not expected)
+2017-06-29 04:05:29,434 INFO spawned: 'sbbs' with pid 2945
+2017-06-29 04:05:29,439 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-29 04:05:29,440 INFO exited: sbbs (exit status 1; not expected)
+2017-06-29 04:05:30,442 INFO spawned: 'sbbs' with pid 2946
+2017-06-29 04:05:30,447 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-29 04:05:30,447 INFO exited: sbbs (exit status 1; not expected)
+2017-06-29 04:05:31,450 INFO spawned: 'sbbs' with pid 2947
+2017-06-29 04:05:31,455 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-29 04:05:31,455 INFO exited: sbbs (exit status 1; not expected)
+2017-06-29 04:05:32,457 INFO spawned: 'sbbs' with pid 2948
+2017-06-29 04:05:32,463 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-29 04:05:32,463 INFO exited: sbbs (exit status 1; not expected)
+2017-06-29 04:05:33,465 INFO spawned: 'sbbs' with pid 2949
+2017-06-29 04:05:33,470 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-29 04:05:33,471 INFO exited: sbbs (exit status 1; not expected)
+2017-06-29 04:05:34,473 INFO spawned: 'sbbs' with pid 2950
+2017-06-29 04:05:34,478 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-29 04:05:34,478 INFO exited: sbbs (exit status 1; not expected)
+2017-06-29 04:05:35,480 INFO spawned: 'sbbs' with pid 2951
+2017-06-29 04:05:35,485 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-29 04:05:35,486 INFO exited: sbbs (exit status 1; not expected)
+2017-06-29 04:05:36,488 INFO spawned: 'sbbs' with pid 2952
+2017-06-29 04:05:36,493 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-29 04:05:36,493 INFO exited: sbbs (exit status 1; not expected)
+2017-06-29 04:05:37,495 INFO spawned: 'sbbs' with pid 2953
+2017-06-29 04:05:37,500 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-29 04:05:37,501 INFO exited: sbbs (exit status 1; not expected)
+2017-06-29 04:05:38,503 INFO spawned: 'sbbs' with pid 2954
+2017-06-29 04:05:38,508 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-29 04:05:38,508 INFO exited: sbbs (exit status 1; not expected)
+2017-06-29 04:05:39,511 INFO spawned: 'sbbs' with pid 2955
+2017-06-29 04:05:39,516 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-29 04:05:39,516 INFO exited: sbbs (exit status 1; not expected)
+2017-06-29 04:05:40,519 INFO spawned: 'sbbs' with pid 2956
+2017-06-29 04:05:40,523 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-29 04:05:40,524 INFO exited: sbbs (exit status 1; not expected)
+2017-06-29 04:05:41,526 INFO spawned: 'sbbs' with pid 2957
+2017-06-29 04:05:41,531 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-29 04:05:41,532 INFO exited: sbbs (exit status 1; not expected)
+2017-06-29 04:05:42,534 INFO spawned: 'sbbs' with pid 2958
+2017-06-29 04:05:42,539 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-29 04:05:42,539 INFO exited: sbbs (exit status 1; not expected)
+2017-06-29 04:05:43,542 INFO spawned: 'sbbs' with pid 2962
+2017-06-29 04:05:43,546 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-29 04:05:43,547 INFO exited: sbbs (exit status 1; not expected)
+2017-06-29 04:05:44,549 INFO spawned: 'sbbs' with pid 2965
+2017-06-29 04:05:44,554 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-29 04:05:44,554 INFO exited: sbbs (exit status 1; not expected)
+2017-06-29 04:05:45,556 INFO spawned: 'sbbs' with pid 2966
+2017-06-29 04:05:45,561 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-29 04:05:45,562 INFO exited: sbbs (exit status 1; not expected)
+2017-06-29 04:05:46,564 INFO spawned: 'sbbs' with pid 2967
+2017-06-29 04:05:46,569 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-29 04:05:46,569 INFO exited: sbbs (exit status 1; not expected)
+2017-06-29 04:05:47,571 INFO spawned: 'sbbs' with pid 2968
+2017-06-29 04:05:47,576 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-29 04:05:47,577 INFO exited: sbbs (exit status 1; not expected)
+2017-06-29 04:05:48,579 INFO spawned: 'sbbs' with pid 2969
+2017-06-29 04:05:48,584 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-29 04:05:48,584 INFO exited: sbbs (exit status 1; not expected)
+2017-06-29 04:05:49,586 INFO spawned: 'sbbs' with pid 2970
+2017-06-29 04:05:49,591 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-29 04:05:49,592 INFO exited: sbbs (exit status 1; not expected)
+2017-06-29 04:05:50,594 INFO spawned: 'sbbs' with pid 2971
+2017-06-29 04:05:50,599 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-29 04:05:50,599 INFO exited: sbbs (exit status 1; not expected)
+2017-06-29 04:05:51,601 INFO spawned: 'sbbs' with pid 2972
+2017-06-29 04:05:51,606 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-29 04:05:51,607 INFO exited: sbbs (exit status 1; not expected)
+2017-06-29 04:05:52,609 INFO spawned: 'sbbs' with pid 2973
+2017-06-29 04:05:52,614 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-29 04:05:52,614 INFO exited: sbbs (exit status 1; not expected)
+2017-06-29 04:05:53,616 INFO spawned: 'sbbs' with pid 2974
+2017-06-29 04:05:53,621 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-29 04:05:53,621 INFO exited: sbbs (exit status 1; not expected)
+2017-06-29 04:05:54,624 INFO spawned: 'sbbs' with pid 2976
+2017-06-29 04:05:54,631 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-29 04:05:54,635 INFO exited: sbbs (exit status 1; not expected)
+2017-06-29 04:05:55,637 INFO spawned: 'sbbs' with pid 2979
+2017-06-29 04:05:55,642 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-29 04:05:55,643 INFO exited: sbbs (exit status 1; not expected)
+2017-06-29 04:05:56,645 INFO spawned: 'sbbs' with pid 2980
+2017-06-29 04:05:56,650 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-29 04:05:56,650 INFO exited: sbbs (exit status 1; not expected)
+2017-06-29 04:05:57,652 INFO spawned: 'sbbs' with pid 2981
+2017-06-29 04:05:57,657 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-29 04:05:57,658 INFO exited: sbbs (exit status 1; not expected)
+2017-06-29 04:05:58,660 INFO spawned: 'sbbs' with pid 2982
+2017-06-29 04:05:58,665 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-29 04:05:58,665 INFO exited: sbbs (exit status 1; not expected)
+2017-06-29 04:05:59,667 INFO spawned: 'sbbs' with pid 2983
+2017-06-29 04:05:59,672 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-29 04:05:59,673 INFO exited: sbbs (exit status 1; not expected)
+2017-06-29 04:06:00,675 INFO spawned: 'sbbs' with pid 2984
+2017-06-29 04:06:00,680 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-29 04:06:00,680 INFO exited: sbbs (exit status 1; not expected)
+2017-06-29 04:06:01,683 INFO spawned: 'sbbs' with pid 2985
+2017-06-29 04:06:01,688 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-29 04:06:01,688 INFO exited: sbbs (exit status 1; not expected)
+2017-06-29 04:06:02,690 INFO spawned: 'sbbs' with pid 2986
+2017-06-29 04:06:02,695 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-29 04:06:02,696 INFO exited: sbbs (exit status 1; not expected)
+2017-06-29 04:06:03,698 INFO spawned: 'sbbs' with pid 2987
+2017-06-29 04:06:03,703 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-29 04:06:03,703 INFO exited: sbbs (exit status 1; not expected)
+2017-06-29 04:06:04,705 INFO spawned: 'sbbs' with pid 2988
+2017-06-29 04:06:04,710 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-29 04:06:04,711 INFO exited: sbbs (exit status 1; not expected)
+2017-06-29 04:06:05,713 INFO spawned: 'sbbs' with pid 2989
+2017-06-29 04:06:05,718 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-29 04:06:05,719 INFO exited: sbbs (exit status 1; not expected)
+2017-06-29 04:06:06,721 INFO spawned: 'sbbs' with pid 2990
+2017-06-29 04:06:06,726 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-29 04:06:06,726 INFO exited: sbbs (exit status 1; not expected)
+2017-06-29 04:06:07,728 INFO spawned: 'sbbs' with pid 2991
+2017-06-29 04:06:07,733 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-29 04:06:07,733 INFO exited: sbbs (exit status 1; not expected)
+2017-06-29 04:06:08,735 INFO spawned: 'sbbs' with pid 2992
+2017-06-29 04:06:08,740 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-29 04:06:08,741 INFO exited: sbbs (exit status 1; not expected)
+2017-06-29 04:06:09,743 INFO spawned: 'sbbs' with pid 2993
+2017-06-29 04:06:09,748 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-29 04:06:09,748 INFO exited: sbbs (exit status 1; not expected)
+2017-06-29 04:06:10,751 INFO spawned: 'sbbs' with pid 2996
+2017-06-29 04:06:10,755 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-29 04:06:10,756 INFO exited: sbbs (exit status 1; not expected)
+2017-06-29 04:06:11,758 INFO spawned: 'sbbs' with pid 2997
+2017-06-29 04:06:11,763 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-29 04:06:11,763 INFO exited: sbbs (exit status 1; not expected)
+2017-06-29 04:06:12,765 INFO spawned: 'sbbs' with pid 2998
+2017-06-29 04:06:12,770 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-29 04:06:12,770 INFO exited: sbbs (exit status 1; not expected)
+2017-06-29 04:06:13,772 INFO spawned: 'sbbs' with pid 2999
+2017-06-29 04:06:13,777 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-29 04:06:13,778 INFO exited: sbbs (exit status 1; not expected)
+2017-06-29 04:06:14,780 INFO spawned: 'sbbs' with pid 3000
+2017-06-29 04:06:14,785 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-29 04:06:14,785 INFO exited: sbbs (exit status 1; not expected)
+2017-06-29 04:06:15,606 INFO spawned: 'sbbs' with pid 3001
+2017-06-29 04:06:15,607 WARN received SIGTERM indicating exit request
+2017-06-29 04:06:15,607 INFO waiting for sbbs to die
+2017-06-29 04:06:15,611 WARN killing 'sbbs' (3001) with SIGKILL
+2017-06-29 04:06:15,611 WARN killing 'sbbs' (3001) with SIGKILL
+2017-06-29 04:06:15,611 WARN killing 'sbbs' (3001) with SIGKILL
+2017-06-29 04:06:15,612 WARN killing 'sbbs' (3001) with SIGKILL
+2017-06-29 04:06:15,612 INFO stopped: sbbs (terminated by SIGKILL)
+2017-06-29 04:06:23,974 INFO RPC interface 'supervisor' initialized
+2017-06-29 04:06:23,975 INFO daemonizing the supervisord process
+2017-06-29 04:06:23,976 INFO supervisord started with pid 3007
+2017-06-29 04:06:24,978 INFO spawned: 'sbbs' with pid 3008
+2017-06-29 04:06:24,982 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-06-29 04:14:04,556 INFO RPC interface 'supervisor' initialized
+2017-06-29 04:14:04,557 INFO daemonizing the supervisord process
+2017-06-29 04:14:04,558 INFO supervisord started with pid 3050
+2017-06-29 04:14:05,560 INFO spawned: 'sbbs' with pid 3051
+2017-06-29 04:14:05,565 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+此用户是: 此用户是: 此用户是: timeout: 2
+VpWZ
+此用户是: timeout: 2
+2DmR
+此用户是: 此用户是: 此用户是: 2017-06-29 04:44:02,243 INFO waiting for sbbs to stop
+2017-06-29 04:44:02,243 WARN killing 'sbbs' (3051) with SIGKILL
+2017-06-29 04:44:02,244 INFO stopped: sbbs (terminated by SIGKILL)
+2017-06-29 04:44:02,277 INFO spawned: 'sbbs' with pid 3190
+2017-06-29 04:44:02,277 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+timeout: 2
+ymrV
+此用户是: 此用户是: 此用户是: 

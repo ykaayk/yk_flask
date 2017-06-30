@@ -18,7 +18,7 @@ class BoardModel(db.Model):
 class HighLightPostModel(db.Model):
     __tablename__ = 'highlight_post'
     id = db.Column(db.Integer, primary_key=True, autoincrement=True)
-    create_time = db.Column(db.DateTime)
+    create_time = db.Column(db.DateTime, default=datetime.datetime.now)
 
 
 class CommentModel(db.Model):
