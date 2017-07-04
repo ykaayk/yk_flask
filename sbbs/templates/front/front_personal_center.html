@@ -51,7 +51,7 @@
         <div class="box-blank"></div>
         <div class="box-detail">
             <div class="wrap">
-                <h2>个人资料</h2>
+                <h3>个人资料</h3>
                 <ul>
                     <li>
                         <span>用户名：</span>
@@ -67,12 +67,12 @@
                     </li>
                     <li>
                         <span>最近登录时间：</span>
-                        <span>{{ user.old_login_time }}</span>
+                        <span>{{ user.old_login_time|handle_time }}</span>
                     </li>
                 </ul>
             </div>
             <div class="wrap">
-                <h2>个人信息</h2>
+                <h3>个人信息</h3>
                 <ul>
                     <li>
                         <span>真实姓名：</span>
@@ -98,7 +98,7 @@
                     </li>
                     <li>
                         <span>最后登录时间：</span>
-                        <span>{{ user.last_login_time}}</span>
+                        <span>{{ user.last_login_time|handle_time}}</span>
                     </li>
                     <li>
                         <span>QQ号码：</span>

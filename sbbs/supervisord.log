@@ -1975,4 +1975,19 @@ VpWZ
 2017-06-29 04:44:02,277 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
 timeout: 2
 ymrV
-此用户是: 此用户是: 此用户是: 
+此用户是: 此用户是: 此用户是: 2017-07-03 04:08:17,649 INFO RPC interface 'supervisor' initialized
+2017-07-03 04:08:17,651 INFO daemonizing the supervisord process
+2017-07-03 04:08:17,652 INFO supervisord started with pid 1525
+2017-07-03 04:08:18,654 INFO spawned: 'sbbs' with pid 1526
+2017-07-03 04:08:18,682 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-07-03 04:08:37,181 INFO waiting for sbbs to stop
+2017-07-03 04:08:37,181 WARN killing 'sbbs' (1526) with SIGKILL
+2017-07-03 04:08:37,182 INFO stopped: sbbs (terminated by SIGKILL)
+2017-07-03 04:08:37,218 INFO spawned: 'sbbs' with pid 1544
+2017-07-03 04:08:37,219 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+RzJf
+ewMV
+Z3jD
+3ygG
+dRGe
+uT4D

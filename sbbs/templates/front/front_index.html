@@ -59,7 +59,7 @@
                         <ul class="post-list">
                         <li>
                             <div class="post-list-img">
-                                <a href="#"><img src="{{ post.author.head_img }}" alt=""></a>
+                                <a href="{{ url_for('account.personal_center', user_id=post.author.id) }}"><img src="{{ post.author.head_img }}" alt=""></a>
                             </div>
                         <div class="post-list-con">
                             <div class="title">
@@ -71,7 +71,7 @@
                                 </a>
                             </div>
                             <div class="auth-msg">
-                                <a href="#" class="user_name">{{ post.author.username }}</a>
+                                <a href="{{ url_for('account.personal_center', user_id=post.author.id) }}" class="user_name">{{ post.author.username }}</a>
                                 <span class="time">{{ post.create_time|handle_time }}</span>
                                 <span class="star-count">点赞：{{ post.stars|length }}</span>
                                 <span class="comment-count">评论：{{ post.comments|length }}</span>
